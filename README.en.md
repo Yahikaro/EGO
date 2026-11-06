@@ -14,6 +14,7 @@ A local service for long roleplay stories with a language model. The model runs 
 | [Architecture](docs/en/ARCHITECTURE.md) | The parts of the system, how they connect, where data is stored |
 | [Developer guide](docs/en/DEVELOPER_GUIDE.md) | Environment, tests, testing on a real model, building the exe, code rules |
 | [Roadmap](docs/en/ROADMAP.md) | What is left before the first release and what comes after |
+| [Models](docs/en/MODELS.md) | Which models are tested and which are suitable |
 
 ## Repository layout
 
@@ -23,3 +24,4 @@ A local service for long roleplay stories with a language model. The model runs 
 ## License
 
 Not chosen yet. It will be added with the first release.
+
