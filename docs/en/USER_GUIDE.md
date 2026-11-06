@@ -1,6 +1,6 @@
 ﻿# EGO user guide
 
-[Русский](../USER_GUIDE.md)
+[Русский](../ru/USER_GUIDE.md)
 
 How to install, start and use EGO on your computer. Technical details are in `ARCHITECTURE.md`, limitations in `KNOWN_LIMITATIONS.md`.
 

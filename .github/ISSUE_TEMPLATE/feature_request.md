@@ -1,15 +1,15 @@
 ﻿---
-name: Feature request
-about: Suggest an improvement
+name: Feature request / Предложение
+about: Suggest an improvement / Предложить улучшение
 labels: enhancement
 ---
 
-## Problem
+## Problem / Проблема
 
-What is difficult or missing today?
+What is difficult or missing today? / Что сейчас неудобно или отсутствует?
 
-## Proposed solution
+## Proposed solution / Предлагаемое решение
 
-## Alternatives you considered
+## Alternatives / Альтернативы
 
-## Notes
+## Notes / Заметки

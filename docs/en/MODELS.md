@@ -1,6 +1,6 @@
 ﻿# Models for EGO
 
-[Русский](../MODELS.md)
+[Русский](../ru/MODELS.md)
 
 Notes on which language models suit roleplay stories in EGO. Only what is marked "tested" has been checked. Everything else is a candidate that you should test yourself.
 

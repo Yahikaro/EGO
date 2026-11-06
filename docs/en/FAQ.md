@@ -1,6 +1,6 @@
 ﻿# FAQ
 
-[Русский](docs/FAQ.ru.md) — will be added later.
+[Русский](../ru/FAQ.md)
 
 **Does EGO send my stories to the internet?**
 No. The model runs on your computer and stories are stored locally. The only outgoing traffic is the sign-in email, and only if you enable sign-in from another device. The tunnel is off by default; if you turn it on, the traffic goes through Cloudflare.

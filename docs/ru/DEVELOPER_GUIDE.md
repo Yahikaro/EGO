@@ -1,6 +1,6 @@
 ﻿# Руководство разработчика EGO
 
-[English](en/DEVELOPER_GUIDE.md)
+[English](../en/DEVELOPER_GUIDE.md)
 
 Как настроить окружение, запустить тесты, собрать exe и проверить релиз. Для пользователей см. `USER_GUIDE.md`, для устройства системы — `ARCHITECTURE.md`.
 

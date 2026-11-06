@@ -1,6 +1,6 @@
 ﻿# Руководство пользователя EGO
 
-[English](en/USER_GUIDE.md)
+[English](../en/USER_GUIDE.md)
 
 Как установить, запустить и пользоваться EGO на своём компьютере. Технические детали — в `ARCHITECTURE.md`, ограничения — в `KNOWN_LIMITATIONS.md`.
 

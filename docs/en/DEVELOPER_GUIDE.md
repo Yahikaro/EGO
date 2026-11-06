@@ -1,6 +1,6 @@
 ﻿# EGO developer guide
 
-[Русский](../DEVELOPER_GUIDE.md)
+[Русский](../ru/DEVELOPER_GUIDE.md)
 
 How to set up the environment, run tests, build the exe and check a release. For users see `USER_GUIDE.md`; for the system design see `ARCHITECTURE.md`.
 

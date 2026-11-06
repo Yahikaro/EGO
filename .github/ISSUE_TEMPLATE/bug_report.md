@@ -1,26 +1,27 @@
 ﻿---
-name: Bug report
-about: Something works incorrectly
+name: Bug report / Ошибка
+about: Something works incorrectly / Что-то работает неправильно
 labels: bug
 ---
 
-## What happened
+## What happened / Что произошло
 
-## What you expected
+## What you expected / Что ожидали
 
-## Steps to reproduce
+## Steps to reproduce / Шаги для воспроизведения
 
 1.
 2.
 3.
 
-## Environment
+## Environment / Окружение
 
-- Windows version:
-- GPU and driver:
-- EGO version (see CHANGELOG or About screen):
-- Client: PC browser / laptop / phone (and browser name):
+- Windows version / версия Windows:
+- GPU and driver / видеокарта и драйвер:
+- EGO version / версия EGO:
+- Client / клиент: PC browser, laptop or phone (browser) / браузер ПК, ноутбук или телефон (браузер):
 
-## Logs
+## Logs / Журналы
 
-Paste the error code and hint from the interface. Do not paste story text. Remove any personal data first.
+Paste the error code and hint from the interface. Do not paste story text; remove personal data first.
+Вставьте код ошибки и подсказку из интерфейса. Не вставляйте текст историй; сначала уберите личные данные.

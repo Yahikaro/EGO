@@ -1,17 +1,17 @@
-﻿## Summary
+﻿## Summary / Описание
 
-What does this change do and why?
+What does this change do and why? / Что делает изменение и зачем?
 
-## How it was tested
+## How it was tested / Как проверено
 
-- [ ] Tests pass (`tools\windows\03_RUN_ALL_TESTS.bat`)
-- [ ] Smoke test on a real model (`scripts\smoke_release.py`), if the change touches generation
-- [ ] Client tests pass, if the client changed
+- [ ] Tests pass / тесты проходят (`tools\windows\03_RUN_ALL_TESTS.bat`)
+- [ ] Smoke test on a real model / проверка на реальной модели (`scripts\smoke_release.py`), если затронута генерация
+- [ ] Client tests pass / тесты клиента проходят, если менялся клиент
 
-## Checklist
+## Checklist / Чек-лист
 
-- [ ] No personal data, passwords, tokens or paths in the change
-- [ ] Logs do not contain story text
-- [ ] New error codes are in the catalog (Russian and English)
-- [ ] API contract snapshot updated, if the API changed
-- [ ] Documentation updated (README, guides), if behaviour changed
+- [ ] No personal data, passwords, tokens or paths / нет личных данных, паролей, токенов и путей
+- [ ] Logs do not contain story text / журналы не содержат текст историй
+- [ ] New error codes are in the catalog (RU and EN) / новые коды ошибок есть в каталоге (RU и EN)
+- [ ] API snapshot updated if the API changed / снимок API обновлён, если менялся API
+- [ ] Documentation updated in both languages / документация обновлена на обоих языках

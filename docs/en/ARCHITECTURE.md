@@ -1,6 +1,6 @@
 ﻿# EGO architecture
 
-[Русский](../ARCHITECTURE.md)
+[Русский](../ru/ARCHITECTURE.md)
 
 This document describes what EGO consists of and how the parts connect. State as of 2026-11-06, first non-commercial release (core 0.1.7.dev1, client 0.9.3).
 
