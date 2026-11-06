@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.superpowers/
+*.pyc
+*.gguf
+*.pem
+*.key
+*.db
+*.db-*
+*.backup
+local-artifacts/
+logs/
+data/
+settings/
+build/
+dist/
+_internal/
+EGO.exe
+EGO-Core.exe
+
+# 2026-11-06
+runtime/tunnel/
+SECURE_EGO_FOLDER.log
+*.tmp
