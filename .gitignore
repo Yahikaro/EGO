@@ -21,5 +21,17 @@ EGO-Core.exe
 
 # 2026-11-06
 runtime/tunnel/
-SECURE_EGO_FOLDER.log
 *.tmp
+
+# editors, local tools
+.claude/
+.vscode/
+.idea/
+node_modules/
+
+# 2026-11-18: work folders and local data that never go to the repository
+model-bench/
+test_results/
+_archive/
+_removed_*/
+tts/.venv/

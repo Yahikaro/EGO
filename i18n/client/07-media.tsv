@@ -1,0 +1,48 @@
+# ---- media-lab.js (2026-11-08, layout only)
+Медиа	Media	Médias	Multimedia	Medien
+Генерация медиа	Media generation	Génération de médias	Generación multimedia	Mediengenerierung
+Озвучка	Voice	Voix	Voz	Sprachausgabe
+Фото	Images	Images	Imágenes	Bilder
+Видео	Video	Vidéo	Vídeo	Video
+Озвучка сообщений по запросу: выберите голос, затем «Озвучить» под сообщением.	Voice for messages on request: choose a voice, then «Read aloud» under a message.	Voix des messages à la demande : choisissez une voix, puis « Lire » sous un message.	Voz de los mensajes a petición: elige una voz y luego «Leer» bajo un mensaje.	Sprachausgabe auf Wunsch: Wähle eine Stimme, dann „Vorlesen“ unter einer Nachricht.
+Изображения по запросу: сцена, персонаж или мир.	Images on request: a scene, a character or a world.	Images à la demande : une scène, un personnage ou un monde.	Imágenes a petición: una escena, un personaje o un mundo.	Bilder auf Wunsch: eine Szene, ein Charakter oder eine Welt.
+Короткие видео по запросу.	Short videos on request.	Courtes vidéos à la demande.	Vídeos cortos a petición.	Kurze Videos auf Wunsch.
+Голос	Voice	Voix	Voz	Stimme
+Скорость	Speed	Vitesse	Velocidad	Geschwindigkeit
+Размер	Size	Taille	Tamaño	Größe
+Длительность	Duration	Durée	Duración	Dauer
+Сгенерировать	Generate	Générer	Generar	Erzeugen
+Скоро — после подключения модели.	Coming soon — once a model is connected.	Bientôt — une fois un modèle connecté.	Próximamente, cuando se conecte un modelo.	Bald — sobald ein Modell angebunden ist.
+Озвучить	Read aloud	Lire à voix haute	Leer en voz alta	Vorlesen
+Озвучка скоро	Read aloud is coming soon	La lecture à voix haute arrive bientôt	La lectura en voz alta llegará pronto	Vorlesen kommt bald
+Вниз	Down	Bas	Abajo	Nach unten
+Аватары не синхронизированы:	Avatars not synced:	Avatars non synchronisés :	Avatares no sincronizados:	Avatare nicht synchronisiert:
+# ---- media-lab.js: real generation (2026-11-08)
+ComfyUI не запущен	ComfyUI is not running	ComfyUI n'est pas lancé	ComfyUI no está en marcha	ComfyUI läuft nicht
+EGO Core не подключён.	EGO Core is not connected.	EGO Core n'est pas connecté.	EGO Core no está conectado.	EGO Core ist nicht verbunden.
+Seed (пусто — случайный)	Seed (empty = random)	Seed (vide = aléatoire)	Seed (vacío = aleatorio)	Seed (leer = zufällig)
+Альбом 1216×832	Landscape 1216×832	Paysage 1216×832	Horizontal 1216×832	Querformat 1216×832
+В очереди…	Queued…	En file d'attente…	En cola…	In der Warteschlange…
+Вес	Weight	Poids	Peso	Gewicht
+Видео — позже. Пресеты сохраняются на этом устройстве.	Video comes later. Presets are saved on this device.	La vidéo viendra plus tard. Les préréglages sont enregistrés sur cet appareil.	El vídeo llegará más tarde. Los preajustes se guardan en este dispositivo.	Video folgt später. Voreinstellungen werden auf diesem Gerät gespeichert.
+Генерация…	Generating…	Génération…	Generando…	Wird erzeugt…
+Готово за	Done in	Terminé en	Listo en	Fertig in
+Загрузка списка…	Loading list…	Chargement de la liste…	Cargando lista…	Liste wird geladen…
+Квадрат 1024×1024	Square 1024×1024	Carré 1024×1024	Cuadrado 1024×1024	Quadrat 1024×1024
+Напишите промпт или выберите пресеты.	Write a prompt or pick presets.	Écrivez un prompt ou choisissez des préréglages.	Escribe un prompt o elige preajustes.	Schreibe einen Prompt oder wähle Voreinstellungen.
+Например: blurry, extra fingers, text, watermark	For example: blurry, extra fingers, text, watermark	Par exemple : blurry, extra fingers, text, watermark	Por ejemplo: blurry, extra fingers, text, watermark	Zum Beispiel: blurry, extra fingers, text, watermark
+Например: tall woman with long black hair in a dark coat, standing in the rain by a neon sign, night, soft light, close-up	For example: tall woman with long black hair in a dark coat, standing in the rain by a neon sign, night, soft light, close-up	Par exemple : tall woman with long black hair in a dark coat, standing in the rain by a neon sign, night, soft light, close-up	Por ejemplo: tall woman with long black hair in a dark coat, standing in the rain by a neon sign, night, soft light, close-up	Zum Beispiel: tall woman with long black hair in a dark coat, standing in the rain by a neon sign, night, soft light, close-up
+Отправлено…	Sent…	Envoyé…	Enviado…	Gesendet…
+Планировщик	Scheduler	Planificateur	Planificador	Scheduler
+Портрет 832×1216	Portrait 832×1216	Portrait 832×1216	Retrato 832×1216	Hochformat 832×1216
+Портрет 896×1152	Portrait 896×1152	Portrait 896×1152	Retrato 896×1152	Hochformat 896×1152
+Промпт (лучше по-английски)	Prompt (English works best)	Prompt (l'anglais marche mieux)	Prompt (mejor en inglés)	Prompt (am besten auf Englisch)
+Сэмплер	Sampler	Échantillonneur	Muestreador	Sampler
+Формат	Format	Format	Formato	Format
+Шаги	Steps	Étapes	Pasos	Schritte
+с	s	s	s	s
+с · seed	s · seed	s · seed	s · seed	s · seed
+Взять за основу	Use as base	Prendre comme base	Usar como base	Als Vorlage nehmen
+Настройки взяты из картинки. Измените позу или одежду в промпте и нажмите «Сгенерировать».	Settings copied from the picture. Change the pose or clothes in the prompt and press “Generate”.	Réglages repris de l'image. Changez la pose ou la tenue dans le prompt et appuyez sur « Générer ».	Ajustes copiados de la imagen. Cambia la pose o la ropa en el prompt y pulsa «Generar».	Einstellungen aus dem Bild übernommen. Ändere Pose oder Kleidung im Prompt und tippe auf „Erzeugen“.
+Просмотр	View	Aperçu	Vista	Ansicht
+Удалить эту картинку? Это нельзя отменить.	Delete this picture? This cannot be undone.	Supprimer cette image ? Action irréversible.	¿Eliminar esta imagen? No se puede deshacer.	Dieses Bild löschen? Das lässt sich nicht rückgängig machen.

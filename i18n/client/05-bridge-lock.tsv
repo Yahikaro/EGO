@@ -1,0 +1,89 @@
+# ---- core-bridge.js (UI)
+Core был перезапущен во время ответа	Core was restarted during the reply	Core a redémarré pendant la réponse	Core se reinició durante la respuesta	Core wurde während der Antwort neu gestartet
+Core занят, попробуйте через пару секунд	Core is busy, try again in a few seconds	Core est occupé, réessayez dans quelques secondes	Core está ocupado, prueba en unos segundos	Core ist beschäftigt, versuche es in ein paar Sekunden
+Core останавливается	Core is stopping	Core s'arrête	Core se está deteniendo	Core wird beendet
+· {0} ток/с	· {0} tok/s	· {0} tok/s	· {0} tok/s	· {0} Tok/s
+В Core не настроена модель	No model is set up in Core	Aucun modèle n'est configuré dans Core	No hay ningún modelo configurado en Core	In Core ist kein Modell eingerichtet
+В этой истории уже идёт генерация	A reply is already being generated in this story	Une réponse est déjà en cours dans cette histoire	Ya se está generando una respuesta en esta historia	In dieser Geschichte wird bereits eine Antwort erzeugt
+Все действия и сообщения вымышленные · Локальная модель через EGO Core · Enter — отправить, Shift+Enter — новая строка	All actions and messages are fictional · Local model via EGO Core · Enter to send, Shift+Enter for a new line	Toutes les actions et messages sont fictifs · Modèle local via EGO Core · Entrée pour envoyer, Maj+Entrée pour une nouvelle ligne	Todas las acciones y mensajes son ficticios · Modelo local vía EGO Core · Intro para enviar, Mayús+Intro para nueva línea	Alle Handlungen und Nachrichten sind fiktiv · Lokales Modell über EGO Core · Enter zum Senden, Umschalt+Enter für neue Zeile
+Дождитесь окончания текущего ответа	Wait for the current reply to finish	Attendez la fin de la réponse en cours	Espera a que termine la respuesta actual	Warte, bis die aktuelle Antwort fertig ist
+Достигнут предел длины ответа	The reply length limit was reached	La limite de longueur de réponse est atteinte	Se alcanzó el límite de longitud de la respuesta	Die maximale Antwortlänge wurde erreicht
+История изменилась в другом окне — повторите	The story changed in another window — try again	L'histoire a changé dans une autre fenêtre — réessayez	La historia cambió en otra ventana: inténtalo de nuevo	Die Geschichte wurde in einem anderen Fenster geändert — bitte wiederholen
+Модель ещё не загружена или в состоянии ошибки	The model is not loaded yet or is in an error state	Le modèle n'est pas encore chargé ou est en erreur	El modelo aún no está cargado o tiene un error	Das Modell ist noch nicht geladen oder im Fehlerzustand
+Настройки сервера (по умолчанию)	Server settings (default)	Paramètres du serveur (par défaut)	Ajustes del servidor (predeterminado)	Servereinstellungen (Standard)
+Нет подключения к EGO Core — открыт визуальный режим	No connection to EGO Core — visual mode is open	Pas de connexion à EGO Core — mode visuel ouvert	Sin conexión con EGO Core: se abrió el modo visual	Keine Verbindung zu EGO Core — visueller Modus geöffnet
+Остановить генерацию	Stop generating	Arrêter la génération	Detener la generación	Generierung stoppen
+Ошибка Core:	Core error:	Erreur de Core :	Error de Core:	Core-Fehler:
+Параметры активного профиля сервера.	Settings of the active server profile.	Paramètres du profil serveur actif.	Ajustes del perfil activo del servidor.	Einstellungen des aktiven Serverprofils.
+Перегенерировать можно только последний ответ	Only the last reply can be regenerated	Seule la dernière réponse peut être régénérée	Solo se puede regenerar la última respuesta	Nur die letzte Antwort kann neu erzeugt werden
+Подключено к EGO Core	Connected to EGO Core	Connecté à EGO Core	Conectado a EGO Core	Mit EGO Core verbunden
+Пресет чата	Chat preset	Préréglage de discussion	Preajuste del chat	Chat-Voreinstellung
+Пресет чата сохранён	Chat preset saved	Préréglage enregistré	Preajuste del chat guardado	Chat-Voreinstellung gespeichert
+Пресеты недоступны:	Presets unavailable:	Préréglages indisponibles :	Preajustes no disponibles:	Voreinstellungen nicht verfügbar:
+Продолжить можно только последний ответ	Only the last reply can be continued	Seule la dernière réponse peut être continuée	Solo se puede continuar la última respuesta	Nur die letzte Antwort kann fortgesetzt werden
+Рассказчик	Narrator	Narrateur	Narrador	Erzähler
+Сессия истекла — откройте клиент заново через START_EGO_CLIENT.bat	The session expired — open the client again with START_EGO_CLIENT.bat	La session a expiré — rouvrez le client avec START_EGO_CLIENT.bat	La sesión caducó: vuelve a abrir el cliente con START_EGO_CLIENT.bat	Die Sitzung ist abgelaufen — öffne den Client erneut mit START_EGO_CLIENT.bat
+Сообщение или профиль персонажа не помещаются в контекст модели	The message or character profile does not fit into the model's context	Le message ou le profil du personnage ne tient pas dans le contexte du modèle	El mensaje o el perfil del personaje no caben en el contexto del modelo	Nachricht oder Charakterprofil passen nicht in den Kontext des Modells
+Этот запрос или ответ нарушает жёсткие ограничения EGO и не был сохранён	This request or reply breaks EGO's hard limits and was not saved	Cette demande ou réponse enfreint les limites strictes d'EGO et n'a pas été enregistrée	Esta petición o respuesta incumple los límites estrictos de EGO y no se guardó	Diese Anfrage oder Antwort verletzt die festen Grenzen von EGO und wurde nicht gespeichert
+неизвестно	unknown	inconnu	desconocido	unbekannt
+# ---- core-bridge.js (model instructions; used for the model's language)
+Внешность: {0}	Appearance: {0}	Apparence : {0}	Apariencia: {0}	Aussehen: {0}
+Возраст: {0}	Age: {0}	Âge : {0}	Edad: {0}	Alter: {0}
+Заканчивай ход ситуацией, на которую герой может отреагировать.	End each turn with a situation the hero can react to.	Termine chaque tour par une situation à laquelle le héros peut réagir.	Termina cada turno con una situación a la que el héroe pueda reaccionar.	Beende jeden Zug mit einer Situation, auf die der Held reagieren kann.
+Заметка сцены: {0}	Scene note: {0}	Note de scène : {0}	Nota de escena: {0}	Szenennotiz: {0}
+Имя: {0}	Name: {0}	Nom : {0}	Nombre: {0}	Name: {0}
+Место: {0}	Place: {0}	Lieu : {0}	Lugar: {0}	Ort: {0}
+Мир: {0}	World: {0}	Monde : {0}	Mundo: {0}	Welt: {0}
+Начало сцены (уже было сказано):	Start of the scene (already said):	Début de la scène (déjà dit) :	Inicio de la escena (ya dicho):	Beginn der Szene (bereits gesagt):
+Никогда не пиши от лица героя и не решай за него, что он делает, говорит, думает или чувствует.	Never write as the hero and never decide what the hero does, says, thinks or feels.	N'écris jamais à la place du héros et ne décide jamais de ce qu'il fait, dit, pense ou ressent.	Nunca escribas como el héroe ni decidas lo que hace, dice, piensa o siente.	Schreibe nie als der Held und entscheide nie, was er tut, sagt, denkt oder fühlt.
+Описание: {0}	Description: {0}	Description : {0}	Descripción: {0}	Beschreibung: {0}
+Описывай мир, обстановку, последствия действий героя и говори за второстепенных персонажей, которых вводит сюжет.	Describe the world, the surroundings and the results of the hero's actions, and speak for side characters the plot brings in.	Décris le monde, le décor et les conséquences des actes du héros, et parle pour les personnages secondaires introduits par l'intrigue.	Describe el mundo, el entorno y las consecuencias de los actos del héroe, y habla por los personajes secundarios que introduzca la trama.	Beschreibe die Welt, die Umgebung und die Folgen der Taten des Helden und sprich für Nebenfiguren, die die Handlung einführt.
+Повествование ведётся во втором лице: обращайся к герою на «ты» и описывай, что он видит, слышит и что происходит вокруг («Перед тобой…», «Ты слышишь…»).	Narrate in the second person: address the hero as «you» and describe what they see, hear and what happens around them («Before you…», «You hear…»).	Raconte à la deuxième personne : tutoie le héros et décris ce qu'il voit, entend et ce qui se passe autour de lui (« Devant toi… », « Tu entends… »).	Narra en segunda persona: tutea al héroe y describe lo que ve, oye y lo que ocurre a su alrededor («Ante ti…», «Oyes…»).	Erzähle in der zweiten Person: Sprich den Helden mit „du“ an und beschreibe, was er sieht, hört und was um ihn herum geschieht („Vor dir…“, „Du hörst…“).
+Рассказчик (ведущий) свободной истории. Главный герой — сам пользователь, рассказчик им не является.	The narrator (game master) of a free story. The main hero is the user; the narrator is not the hero.	Le narrateur (meneur de jeu) d'une histoire libre. Le héros principal est l'utilisateur ; le narrateur ne l'est pas.	El narrador (director de juego) de una historia libre. El héroe principal es el usuario; el narrador no lo es.	Der Erzähler (Spielleiter) einer freien Geschichte. Der Held ist der Nutzer selbst, nicht der Erzähler.
+Роль: {0}	Role: {0}	Rôle : {0}	Rol: {0}	Rolle: {0}
+Сценарий: {0}	Scenario: {0}	Scénario : {0}	Escenario: {0}	Szenario: {0}
+Ты ведёшь групповую сцену и говоришь за всех этих персонажей, помечая, кто говорит:	You run a group scene and speak for all of these characters, marking who is speaking:	Tu mènes une scène de groupe et parles pour tous ces personnages en indiquant qui parle :	Diriges una escena de grupo y hablas por todos estos personajes, indicando quién habla:	Du leitest eine Gruppenszene und sprichst für alle diese Charaktere und markierst, wer spricht:
+Характер: {0}	Personality: {0}	Caractère : {0}	Carácter: {0}	Charakter: {0}
+# ---- device-lock.js
+EGO заблокирован	EGO is locked	EGO est verrouillé	EGO está bloqueado	EGO ist gesperrt
+PIN введён неверно 5 раз. Это устройство вышло из аккаунта, копия историй в браузере удалена.	The PIN was entered wrong 5 times. This device was signed out and the browser copy of stories was erased.	Le PIN a été mal saisi 5 fois. Cet appareil a été déconnecté et la copie des histoires effacée.	El PIN se introdujo mal 5 veces. Este dispositivo cerró sesión y se borró la copia de historias del navegador.	Die PIN wurde 5-mal falsch eingegeben. Dieses Gerät wurde abgemeldet, die Browser-Kopie der Geschichten gelöscht.
+PIN задан. EGO блокируется при открытии и после бездействия. 5 неверных попыток — выход из аккаунта и удаление копии историй.	PIN set. EGO locks when opened and after inactivity. 5 wrong tries sign the device out and erase the copy of stories.	PIN défini. EGO se verrouille à l'ouverture et après inactivité. 5 erreurs déconnectent l'appareil et effacent la copie des histoires.	PIN definido. EGO se bloquea al abrirse y tras inactividad. 5 intentos fallidos cierran la sesión y borran la copia de historias.	PIN festgelegt. EGO sperrt sich beim Öffnen und nach Inaktivität. 5 Fehlversuche melden ab und löschen die Kopie der Geschichten.
+PIN не совпадает	The PINs do not match	Les PIN ne correspondent pas	Los PIN no coinciden	Die PINs stimmen nicht überein
+PIN сохранён	PIN saved	PIN enregistré	PIN guardado	PIN gespeichert
+PIN убран	PIN removed	PIN supprimé	PIN eliminado	PIN entfernt
+PIN — от 4 до 8 цифр	The PIN is 4 to 8 digits	Le PIN compte de 4 à 8 chiffres	El PIN tiene de 4 a 8 dígitos	Die PIN hat 4 bis 8 Ziffern
+PIN-код этого устройства	PIN for this device	PIN de cet appareil	PIN de este dispositivo	PIN dieses Geräts
+Без PIN любой, кто возьмёт разблокированное устройство, сможет открыть EGO. Задайте 4–8 цифр.	Without a PIN anyone who picks up the unlocked device can open EGO. Set 4–8 digits.	Sans PIN, quiconque prend l'appareil déverrouillé peut ouvrir EGO. Définissez 4 à 8 chiffres.	Sin PIN, cualquiera que coja el dispositivo desbloqueado puede abrir EGO. Define 4–8 dígitos.	Ohne PIN kann jeder, der das entsperrte Gerät nimmt, EGO öffnen. Lege 4–8 Ziffern fest.
+Блокировать через	Lock after	Verrouiller après	Bloquear tras	Sperren nach
+Блокировка: через	Lock: after	Verrouillage : après	Bloqueo: tras	Sperre: nach
+Браузер не поддерживает защищённое хранение PIN на этом адресе. Откройте EGO по адресу https://…	The browser cannot store the PIN securely at this address. Open EGO via https://…	Le navigateur ne peut pas stocker le PIN de façon sûre à cette adresse. Ouvrez EGO via https://…	El navegador no puede guardar el PIN de forma segura en esta dirección. Abre EGO con https://…	Der Browser kann die PIN unter dieser Adresse nicht sicher speichern. Öffne EGO über https://…
+Введите PIN этого устройства.	Enter this device's PIN.	Saisissez le PIN de cet appareil.	Introduce el PIN de este dispositivo.	Gib die PIN dieses Geräts ein.
+Введите текущий PIN	Enter the current PIN	Saisissez le PIN actuel	Introduce el PIN actual	Aktuelle PIN eingeben
+Включено	On	Activé	Activado	An
+Выйти из аккаунта на этом устройстве? Копия историй в этом браузере будет удалена, в EGO Core они останутся.	Sign out on this device? The copy of stories in this browser will be erased; they stay in EGO Core.	Se déconnecter sur cet appareil ? La copie des histoires dans ce navigateur sera effacée ; elles restent dans EGO Core.	¿Cerrar sesión en este dispositivo? Se borrará la copia de historias de este navegador; seguirán en EGO Core.	Auf diesem Gerät abmelden? Die Kopie der Geschichten in diesem Browser wird gelöscht; in EGO Core bleiben sie.
+Выключено	Off	Désactivé	Desactivado	Aus
+Забыли PIN? Выйти на этом устройстве	Forgot the PIN? Sign out on this device	PIN oublié ? Se déconnecter sur cet appareil	¿Olvidaste el PIN? Cerrar sesión en este dispositivo	PIN vergessen? Auf diesem Gerät abmelden
+Задать PIN	Set PIN	Définir un PIN	Definir PIN	PIN festlegen
+Защита этого устройства	Protection of this device	Protection de cet appareil	Protección de este dispositivo	Schutz dieses Geräts
+Копия историй будет удаляться при закрытии и блокировке	The copy of stories will be erased on close and lock	La copie des histoires sera effacée à la fermeture et au verrouillage	La copia de historias se borrará al cerrar y bloquear	Die Kopie der Geschichten wird beim Schließen und Sperren gelöscht
+Копия историй снова хранится в браузере	The copy of stories is kept in the browser again	La copie des histoires est de nouveau conservée dans le navigateur	La copia de historias vuelve a guardarse en el navegador	Die Kopie der Geschichten bleibt wieder im Browser
+Копия историй, персонажей и миров в браузере удаляется при закрытии вкладки и при блокировке. При следующем открытии всё загрузится из EGO Core (нужно подключение).	The browser copy of stories, characters and worlds is erased when the tab closes and when it locks. Next time everything loads from EGO Core (a connection is needed).	La copie des histoires, personnages et mondes est effacée à la fermeture de l'onglet et au verrouillage. Au prochain lancement, tout se recharge depuis EGO Core (connexion requise).	La copia de historias, personajes y mundos se borra al cerrar la pestaña y al bloquear. La próxima vez todo se carga desde EGO Core (hace falta conexión).	Die Browser-Kopie von Geschichten, Charakteren und Welten wird beim Schließen des Tabs und beim Sperren gelöscht. Beim nächsten Öffnen lädt alles aus EGO Core (Verbindung nötig).
+Не хранить истории на этом устройстве	Don't keep stories on this device	Ne pas conserver les histoires sur cet appareil	No guardar historias en este dispositivo	Geschichten nicht auf diesem Gerät speichern
+Неверный PIN	Wrong PIN	PIN incorrect	PIN incorrecto	Falsche PIN
+Неверный PIN. Осталось попыток: {0}.	Wrong PIN. Attempts left: {0}.	PIN incorrect. Essais restants : {0}.	PIN incorrecto. Intentos restantes: {0}.	Falsche PIN. Verbleibende Versuche: {0}.
+Новый PIN, 4–8 цифр	New PIN, 4–8 digits	Nouveau PIN, 4 à 8 chiffres	Nuevo PIN, 4–8 dígitos	Neue PIN, 4–8 Ziffern
+Открыть	Open	Ouvrir	Abrir	Öffnen
+Повторите PIN	Repeat the PIN	Répétez le PIN	Repite el PIN	PIN wiederholen
+Сменить PIN	Change PIN	Changer de PIN	Cambiar PIN	PIN ändern
+Сохранить PIN	Save PIN	Enregistrer le PIN	Guardar PIN	PIN speichern
+Убрать PIN	Remove PIN	Supprimer le PIN	Quitar PIN	PIN entfernen
+Это ПК с EGO: истории защищает вход в Windows и шифрование базы. PIN и режим «не хранить истории» доступны на телефоне и ноутбуке.	This is the EGO PC: stories are protected by the Windows sign-in and database encryption. The PIN and «don't keep stories» are available on phones and laptops.	C'est le PC EGO : les histoires sont protégées par la connexion Windows et le chiffrement de la base. Le PIN et « ne pas conserver les histoires » sont disponibles sur téléphone et portable.	Este es el PC con EGO: las historias las protegen el inicio de sesión de Windows y el cifrado de la base. El PIN y «no guardar historias» están en el móvil y el portátil.	Dies ist der EGO-PC: Geschichten schützen die Windows-Anmeldung und die Datenbankverschlüsselung. PIN und „Geschichten nicht speichern“ gibt es auf Handy und Laptop.
+мин	min	min	min	Min.
+через {0} мин	after {0} min	après {0} min	tras {0} min	nach {0} Min.
+# ---- account.js leftovers
+Пароль	Password	Mot de passe	Contraseña	Passwort
+Мир «	World «	Monde «	Mundo «	Welt „
+# ---- found in the page
+Тёмное фэнтези	Dark fantasy	Dark fantasy	Fantasía oscura	Dark Fantasy
+Язык · Language	Language	Langue · Language	Idioma · Language	Sprache · Language
+демонстрация	demo	démo	demo	Demo

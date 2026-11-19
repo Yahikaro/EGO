@@ -1,0 +1,209 @@
+# ---- memory.js
+{0} Новых сообщений с тех пор: {1}.{2}	{0} New messages since then: {1}.{2}	{0} Nouveaux messages depuis : {1}.{2}	{0} Mensajes nuevos desde entonces: {1}.{2}	{0} Neue Nachrichten seitdem: {1}.{2}
+· изменено	· edited	· modifié	· editado	· geändert
+Авто	Auto	Auto	Auto	Auto
+Автоматическая память включена	Automatic memory on	Mémoire automatique activée	Memoria automática activada	Automatisches Gedächtnis an
+Автоматическая память выключена	Automatic memory off	Mémoire automatique désactivée	Memoria automática desactivada	Automatisches Gedächtnis aus
+Автоматическое обновление ещё не запускалось.	Automatic update has not run yet.	La mise à jour automatique n'a pas encore eu lieu.	La actualización automática aún no se ha ejecutado.	Die automatische Aktualisierung ist noch nicht gelaufen.
+В архиве (уже в конспекте): {0}.	Archived (already in the summary): {0}.	Archivés (déjà dans le résumé) : {0}.	Archivados (ya en el resumen): {0}.	Archiviert (bereits in der Zusammenfassung): {0}.
+Вручную	Manual	Manuel	Manual	Manuell
+Добавить	Add	Ajouter	Añadir	Hinzufügen
+Добавлено в память	Added to memory	Ajouté à la mémoire	Añadido a la memoria	Zum Gedächtnis hinzugefügt
+Закрепить	Pin	Épingler	Fijar	Anheften
+Закрепить: всегда в памяти модели	Pin: always in the model's memory	Épingler : toujours dans la mémoire du modèle	Fijar: siempre en la memoria del modelo	Anheften: immer im Gedächtnis des Modells
+Запоминать автоматически	Remember automatically	Mémoriser automatiquement	Recordar automáticamente	Automatisch merken
+Извлечь факты из новых сообщений сейчас	Extract facts from new messages now	Extraire maintenant les faits des nouveaux messages	Extraer ahora los hechos de los mensajes nuevos	Fakten aus neuen Nachrichten jetzt übernehmen
+Изменить	Edit	Modifier	Editar	Ändern
+Интервал в сообщениях	Interval in messages	Intervalle en messages	Intervalo en mensajes	Intervall in Nachrichten
+Конспект	Summary	Résumé	Resumen	Zusammenfassung
+Модель помнит эти факты в этой истории — и только в ней. Закреплённые ★ попадают в память всегда.	The model remembers these facts in this story — and only here. Pinned ★ facts are always included.	Le modèle retient ces faits dans cette histoire — et seulement ici. Les faits épinglés ★ sont toujours inclus.	El modelo recuerda estos hechos en esta historia, y solo en ella. Los fijados ★ se incluyen siempre.	Das Modell merkt sich diese Fakten in dieser Geschichte — und nur hier. Angeheftete ★ sind immer dabei.
+Например: «Пользователя зовут Алекс» или «Мы договорились встретиться у маяка»	For example: «The user's name is Alex» or «We agreed to meet at the lighthouse»	Par exemple : « L'utilisateur s'appelle Alex » ou « Nous avons convenu de nous retrouver au phare »	Por ejemplo: «El usuario se llama Alex» o «Quedamos en vernos en el faro»	Zum Beispiel: „Der Nutzer heißt Alex“ oder „Wir wollen uns am Leuchtturm treffen“
+Нет новых сообщений	No new messages	Aucun nouveau message	No hay mensajes nuevos	Keine neuen Nachrichten
+Новый факт	New fact	Nouveau fait	Nuevo hecho	Neuer Fakt
+Обновить сейчас	Update now	Mettre à jour	Actualizar ahora	Jetzt aktualisieren
+Обновление памяти каждые {0} сообщений	Memory updates every {0} messages	Mise à jour de la mémoire tous les {0} messages	La memoria se actualiza cada {0} mensajes	Gedächtnis-Update alle {0} Nachrichten
+Обновляется…	Updating…	Mise à jour…	Actualizando…	Wird aktualisiert…
+Открепить	Unpin	Désépingler	Desfijar	Lösen
+Память обновлена	Memory updated	Mémoire mise à jour	Memoria actualizada	Gedächtnis aktualisiert
+Память появится, когда в этой истории будет первый ответ модели.	Memory appears once the model has replied in this story.	La mémoire apparaîtra après la première réponse du modèle dans cette histoire.	La memoria aparecerá cuando el modelo responda por primera vez en esta historia.	Das Gedächtnis erscheint nach der ersten Antwort des Modells in dieser Geschichte.
+Память чата	Chat memory	Mémoire de la discussion	Memoria del chat	Chat-Gedächtnis
+Память чата доступна при подключении к EGO Core	Chat memory is available when connected to EGO Core	La mémoire de la discussion est disponible une fois connecté à EGO Core	La memoria del chat está disponible al conectarse a EGO Core	Das Chat-Gedächtnis ist mit Verbindung zu EGO Core verfügbar
+Пока пусто. Факты появятся автоматически или добавьте свой ниже.	Empty for now. Facts will appear automatically, or add your own below.	Vide pour l'instant. Les faits apparaîtront automatiquement, ou ajoutez le vôtre ci-dessous.	Vacío por ahora. Los hechos aparecerán solos o añade el tuyo abajo.	Noch leer. Fakten erscheinen automatisch, oder füge unten eigene hinzu.
+Последнее обновление {0} — {1}.	Last update {0} — {1}.	Dernière mise à jour {0} — {1}.	Última actualización {0}: {1}.	Letztes Update {0} — {1}.
+Сначала откройте историю	Open a story first	Ouvrez d'abord une histoire	Abre primero una historia	Öffne zuerst eine Geschichte
+Сохранено	Saved	Enregistré	Guardado	Gespeichert
+Текст записи	Entry text	Texte de l'entrée	Texto de la entrada	Text des Eintrags
+Удалено из памяти	Removed from memory	Retiré de la mémoire	Eliminado de la memoria	Aus dem Gedächtnis entfernt
+Удалить	Delete	Supprimer	Borrar	Löschen
+каждые	every	tous les	cada	alle
+не удалось (модель была занята или ответила не по формату)	failed (the model was busy or replied in the wrong format)	échec (le modèle était occupé ou a mal répondu)	falló (el modelo estaba ocupado o respondió con otro formato)	fehlgeschlagen (Modell war beschäftigt oder antwortete im falschen Format)
+новых фактов: {0}	new facts: {0}	nouveaux faits : {0}	hechos nuevos: {0}	neue Fakten: {0}
+сообщений	messages	messages	mensajes	Nachrichten
+старые факты сжаты в конспект	old facts condensed into a summary	anciens faits condensés en résumé	hechos antiguos resumidos	alte Fakten zusammengefasst
+# ---- profile.js
+Без имени	No name	Sans nom	Sin nombre	Ohne Namen
+Без рода	No gender	Sans genre	Sin género	Ohne Geschlecht
+Загрузить фото	Upload photo	Charger une photo	Subir foto	Foto hochladen
+Как именно	How exactly	Comment exactement	Cómo exactamente	Wie genau
+Как к тебе обращаться	How to address you	Comment s'adresser à vous	Cómo dirigirse a ti	Wie man dich anspricht
+Модель получает только имя, ник и обращение.	The model receives only your name, nickname and form of address.	Le modèle ne reçoit que le nom, le pseudo et la façon de s'adresser à vous.	El modelo solo recibe el nombre, el apodo y el trato.	Das Modell erhält nur Name, Spitzname und Anrede.
+Мой профиль	My profile	Mon profil	Mi perfil	Mein Profil
+Например: «на вы»	For example: «formally»	Par exemple : « vouvoyer »	Por ejemplo: «de usted»	Zum Beispiel: „Sie“
+Например: Алекс	For example: Alex	Par exemple : Alex	Por ejemplo: Alex	Zum Beispiel: Alex
+Не удалось открыть профиль	Could not open the profile	Impossible d'ouvrir le profil	No se pudo abrir el perfil	Profil konnte nicht geöffnet werden
+Не удалось сохранить профиль	Could not save the profile	Impossible d'enregistrer le profil	No se pudo guardar el perfil	Profil konnte nicht gespeichert werden
+Необязательно	Optional	Facultatif	Opcional	Optional
+Ник	Nickname	Pseudo	Apodo	Spitzname
+Нужна картинка PNG, JPG или WebP до 12 МБ	A PNG, JPG or WebP image up to 12 MB is needed	Une image PNG, JPG ou WebP de 12 Mo maximum est requise	Se necesita una imagen PNG, JPG o WebP de hasta 12 MB	Benötigt wird ein PNG-, JPG- oder WebP-Bild bis 12 MB
+О себе	About me	À propos de moi	Sobre mí	Über mich
+Обращение в историях	Address in stories	Façon de s'adresser à vous	Trato en las historias	Anrede in Geschichten
+Он	He	Il	Él	Er
+Она	She	Elle	Ella	Sie
+Персонажи знают моё имя и обращаются правильно	Characters know my name and address me properly	Les personnages connaissent mon nom et s'adressent à moi correctement	Los personajes saben mi nombre y me tratan bien	Charaktere kennen meinen Namen und sprechen mich richtig an
+Профиль	Profile	Profil	Perfil	Profil
+Профиль сохранён	Profile saved	Profil enregistré	Perfil guardado	Profil gespeichert
+Профиль хранится в EGO Core — подключитесь, чтобы открыть его	The profile is stored in EGO Core — connect to open it	Le profil est stocké dans EGO Core — connectez-vous pour l'ouvrir	El perfil se guarda en EGO Core: conéctate para abrirlo	Das Profil liegt in EGO Core — verbinde dich, um es zu öffnen
+Своё	Custom	Personnalisé	Propio	Eigene
+Цвет профиля	Profile colour	Couleur du profil	Color del perfil	Profilfarbe
+видишь только ты, модели не передаётся	only you see this; it is not sent to the model	visible par vous seul, non transmis au modèle	solo lo ves tú; no se envía al modelo	nur du siehst das; es geht nicht ans Modell
+— открыть профиль	— open profile	— ouvrir le profil	— abrir perfil	— Profil öffnen
+# ---- look.js, mobile.js
+«Обновлённый» — основной облик EGO: звёздное небо, стеклянные панели, живые планеты. «Классический» — прежний вид.	«Modern» is EGO's main look: starry sky, glass panels, living planets. «Classic» is the earlier look.	« Moderne » est l'apparence principale d'EGO : ciel étoilé, panneaux de verre, planètes vivantes. « Classique » est l'ancienne apparence.	«Moderno» es el aspecto principal de EGO: cielo estrellado, paneles de cristal, planetas vivos. «Clásico» es el aspecto anterior.	„Modern“ ist das Hauptaussehen von EGO: Sternenhimmel, Glasflächen, lebendige Planeten. „Klassisch“ ist das frühere Aussehen.
+Звезда	Star	Étoile	Estrella	Stern
+Значок EGO	EGO icon	Icône EGO	Icono de EGO	EGO-Symbol
+Значок во вкладке браузера и знак в панели клиента. Цвет знака следует за темой.	The icon in the browser tab and the mark in the client panel. Its colour follows the theme.	L'icône de l'onglet et le logo du panneau du client. Sa couleur suit le thème.	El icono de la pestaña y la marca del panel del cliente. Su color sigue al tema.	Das Symbol im Browser-Tab und das Zeichen in der Seitenleiste. Seine Farbe folgt dem Design.
+Классический	Classic	Classique	Clásico	Klassisch
+Облик клиента	Client look	Apparence du client	Aspecto del cliente	Aussehen des Clients
+Обновлённый	Modern	Moderne	Moderno	Modern
+Орбита	Orbit	Orbite	Órbita	Orbit
+Планета	Planet	Planète	Planeta	Planet
+Созвездие	Constellation	Constellation	Constelación	Sternbild
+Язык интерфейса и ответов модели.	Language of the interface and the model's replies.	Langue de l'interface et des réponses du modèle.	Idioma de la interfaz y de las respuestas del modelo.	Sprache der Oberfläche und der Antworten des Modells.
+Аккаунт, профиль, защита этого устройства и оформление. Истории хранятся в EGO на компьютере.	Account, profile, protection of this device and appearance. Stories are stored in EGO on the computer.	Compte, profil, protection de cet appareil et apparence. Les histoires sont stockées dans EGO sur l'ordinateur.	Cuenta, perfil, protección de este dispositivo y aspecto. Las historias se guardan en EGO en el ordenador.	Konto, Profil, Schutz dieses Geräts und Aussehen. Geschichten liegen in EGO auf dem Computer.
+Главы	Chapters	Chapitres	Capítulos	Kapitel
+Действия с историей	Story actions	Actions sur l'histoire	Acciones de la historia	Aktionen für die Geschichte
+Закладки	Bookmarks	Signets	Marcadores	Lesezeichen
+Имя, обращение в историях, аватар и цвет.	Name, address in stories, avatar and colour.	Nom, façon de s'adresser à vous, avatar et couleur.	Nombre, trato en las historias, avatar y color.	Name, Anrede in Geschichten, Avatar und Farbe.
+О персонаже и сцене	About the character and scene	À propos du personnage et de la scène	Sobre el personaje y la escena	Über Charakter und Szene
+Память истории	Story memory	Mémoire de l'histoire	Memoria de la historia	Gedächtnis der Geschichte
+Переименовать или удалить историю	Rename or delete the story	Renommer ou supprimer l'histoire	Renombrar o borrar la historia	Geschichte umbenennen oder löschen
+Сцена	Scene	Scène	Escena	Szene
+Участники сцены	Scene members	Participants de la scène	Participantes de la escena	Teilnehmer der Szene
+# ---- planets.js
+1 луна	1 moon	1 lune	1 luna	1 Mond
+2 луны	2 moons	2 lunes	2 lunas	2 Monde
+Вулканический мир	Volcanic world	Monde volcanique	Mundo volcánico	Vulkanwelt
+Газовый гигант	Gas giant	Géante gazeuse	Gigante gaseoso	Gasriese
+Каменная планета	Rocky planet	Planète rocheuse	Planeta rocoso	Felsenplanet
+Кристаллический мир	Crystal world	Monde cristallin	Mundo de cristal	Kristallwelt
+Ледяной мир	Ice world	Monde de glace	Mundo helado	Eiswelt
+Мир джунглей	Jungle world	Monde de jungle	Mundo selvático	Dschungelwelt
+Мир-город	City world	Monde-ville	Mundo ciudad	Stadtwelt
+Океанический мир	Ocean world	Monde océanique	Mundo oceánico	Ozeanwelt
+Открыть мир	Open world	Ouvrir le monde	Abrir mundo	Welt öffnen
+Пустынный мир	Desert world	Monde désertique	Mundo desértico	Wüstenwelt
+Штормовой гигант	Storm giant	Géante orageuse	Gigante tormentoso	Sturmriese
+Ядовитый мир	Toxic world	Monde toxique	Mundo tóxico	Giftwelt
+аметист	amethyst	améthyste	amatista	Amethyst
+бирюза	turquoise	turquoise	turquesa	Türkis
+вихрь	storm	tourbillon	torbellino	Wirbel
+двойные кольца	double rings	anneaux doubles	anillos dobles	Doppelringe
+дымка	haze	brume	bruma	Dunst
+золото	gold	or	oro	Gold
+изумруд	emerald	émeraude	esmeralda	Smaragd
+лёд	ice	glace	hielo	Eis
+облака	clouds	nuages	nubes	Wolken
+полярные шапки	polar caps	calottes polaires	casquetes polares	Polkappen
+роза	rose	rose	rosa	Rose
+рубин	ruby	rubis	rubí	Rubin
+сапфир	sapphire	saphir	zafiro	Saphir
+сияние	aurora	aurore	aurora	Polarlicht
+тонкие кольца	thin rings	anneaux fins	anillos finos	dünne Ringe
+широкие кольца	wide rings	anneaux larges	anillos anchos	breite Ringe
+янтарь	amber	ambre	ámbar	Bernstein
+# ---- data-store.js, quality-gate.js
+Копия превышает лимит 12 МБ	The copy exceeds the 12 MB limit	La copie dépasse la limite de 12 Mo	La copia supera el límite de 12 MB	Die Kopie überschreitet 12 MB
+Неверные данные:	Invalid data:	Données invalides :	Datos no válidos:	Ungültige Daten:
+Недостаточно места для восстановления. Старые данные сохранены.	Not enough space to restore. The old data was kept.	Pas assez d'espace pour restaurer. Les anciennes données sont conservées.	No hay espacio para restaurar. Se conservan los datos anteriores.	Nicht genug Platz zum Wiederherstellen. Die alten Daten bleiben erhalten.
+Неизвестный формат резервной копии	Unknown backup format	Format de sauvegarde inconnu	Formato de copia de seguridad desconocido	Unbekanntes Sicherungsformat
+Повреждённый раздел:	Damaged section:	Section endommagée :	Sección dañada:	Beschädigter Abschnitt:
+Резервная копия отсутствует	There is no backup	Aucune sauvegarde	No hay copia de seguridad	Keine Sicherung vorhanden
+JSON со всеми разделами. Храните файл отдельно от папки клиента.	JSON with all sections. Keep the file apart from the client folder.	JSON avec toutes les sections. Conservez le fichier hors du dossier du client.	JSON con todas las secciones. Guarda el archivo fuera de la carpeta del cliente.	JSON mit allen Abschnitten. Bewahre die Datei getrennt vom Client-Ordner auf.
+Восстановить	Restore	Restaurer	Restaurar	Wiederherstellen
+Восстановить из файла	Restore from file	Restaurer depuis un fichier	Restaurar desde archivo	Aus Datei wiederherstellen
+Восстановить контрольную точку?	Restore the checkpoint?	Restaurer le point de contrôle ?	¿Restaurar el punto de control?	Prüfpunkt wiederherstellen?
+Восстановить резервную копию? Существующие разделы из файла будут заменены.	Restore the backup? Sections present in the file will be replaced.	Restaurer la sauvegarde ? Les sections présentes dans le fichier seront remplacées.	¿Restaurar la copia? Las secciones del archivo se sustituirán.	Sicherung wiederherstellen? Abschnitte aus der Datei werden ersetzt.
+Восстановление:	Restore:	Restauration :	Restauración:	Wiederherstellung:
+Диагностика хранилища	Storage diagnostics	Diagnostic du stockage	Diagnóstico del almacenamiento	Speicherdiagnose
+Защита локальных данных · schema v1	Local data protection · schema v1	Protection des données locales · schema v1	Protección de datos locales · schema v1	Schutz lokaler Daten · schema v1
+Контрольная точка	Checkpoint	Point de contrôle	Punto de control	Prüfpunkt
+Контрольная точка сохранена	Checkpoint saved	Point de contrôle enregistré	Punto de control guardado	Prüfpunkt gespeichert
+Общая копия персонажей, миров, историй и настроек. Предыдущие форматы сохраняются.	A single copy of characters, worlds, stories and settings. Earlier formats are kept.	Une copie unique des personnages, mondes, histoires et paramètres. Les anciens formats sont conservés.	Una copia conjunta de personajes, mundos, historias y ajustes. Se conservan los formatos anteriores.	Eine Gesamtkopie von Charakteren, Welten, Geschichten und Einstellungen. Frühere Formate bleiben erhalten.
+Ошибка:	Error:	Erreur :	Error:	Fehler:
+Проверить	Check	Vérifier	Comprobar	Prüfen
+Проверка структуры перед заменой. При ошибке запись откатывается.	The structure is checked before replacing. On error the write is rolled back.	La structure est vérifiée avant le remplacement. En cas d'erreur, l'écriture est annulée.	Se comprueba la estructura antes de sustituir. Si hay error, se revierte.	Die Struktur wird vor dem Ersetzen geprüft. Bei Fehlern wird zurückgesetzt.
+Проверка...	Checking...	Vérification...	Comprobando...	Wird geprüft...
+Резервная копия скачана	Backup downloaded	Sauvegarde téléchargée	Copia descargada	Sicherung heruntergeladen
+Скачать JSON	Download JSON	Télécharger le JSON	Descargar JSON	JSON herunterladen
+Скачать полную копию	Download a full copy	Télécharger une copie complète	Descargar copia completa	Vollständige Kopie herunterladen
+Сохранить или восстановить последнюю внутреннюю копию.	Save or restore the latest internal copy.	Enregistrer ou restaurer la dernière copie interne.	Guardar o restaurar la última copia interna.	Letzte interne Kopie speichern oder wiederherstellen.
+Структура данных проверена	Data structure checked	Structure des données vérifiée	Estructura de datos comprobada	Datenstruktur geprüft
+Схема {0} · Разделы: {1} · Контрольная точка: {2}	Schema {0} · Sections: {1} · Checkpoint: {2}	Schéma {0} · Sections : {1} · Point de contrôle : {2}	Esquema {0} · Secciones: {1} · Punto de control: {2}	Schema {0} · Abschnitte: {1} · Prüfpunkt: {2}
+ЭТОТ БРАУЗЕР	THIS BROWSER	CE NAVIGATEUR	ESTE NAVEGADOR	DIESER BROWSER
+есть	yes	oui	sí	ja
+нет	no	non	no	nein
+пусто	empty	vide	vacío	leer
+# ---- admin.js
+{0} · создан {1} · последний вход {2}{3}	{0} · created {1} · last sign-in {2}{3}	{0} · créé {1} · dernière connexion {2}{3}	{0} · creada {1} · último acceso {2}{3}	{0} · erstellt {1} · letzte Anmeldung {2}{3}
+{0} сообщ. · {1}	{0} msg. · {1}	{0} msg · {1}	{0} msj. · {1}	{0} Nachr. · {1}
+Администратор	Administrator	Administrateur	Administrador	Administrator
+Аккаунтов пока нет.	No accounts yet.	Pas encore de comptes.	Aún no hay cuentas.	Noch keine Konten.
+Аккаунты	Accounts	Comptes	Cuentas	Konten
+Вход администратора	Administrator sign-in	Connexion administrateur	Acceso de administrador	Administrator-Anmeldung
+Выйти из режима	Leave this mode	Quitter ce mode	Salir del modo	Modus verlassen
+Диагностика: аккаунты, устройства и, при необходимости, просмотр историй с указанием причины. Только на этом ПК.	Diagnostics: accounts, devices and, if needed, viewing stories with a stated reason. On this PC only.	Diagnostic : comptes, appareils et, si nécessaire, consultation d'histoires avec motif. Uniquement sur ce PC.	Diagnóstico: cuentas, dispositivos y, si hace falta, ver historias indicando el motivo. Solo en este PC.	Diagnose: Konten, Geräte und bei Bedarf Einsicht in Geschichten mit Angabe des Grundes. Nur auf diesem PC.
+Доступ к историям выключен	Story access is off	Accès aux histoires désactivé	Acceso a historias desactivado	Zugriff auf Geschichten aus
+Доступ к историям пользователей	Access to users' stories	Accès aux histoires des utilisateurs	Acceso a las historias de los usuarios	Zugriff auf Geschichten der Nutzer
+Журнал доступа	Access log	Journal d'accès	Registro de acceso	Zugriffsprotokoll
+Задайте отдельный пароль администратора (от 12 символов). Он нужен для каждого входа в этот режим.	Set a separate administrator password (12+ characters). It is needed every time you enter this mode.	Définissez un mot de passe administrateur distinct (12 caractères min.). Il est demandé à chaque entrée dans ce mode.	Define una contraseña de administrador aparte (12+ caracteres). Se pide cada vez que entras en este modo.	Lege ein eigenes Administratorpasswort fest (ab 12 Zeichen). Es wird bei jedem Wechsel in diesen Modus benötigt.
+Задать и войти	Set and enter	Définir et entrer	Definir y entrar	Festlegen und öffnen
+Записей нет.	No entries.	Aucune entrée.	No hay entradas.	Keine Einträge.
+Истории	Stories	Histoires	Historias	Geschichten
+Историй нет.	No stories.	Aucune histoire.	No hay historias.	Keine Geschichten.
+Каждый просмотр истории записывается в журнал, пользователь видит его в своём аккаунте. Пароли, коды и ключи здесь не показываются никогда.	Every story view is logged and the user sees it in their account. Passwords, codes and keys are never shown here.	Chaque consultation est journalisée et l'utilisateur la voit dans son compte. Les mots de passe, codes et clés ne sont jamais affichés ici.	Cada vista de una historia queda registrada y el usuario la ve en su cuenta. Aquí nunca se muestran contraseñas, códigos ni claves.	Jede Einsicht wird protokolliert, der Nutzer sieht sie in seinem Konto. Passwörter, Codes und Schlüssel werden hier nie angezeigt.
+Модель	Model	Modèle	Modelo	Modell
+Назад	Back	Retour	Atrás	Zurück
+Например: ответ обрывается, нужна проверка	For example: the reply cuts off and needs checking	Par exemple : la réponse s'interrompt, à vérifier	Por ejemplo: la respuesta se corta y hay que revisarla	Zum Beispiel: Antwort bricht ab, Prüfung nötig
+Открыть историю	Open story	Ouvrir l'histoire	Abrir historia	Geschichte öffnen
+Ошибка	Error	Erreur	Error	Fehler
+Пароль	Password	Mot de passe	Contraseña	Passwort
+Пароль администратора	Administrator password	Mot de passe administrateur	Contraseña de administrador	Administratorpasswort
+Пользователь	User	Utilisateur	Usuario	Nutzer
+Причина просмотра «{0}» — её увидит пользователь:	Reason for viewing «{0}» — the user will see it:	Motif de consultation de « {0} » — l'utilisateur le verra :	Motivo para ver «{0}» (el usuario lo verá):	Grund für die Einsicht in „{0}“ — der Nutzer sieht ihn:
+Режим администратора	Administrator mode	Mode administrateur	Modo administrador	Administratormodus
+Режим для диагностики. Работает только на этом компьютере.	A diagnostics mode. Works on this computer only.	Un mode de diagnostic. Fonctionne uniquement sur cet ordinateur.	Un modo de diagnóstico. Solo funciona en este ordenador.	Ein Diagnosemodus. Funktioniert nur auf diesem Computer.
+Связь с устройствами	Device connection	Connexion des appareils	Conexión de dispositivos	Geräteverbindung
+Сообщений нет.	No messages.	Aucun message.	No hay mensajes.	Keine Nachrichten.
+включено, но не запустилось	on, but did not start	activé, mais n'a pas démarré	activado, pero no arrancó	an, aber nicht gestartet
+доступ из домашней сети выключен	home-network access is off	accès réseau domestique désactivé	acceso desde la red doméstica desactivado	Heimnetz-Zugang aus
+доступ к историям включён	story access is on	accès aux histoires activé	acceso a historias activado	Zugriff auf Geschichten an
+доступ к историям выключен	story access is off	accès aux histoires désactivé	acceso a historias desactivado	Zugriff auf Geschichten aus
+заблокирован	locked	bloqué	bloqueado	gesperrt
+не подтверждён	not verified	non vérifié	no verificado	nicht bestätigt
+пароль задан	password set	mot de passe défini	contraseña definida	Passwort festgelegt
+подтверждён	verified	vérifié	verificado	bestätigt
+просмотр истории	story view	consultation d'histoire	vista de historia	Einsicht in Geschichte
+# ---- core-sync.js, enchant.js
+Персонажи и миры синхронизированы с EGO Core	Characters and worlds synced with EGO Core	Personnages et mondes synchronisés avec EGO Core	Personajes y mundos sincronizados con EGO Core	Charaktere und Welten mit EGO Core synchronisiert
+Персонажи и миры: {0} изменений из офлайна заменены версией из EGO Core	Characters and worlds: {0} offline changes replaced by the EGO Core version	Personnages et mondes : {0} modifications hors ligne remplacées par la version d'EGO Core	Personajes y mundos: {0} cambios sin conexión sustituidos por la versión de EGO Core	Charaktere und Welten: {0} Offline-Änderungen durch die Version aus EGO Core ersetzt
+Синхронизация персонажей:	Character sync:	Synchronisation des personnages :	Sincronización de personajes:	Charakter-Synchronisierung:
+Enchant работает через EGO Core — подключитесь к Core	Enchant works through EGO Core — connect to Core	Enchant passe par EGO Core — connectez-vous à Core	Enchant funciona con EGO Core: conéctate a Core	Enchant läuft über EGO Core — verbinde dich mit Core
+Вернуть текст, который был до помощника	Restore the text from before the helper	Rétablir le texte d'avant l'assistant	Recuperar el texto anterior al asistente	Text von vor dem Helfer wiederherstellen
+Колдую…	Working magic…	Magie en cours…	Haciendo magia…	Zaubere…
+Локальная модель улучшит поле или допишет его с учётом остальных полей	The local model improves or completes the field, taking the other fields into account	Le modèle local améliore ou complète le champ en tenant compte des autres	El modelo local mejora o completa el campo teniendo en cuenta los demás	Das lokale Modell verbessert oder ergänzt das Feld unter Berücksichtigung der anderen Felder
+Поле заполнено — можно откатить	Field filled — you can undo	Champ rempli — annulation possible	Campo completado: se puede deshacer	Feld ausgefüllt — rückgängig möglich
+Поле улучшено — можно откатить	Field improved — you can undo	Champ amélioré — annulation possible	Campo mejorado: se puede deshacer	Feld verbessert — rückgängig möglich
+Помощник недоступен	The helper is unavailable	L'assistant est indisponible	El asistente no está disponible	Der Helfer ist nicht verfügbar
+Помощник уже работает над другим полем	The helper is already working on another field	L'assistant travaille déjà sur un autre champ	El asistente ya está trabajando en otro campo	Der Helfer arbeitet bereits an einem anderen Feld
+Текст возвращён	Text restored	Texte rétabli	Texto recuperado	Text wiederhergestellt
+↺ Откатить	↺ Undo	↺ Annuler	↺ Deshacer	↺ Rückgängig

@@ -1,0 +1,15 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+let data=new Map();let fails=false;
+const localStorage={getItem:k=>data.has(k)?data.get(k):null,setItem:(k,v)=>{if(fails)throw Error('QuotaExceeded');data.set(k,String(v));},removeItem:k=>data.delete(k)};
+const ctx={window:{localStorage},Blob:class{},document:{},setTimeout,Date,JSON,console};vm.createContext(ctx);
+vm.runInContext(fs.readFileSync('js/app/data-store.js','utf8'),ctx);
+const store=ctx.window.EGOData;
+const chats=[{id:'sample',person:'lira',title:'Сцена',messages:[],members:['lira','thorn'],sceneNote:'Описание',chapters:[{id:'c1',index:0,title:'Глава'}]}];
+localStorage.setItem(store.KEYMAP.chats,JSON.stringify(chats));
+let copy=store.snapshot();assert.equal(copy.schemaVersion,1);assert.equal(copy.entries.chats[0].members.length,2);store.checkpoint();
+localStorage.setItem(store.KEYMAP.chats,JSON.stringify([]));store.restoreCheckpoint();assert.equal(JSON.parse(localStorage.getItem(store.KEYMAP.chats))[0].sceneNote,'Описание');
+const invalid=JSON.parse(JSON.stringify(copy));invalid.entries.chats[0].messages='wrong';assert.throws(()=>store.validateBackup(invalid));
+const unknown=JSON.parse(JSON.stringify(copy));unknown.entries.malicious={};assert.throws(()=>store.validateBackup(unknown));
+const old=localStorage.getItem(store.KEYMAP.chats);fails=true;assert.throws(()=>store.transactionalRestore(copy));fails=false;assert.equal(localStorage.getItem(store.KEYMAP.chats),old);
+store.transactionalRestore({app:'EGO',type:'full-backup',schemaVersion:1,entries:{preferences:{theme:'blue'}}});assert.equal(JSON.parse(localStorage.getItem(store.KEYMAP.preferences)).theme,'blue');
+console.log('PASS: 7 data tests (legacy, metadata, checkpoint, restore, malformed, unknown section, quota rollback)');

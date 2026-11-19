@@ -1,0 +1,92 @@
+# Russian	English	French	Spanish	German
+# ---- index.html
+Лира	Lira	Lira	Lira	Lira
+Библиотека	Library	Bibliothèque	Biblioteca	Bibliothek
+Вставить действие	Insert an action	Insérer une action	Insertar una acción	Aktion einfügen
+Вставить реплику	Insert a line	Insérer une réplique	Insertar una réplica	Rede einfügen
+Действия	Actions	Actions	Acciones	Aktionen
+Диалоги	Chats	Discussions	Conversaciones	Chats
+Закрыть	Close	Fermer	Cerrar	Schließen
+Информация о сцене	Scene info	Infos sur la scène	Información de la escena	Szeneninfo
+Локальный визуальный прототип · AI не подключён · Enter — отправить, Shift+Enter — новая строка	Local visual prototype · AI not connected · Enter to send, Shift+Enter for a new line	Prototype visuel local · IA non connectée · Entrée pour envoyer, Maj+Entrée pour une nouvelle ligne	Prototipo visual local · IA no conectada · Intro para enviar, Mayús+Intro para nueva línea	Lokaler visueller Prototyp · KI nicht verbunden · Enter zum Senden, Umschalt+Enter für neue Zeile
+Локальный профиль	Local profile	Profil local	Perfil local	Lokales Profil
+Миры	Worlds	Mondes	Mundos	Welten
+Навигация	Navigation	Navigation	Navegación	Navigation
+Настройки	Settings	Paramètres	Ajustes	Einstellungen
+Новая история	New story	Nouvelle histoire	Nueva historia	Neue Geschichte
+Отправить сообщение	Send message	Envoyer le message	Enviar mensaje	Nachricht senden
+Панель	Panel	Panneau	Panel	Seitenleiste
+Персонажи	Characters	Personnages	Personajes	Charaktere
+Поиск...	Search...	Rechercher...	Buscar...	Suchen...
+Продолжить историю...	Continue the story...	Continuer l'histoire...	Continuar la historia...	Geschichte fortsetzen...
+Пространство истории	Story space	Espace de l'histoire	Espacio de la historia	Geschichtsraum
+Скрыть панель	Hide panel	Masquer le panneau	Ocultar panel	Seitenleiste ausblenden
+Сменить настроение	Change mood	Changer d'ambiance	Cambiar ambiente	Stimmung wechseln
+Сообщение	Message	Message	Mensaje	Nachricht
+Эфир · Тихая библиотека	Aether · Quiet Library	Éther · Bibliothèque silencieuse	Éter · Biblioteca silenciosa	Äther · Stille Bibliothek
+✦ RP · Сцена	✦ RP · Scene	✦ RP · Scène	✦ RP · Escena	✦ RP · Szene
+# ---- advanced-chat.js
+{0} {1} · {2} сообщений	{0} {1} · {2} messages	{0} {1} · {2} messages	{0} {1} · {2} mensajes	{0} {1} · {2} Nachrichten
+В этой главе ещё нет сообщений	No messages in this chapter yet	Pas encore de messages dans ce chapitre	Aún no hay mensajes en este capítulo	Noch keine Nachrichten in diesem Kapitel
+Введите название	Enter a title	Saisissez un titre	Escribe un título	Titel eingeben
+Время, место и обстоятельства текущей сцены. Модель учитывает заметку в ответах.	Time, place and circumstances of the current scene. The model takes the note into account.	Moment, lieu et circonstances de la scène actuelle. Le modèle tient compte de la note.	Momento, lugar y circunstancias de la escena actual. El modelo tiene en cuenta la nota.	Zeit, Ort und Umstände der aktuellen Szene. Das Modell berücksichtigt die Notiz.
+Время, место, обстоятельства...	Time, place, circumstances...	Moment, lieu, circonstances...	Momento, lugar, circunstancias...	Zeit, Ort, Umstände...
+Выбери от 1 до 5 персонажей	Choose 1 to 5 characters	Choisissez de 1 à 5 personnages	Elige de 1 a 5 personajes	Wähle 1 bis 5 Charaktere
+Глава добавлена	Chapter added	Chapitre ajouté	Capítulo añadido	Kapitel hinzugefügt
+Глава служит маркером внутри истории, не удаляя и не изменяя сообщения.	A chapter is a marker inside the story; it does not delete or change messages.	Un chapitre est un repère dans l'histoire ; il ne supprime ni ne modifie les messages.	Un capítulo es un marcador dentro de la historia; no borra ni cambia mensajes.	Ein Kapitel ist eine Markierung in der Geschichte; es löscht oder ändert keine Nachrichten.
+Главы истории	Story chapters	Chapitres de l'histoire	Capítulos de la historia	Kapitel der Geschichte
+Готово	Done	Terminé	Listo	Fertig
+Группа · {0} участника · {1}	Group · {0} members · {1}	Groupe · {0} participants · {1}	Grupo · {0} participantes · {1}	Gruppe · {0} Teilnehmer · {1}
+Групповая сцена · {0}/5	Group scene · {0}/5	Scène de groupe · {0}/5	Escena de grupo · {0}/5	Gruppenszene · {0}/5
+Закладки сцены	Scene bookmarks	Signets de la scène	Marcadores de la escena	Lesezeichen der Szene
+Избранные фрагменты текущего диалога.	Favourite moments of the current chat.	Passages favoris de la discussion actuelle.	Fragmentos favoritos de la conversación actual.	Lieblingsstellen des aktuellen Chats.
+Истории изменены в другой вкладке. Обнови страницу для синхронизации	Stories changed in another tab. Reload the page to sync	Les histoires ont changé dans un autre onglet. Rechargez la page pour synchroniser	Las historias cambiaron en otra pestaña. Recarga la página para sincronizar	Geschichten wurden in einem anderen Tab geändert. Seite neu laden zum Synchronisieren
+Максимум пять персонажей	Five characters at most	Cinq personnages au maximum	Cinco personajes como máximo	Höchstens fünf Charaktere
+Модель ведёт сцену за всех участников.	The model plays all members of the scene.	Le modèle joue tous les participants de la scène.	El modelo interpreta a todos los participantes.	Das Modell spielt alle Teilnehmer der Szene.
+Название главы	Chapter title	Titre du chapitre	Título del capítulo	Kapiteltitel
+Например: Полночь в Эфире	For example: Midnight in Aether	Par exemple : Minuit dans l'Éther	Por ejemplo: Medianoche en el Éter	Zum Beispiel: Mitternacht im Äther
+Не больше 50 глав	No more than 50 chapters	50 chapitres au maximum	No más de 50 capítulos	Höchstens 50 Kapitel
+Новая глава	New chapter	Nouveau chapitre	Nuevo capítulo	Neues Kapitel
+Описание текущей сцены	Current scene description	Description de la scène actuelle	Descripción de la escena actual	Beschreibung der aktuellen Szene
+Параметры сцены	Scene settings	Paramètres de la scène	Ajustes de la escena	Szeneneinstellungen
+Перейди к нужной главе или удали ненужную отметку.	Go to a chapter or remove a marker you no longer need.	Allez à un chapitre ou supprimez un repère inutile.	Ve a un capítulo o elimina un marcador que no necesites.	Springe zu einem Kapitel oder entferne eine überflüssige Markierung.
+При сохранении участников существующие сообщения останутся без изменений.	Saving the members keeps existing messages unchanged.	Enregistrer les participants ne modifie pas les messages existants.	Guardar los participantes no cambia los mensajes existentes.	Beim Speichern der Teilnehmer bleiben bestehende Nachrichten unverändert.
+СЦЕНА	SCENE	SCÈNE	ESCENA	SZENE
+Собери сцену из 1–5 персонажей: модель будет говорить за всех и помечать, кто говорит.	Build a scene of 1–5 characters: the model speaks for all of them and marks who is speaking.	Composez une scène de 1 à 5 personnages : le modèle parle pour tous et indique qui parle.	Crea una escena de 1 a 5 personajes: el modelo habla por todos e indica quién habla.	Stelle eine Szene aus 1–5 Charakteren zusammen: Das Modell spricht für alle und markiert, wer spricht.
+Создать главу	Create chapter	Créer un chapitre	Crear capítulo	Kapitel erstellen
+Сохранить группу	Save group	Enregistrer le groupe	Guardar grupo	Gruppe speichern
+Сцена сохранена	Scene saved	Scène enregistrée	Escena guardada	Szene gespeichert
+Участники истории	Story members	Participants de l'histoire	Participantes de la historia	Teilnehmer der Geschichte
+Участники обновлены	Members updated	Participants mis à jour	Participantes actualizados	Teilnehmer aktualisiert
+☷ Главы	☷ Chapters	☷ Chapitres	☷ Capítulos	☷ Kapitel
+♢ Закладки	♢ Bookmarks	♢ Signets	♢ Marcadores	♢ Lesezeichen
+♧ Участники	♧ Members	♧ Participants	♧ Participantes	♧ Teilnehmer
+✦ Сцена	✦ Scene	✦ Scène	✦ Escena	✦ Szene
+＋ Глава	＋ Chapter	＋ Chapitre	＋ Capítulo	＋ Kapitel
+Глав пока нет. Создай первую главу в панели над перепиской.	No chapters yet. Create the first one in the panel above the chat.	Pas encore de chapitres. Créez le premier dans le panneau au-dessus de la discussion.	Aún no hay capítulos. Crea el primero en el panel sobre la conversación.	Noch keine Kapitel. Erstelle das erste im Bereich über dem Chat.
+ЗАМЕТКА О СЦЕНЕ	SCENE NOTE	NOTE DE SCÈNE	NOTA DE ESCENA	SZENENNOTIZ
+Закладок пока нет. Нажми значок закладки под сообщением.	No bookmarks yet. Tap the bookmark icon under a message.	Pas encore de signets. Touchez l'icône de signet sous un message.	Aún no hay marcadores. Pulsa el icono de marcador bajo un mensaje.	Noch keine Lesezeichen. Tippe auf das Lesezeichen-Symbol unter einer Nachricht.
+Перейти к началу главы	Go to the start of the chapter	Aller au début du chapitre	Ir al inicio del capítulo	Zum Kapitelanfang
+Сообщение {0}	Message {0}	Message {0}	Mensaje {0}	Nachricht {0}
+Удалить метку	Remove marker	Supprimer le repère	Quitar marcador	Markierung entfernen
+глав	chapters	chapitres	capítulos	Kapitel
+глава	chapter	chapitre	capítulo	Kapitel
+# ---- chat-view.js
+Лира задумчиво смотрит в сторону и на секунду замолкает.	Lira glances away thoughtfully and falls silent for a moment.	Lira détourne le regard, pensive, et se tait un instant.	Lira mira a un lado, pensativa, y calla un momento.	Lira blickt nachdenklich zur Seite und verstummt kurz.
+Глава I · Начало	Chapter I · The Beginning	Chapitre I · Le commencement	Capítulo I · El comienzo	Kapitel I · Der Anfang
+Демонстрационная реплика изменена	Demo line edited	Réplique de démonstration modifiée	Réplica de demostración editada	Demo-Zeile geändert
+Закладка добавлена	Bookmark added	Signet ajouté	Marcador añadido	Lesezeichen hinzugefügt
+Закладка удалена	Bookmark removed	Signet supprimé	Marcador eliminado	Lesezeichen entfernt
+История начинается здесь	The story begins here	L'histoire commence ici	La historia empieza aquí	Die Geschichte beginnt hier
+Новая история ↗	New story ↗	Nouvelle histoire ↗	Nueva historia ↗	Neue Geschichte ↗
+Ответ обрезан по лимиту длины.	The reply was cut at the length limit.	La réponse a été coupée à la limite de longueur.	La respuesta se cortó por el límite de longitud.	Die Antwort wurde an der Längengrenze abgeschnitten.
+Ответы генерирует локальная модель через EGO Core.	Replies are generated by the local model through EGO Core.	Les réponses sont générées par le modèle local via EGO Core.	Las respuestas las genera el modelo local a través de EGO Core.	Antworten erzeugt das lokale Modell über EGO Core.
+Перегенерировать ответ	Regenerate reply	Régénérer la réponse	Regenerar respuesta	Antwort neu erzeugen
+Продолжить	Continue	Continuer	Continuar	Fortsetzen
+Продолжить ответ	Continue reply	Continuer la réponse	Continuar respuesta	Antwort fortsetzen
+Редактировать (только локально)	Edit (local only)	Modifier (local uniquement)	Editar (solo local)	Bearbeiten (nur lokal)
+Создай новую историю или выбери персонажа, чтобы открыть пространство для воображения.	Create a new story or pick a character to open a space for imagination.	Créez une nouvelle histoire ou choisissez un personnage pour ouvrir un espace d'imagination.	Crea una nueva historia o elige un personaje para abrir un espacio a la imaginación.	Erstelle eine neue Geschichte oder wähle einen Charakter, um Raum für Fantasie zu öffnen.
+Это демонстрационная сцена — твои сообщения сохраняются локально.	This is a demo scene — your messages are saved locally.	Ceci est une scène de démonstration — vos messages sont enregistrés localement.	Esta es una escena de demostración: tus mensajes se guardan localmente.	Dies ist eine Demo-Szene — deine Nachrichten werden lokal gespeichert.
+— У каждой истории есть несколько вариантов. Может, стоит выбрать другой путь?	— Every story has several paths. Maybe it's time to choose another one?	— Chaque histoire a plusieurs chemins. Peut-être faut-il en choisir un autre ?	— Cada historia tiene varios caminos. ¿Quizá convenga elegir otro?	— Jede Geschichte hat mehrere Wege. Vielleicht solltest du einen anderen wählen?
+История с персонажем {0} · {1}	Story with {0} · {1}	Histoire avec {0} · {1}	Historia con {0} · {1}	Geschichte mit {0} · {1}
+Свободная история без персонажа	Free story without a character	Histoire libre sans personnage	Historia libre sin personaje	Freie Geschichte ohne Charakter

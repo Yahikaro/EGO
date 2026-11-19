@@ -1,0 +1,49 @@
+/* Owner profile (profile.js). Works in both looks; colours follow the chosen profile colour. */
+.user-avatar{cursor:pointer;transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .25s}
+.user-avatar:hover{transform:translateY(-1px) scale(1.05)}
+.user-avatar:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.pf-face{overflow:hidden;box-shadow:0 0 0 2px color-mix(in srgb,var(--pf,#bea4ff) 70%,transparent),0 0 16px color-mix(in srgb,var(--pf,#bea4ff) 35%,transparent)}
+.pf-face img{width:100%;height:100%;object-fit:cover;display:block}
+
+.modal.pf{--pf:#bea4ff;width:min(860px,96vw);max-height:92vh;padding:0;display:grid;grid-template-columns:300px minmax(0,1fr);overflow:hidden;border-radius:26px}
+.pf-stage{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px;padding:34px 22px 24px;border-right:1px solid var(--line);
+  background:radial-gradient(circle at 50% 28%,color-mix(in srgb,var(--pf) 26%,transparent),transparent 60%),#0b0a12}
+.pf-ring{width:160px;height:160px;border-radius:50%;padding:4px;background:conic-gradient(from 210deg,var(--pf),color-mix(in srgb,var(--pf) 30%,#fff),var(--pf));
+  box-shadow:0 0 40px color-mix(in srgb,var(--pf) 45%,transparent);animation:pfGlow 4s ease-in-out infinite}
+@keyframes pfGlow{50%{box-shadow:0 0 60px color-mix(in srgb,var(--pf) 60%,transparent)}}
+.pf-avatar{width:100%;height:100%;border-radius:50%;overflow:hidden;display:grid;place-items:center;background:linear-gradient(145deg,#2d2447,#120f1e);
+  font:400 64px Georgia,'Times New Roman',serif;color:#fff}
+.pf-avatar img{width:100%;height:100%;object-fit:cover}
+.pf-name{margin-top:12px;font:400 24px Georgia,'Times New Roman',serif;text-align:center;
+  background:linear-gradient(165deg,#fbf7ff 25%,var(--pf) 95%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pf-nick{color:color-mix(in srgb,var(--text,#f4f0fb) 55%,transparent);min-height:1em}
+.pf-photo{display:flex;gap:12px;margin-top:6px}
+.pf-link{cursor:pointer;color:var(--pf);font-size:12.5px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.2)}
+.pf-colours{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin-top:auto;padding-top:16px}
+.pf-colour{width:24px;height:24px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,var(--c) 50%,color-mix(in srgb,var(--c) 45%,#000));
+  box-shadow:0 0 0 1px rgba(255,255,255,.14);transition:transform .2s,box-shadow .25s}
+.pf-colour:hover{transform:scale(1.1)}
+.pf-colour.on{box-shadow:0 0 0 2px #0b0a12,0 0 0 4px var(--c),0 0 16px var(--c)}
+.pf-hint{font-size:11px;color:color-mix(in srgb,var(--text,#f4f0fb) 45%,transparent)}
+
+.pf-form{display:flex;flex-direction:column;gap:12px;padding:26px 28px 22px;overflow:auto}
+.pf-head{display:flex;justify-content:space-between;align-items:center}
+.pf-head h2{font:400 30px Georgia,'Times New Roman',serif;margin:0}
+.pf-form>label{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--dim);margin:0}
+.pf-form input:not([type=checkbox]),.pf-form textarea{border:1px solid var(--line2);border-radius:12px;padding:11px 13px;background:rgba(9,9,18,.5);color:var(--text);font-size:14px;outline:0;transition:border-color .2s,box-shadow .2s}
+.pf-form input:focus,.pf-form textarea:focus{border-color:var(--pf);box-shadow:0 0 0 4px color-mix(in srgb,var(--pf) 16%,transparent)}
+.pf-label{font-size:12px;color:var(--dim)}
+.pf-chips{display:flex;gap:6px;flex-wrap:wrap}
+.pf-chip{padding:8px 14px;border-radius:999px;border:1px solid var(--line2);font-size:12.5px;color:var(--dim);transition:all .2s}
+.pf-chip.on{background:color-mix(in srgb,var(--pf) 18%,transparent);border-color:var(--pf);color:var(--text)}
+.pf-switch{flex-direction:row!important;align-items:flex-start;gap:10px!important;padding:12px 14px;border:1px solid var(--line2);border-radius:14px;color:var(--text)!important;font-size:13px!important}
+.pf-switch input{margin-top:3px;accent-color:var(--pf)}
+.pf-switch small,.pf-private{display:block;font-size:11px;color:var(--muted);margin-top:3px}
+.pf-bottom{display:flex;justify-content:flex-end;gap:9px;margin-top:auto;padding-top:6px}
+@media(max-width:760px){.modal.pf{grid-template-columns:1fr;overflow:auto}.pf-stage{border-right:0;border-bottom:1px solid var(--line)}.pf-ring{width:120px;height:120px}.pf-form{padding:20px 18px}}
+@media(prefers-reduced-motion:reduce){.pf-ring{animation:none}}
+/* 2026-11-06 fixes: base styles stretched the checkbox to full width; [hidden] lost to display:flex */
+.pf-switch input[type=checkbox]{width:18px!important;height:18px!important;min-width:0;flex:none;margin:2px 0 0;padding:0}
+.pf-switch>span{flex:1;min-width:0;text-align:left}
+.pf-form>label[hidden],.pf [hidden]{display:none!important}
+.pf-colours{display:grid!important;grid-template-columns:repeat(5,auto);justify-content:center;gap:10px!important}

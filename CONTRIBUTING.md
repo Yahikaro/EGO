@@ -14,7 +14,7 @@
 
 Порядок: создайте ветку от `main`, внесите изменение с тестами, запустите тесты, откройте pull request по шаблону.
 
-Лицензия будет выбрана вместе с первой версией; вклад до этого распространяется на тех же условиях, что и проект.
+Вклад распространяется на тех же условиях, что и проект: PolyForm Noncommercial 1.0.0 (файл LICENSE).
 
 ## English
 
@@ -30,4 +30,4 @@ Thank you for your interest in EGO. Until the first release, one owner runs the 
 
 Process: create a branch from `main`, make the change with tests, run the tests, and open a pull request using the template.
 
-A license will be chosen with the first release; contributions made before that are covered by the same terms as the project.
+Contributions are covered by the same terms as the project: PolyForm Noncommercial 1.0.0 (see LICENSE).

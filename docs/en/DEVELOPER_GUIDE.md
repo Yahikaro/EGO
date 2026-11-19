@@ -1,4 +1,4 @@
-﻿# EGO developer guide
+# EGO developer guide
 
 [Русский](../ru/DEVELOPER_GUIDE.md)
 
@@ -10,12 +10,12 @@ How to set up the environment, run tests, build the exe and check a release. For
 EGO/
 ├── server/ego_core/   Core: API, database, model, memory, accounts, network
 ├── windows_ui/        Control Center (PySide6)
-├── EGO-Client/        web client (js/app, js/core, styles)
+├── client/           web client (js/app, js/core, js/look, css, assets), tests in client/tests
 ├── tests/             tests: server/, gui/, acceptance/, ui/
 ├── tools/windows/     BAT scripts: setup, tests, diagnostics
 ├── scripts/           helper scripts: smoke test, contract export, timing
 ├── packaging/         exe build (PyInstaller)
-├── docs/              documentation (design/, history/, contracts/)
+├── docs/              documentation (ru/, en/, contracts/)
 ├── START_EGO_SERVER.bat, START_EGO_CLIENT.bat, FORCE_CLOSE_EGO.bat
 └── data/, settings/, logs/, runtime/   installation data (not in the repository)
 ```
@@ -44,7 +44,9 @@ Or directly from the root:
 
 Expected result as of 2026-11-06: server 503 passed, 0 failed (skips depend on the OS); client: three sets 10 + 11 + 7. Exact numbers change — check them against `CHANGELOG.md`.
 
-Client tests are in `EGO-Client/tests/` and run with Node.js.
+Client tests are in `client/tests/` and run with Node.js from the `client` folder: `node tests/core-bridge.test.cjs` and so on.
+
+On GitHub the tests run automatically: `.github/workflows/tests.yml` (Windows, Python 3.12, Node.js). Tests that need native DPAPI, SQLCipher or a real model are skipped there with a reason.
 
 ## Testing on a real model
 
@@ -68,9 +70,27 @@ The exe is built as the last step before publication. A rebuild is needed after 
 .venv\Scripts\python.exe packaging\build_exe.py --install
 ```
 
-Stop Core before building. The script builds `EGO.exe` (Control Center) and `EGO-Core.exe` (background Core) with PyInstaller in onedir mode. The package must not contain `data\`, `settings\`, `logs\`, `.venv\`, keys or mail data; the script checks this.
+Stop Core before building. The script builds `EGO.exe` (Control Center) and `EGO-Core.exe` (background Core) with PyInstaller in onedir mode. The package must not contain `data\`, `settings\`, `logs\`, `.venv\`, keys; the script checks this.
 
 The client is not built as an exe: it is opened at `/app/` from Core.
+
+### Installer
+
+```bash
+.venv\Scripts\python.exe packaging\build_installer.py
+```
+
+Builds `EGO-Setup.exe` (a setup window: folder, components, shortcuts, uninstalling through "Apps"). It holds the built program and `Uninstall.exe`; no models are included. The logic is covered by `tests/installer`. For scripts: `EGO-Setup.exe --silent --dir D:\EGO [--llama] [--cloudflared] [--tts]`.
+
+## Languages
+
+EGO runs in Russian, English, French, Spanish and German.
+
+- **Client.** Texts are written in Russian in the code. Translations live in `i18n/client/*.tsv`: each line holds the Russian text and 4 translations separated by tabs (`{0}`, `{1}` are numbers and names). `client/js/core/i18n.js` replaces the page's Russian texts using `client/js/i18n/<lang>.js`; stories and user input are never translated. After changing client texts:
+  `.venv\Scripts\python.exe scripts\i18n_extract.py` → add lines to the TSV → `.venv\Scripts\python.exe scripts\i18n_build.py`. The test `test_every_client_text_has_a_translation` fails on a text without a translation.
+- **Server.** The client sends its language in the `X-EGO-Lang` header. Error texts (`server/ego_core/errors.py` + `errors_i18n.py`) come in that language; the model replies, chat memory and Enchant use it too.
+- **Control Center.** Texts are (Russian, English) pairs; French, Spanish and German are in `windows_ui/translations.py` (keyed by the English text).
+- **The content filter** (`content_guard.py`) understands Russian only. In other languages the hard limits rely on the model's prompt rules.
 
 ## API contracts
 
@@ -96,7 +116,4 @@ Tests compare the snapshot with the code. If you change the API, regenerate the 
 | `docs/KNOWN_LIMITATIONS.md` | Known limitations |
 | `docs/RELEASE_READINESS.md` | Release readiness criteria |
 | `docs/ERROR_CODES.md` | Error codes |
-| `docs/MAIL_SETUP.md` | Mail setup |
 | `docs/LAN_ACCESS.md` | Access from a laptop |
-| `docs/design/` | Design decisions (memory, accounts, structure) |
-| `docs/history/` | Archive of earlier notes and the sync journal |

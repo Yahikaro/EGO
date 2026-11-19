@@ -1,0 +1,34 @@
+/* EGO Core bridge: connection state and stop button. */
+.mini-dot.ego-online { background: #4ade80; box-shadow: 0 0 8px rgba(74, 222, 128, .7); }
+.send-btn.ego-stop { background: #e5484d; }
+.ego-stop-square { display: block; width: 12px; height: 12px; border-radius: 2px; background: currentColor; }
+/* Stories without a character: neutral initial instead of a portrait. */
+.avatar.neutral, .msg-avatar.neutral { background: linear-gradient(135deg, #3a3550, #1c1a28); color: var(--dim, #ada7ba); }
+.ego-initial { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; font-weight: 600; }
+/* Settings page: one button width, no seam before the data-protection block, room at the bottom. */
+.generic-page { padding-bottom: 88px; }
+.generic-page .setting-row > button.primary-small,
+.generic-page .quality-actions > button.primary-small { min-width: 140px; flex-shrink: 0; text-align: center; justify-content: center; }
+.generic-page .quality-actions { flex-wrap: nowrap; justify-content: flex-end; }
+.generic-page .quality-settings { margin-top: 0; border-top: 0; padding-top: 0; }
+@media (max-width: 850px) {
+  .generic-page .setting-row > button.primary-small,
+  .generic-page .quality-actions > button.primary-small { min-width: 0; width: 100%; }
+  .generic-page .quality-actions { flex-wrap: wrap; }
+}
+
+/* Per-chat preset selector in the inspector. */
+#ego-chat-preset { margin-top: 18px; }
+.ego-preset-select { width: 100%; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line2, rgba(255,255,255,.12));
+  background: var(--panel2, #171520); color: var(--text, #f4f0fb); font: inherit; }
+.ego-preset-note { margin: 8px 0 0; font-size: 11px; line-height: 1.5; color: var(--dim, #ada7ba); }
+
+/* Truncated reply (finish_reason = length): note + Continue. */
+.ego-truncated { display: flex; align-items: center; gap: 12px; margin-top: 8px; font-size: 12px; color: var(--dim, #ada7ba); }
+.ego-continue { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent, #bea4ff); background: var(--accent-bg, rgba(180,147,255,.13));
+  color: var(--text, #f4f0fb); font: inherit; cursor: pointer; }
+.ego-continue:hover { background: var(--accent, #bea4ff); color: #120f1c; }
+
+/* 2026-11-06: a very long word or link never widens the story */
+.msg-card,.msg-card p,.msg-card .rp-action,.msg-card .rp-thought{overflow-wrap:anywhere}
+#messages{min-width:0}

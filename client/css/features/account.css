@@ -1,0 +1,161 @@
+/* EGO welcome page (first screen) and account settings.
+   Palette and type follow the client: dark violet glass, theme accent, Georgia for the
+   story voice, the UI sans for controls. One load sequence; then motion answers the user. */
+
+.ego-welcome{
+  --w-bg:#0a0910;--w-ink:#f4f0fb;--w-dim:#ada7ba;--w-mute:#7f778b;--w-line:rgba(255,255,255,.09);
+  --w-glass:linear-gradient(155deg,rgba(36,31,50,.82),rgba(17,15,26,.9));
+  position:fixed;inset:0;z-index:300;overflow-y:auto;overflow-x:hidden;background:var(--w-bg);color:var(--w-ink);
+  display:flex;flex-direction:column;animation:egoFadeIn .5s ease both;
+}
+.ego-welcome-leave{animation:egoLeave .42s cubic-bezier(.4,0,.2,1) both;pointer-events:none}
+@keyframes egoFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes egoLeave{to{opacity:0;transform:scale(1.025);filter:blur(6px)}}
+
+/* background: drifting nebula + star dust (canvas) */
+.ego-sky{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.ego-nebula{position:fixed;inset:-10%;pointer-events:none;z-index:0;filter:blur(70px)}
+.ego-nebula i{position:absolute;border-radius:50%;opacity:.55;animation:egoDrift 26s ease-in-out infinite alternate}
+.ego-nebula i:nth-child(1){width:46vw;height:46vw;left:-6%;top:-8%;background:radial-gradient(circle,#735cb8 0%,transparent 68%)}
+.ego-nebula i:nth-child(2){width:40vw;height:40vw;right:-4%;bottom:-12%;background:radial-gradient(circle,#4b4d9e 0%,transparent 66%);animation-duration:32s;animation-delay:-8s}
+.ego-nebula i:nth-child(3){width:30vw;height:30vw;right:18%;top:-6%;background:radial-gradient(circle,#9e5273 0%,transparent 66%);opacity:.38;animation-duration:38s;animation-delay:-15s}
+@keyframes egoDrift{to{transform:translate(5vw,-4vh) scale(1.12)}}
+
+.ego-welcome-grid{position:relative;z-index:1;flex:1;width:100%;max-width:1240px;margin:0 auto;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(340px,430px);gap:clamp(32px,6vw,92px);
+  align-items:center;padding:clamp(28px,6vh,72px) clamp(20px,5vw,64px) 24px}
+
+/* hero */
+.ego-hero{min-width:0}
+.ego-mark{display:flex;align-items:center;gap:13px;color:var(--w-dim);font-size:13px;opacity:0;animation:egoRise .7s .1s cubic-bezier(.2,.7,.2,1) forwards}
+.ego-mark .logo{width:40px;height:40px;font-size:30px;border-radius:12px}
+.ego-wordmark{font:400 clamp(84px,13vw,176px)/.86 Georgia,'Times New Roman',serif;letter-spacing:-.045em;margin:18px 0 0;display:flex}
+.ego-wordmark span{display:inline-block;background:linear-gradient(165deg,#fbf7ff 20%,var(--accent,#bea4ff) 78%,#8b79d6);-webkit-background-clip:text;background-clip:text;color:transparent;
+  opacity:0;transform:translateY(.35em) rotate(-4deg);filter:blur(10px);animation:egoLetter .95s calc(.25s + var(--i)*.12s) cubic-bezier(.2,.75,.15,1) forwards}
+@keyframes egoLetter{to{opacity:1;transform:none;filter:none}}
+.ego-promise{max-width:34em;font-size:15px;line-height:1.75;color:var(--w-dim);margin:22px 0 0;opacity:0;animation:egoRise .8s .75s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes egoRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* the living scene: written in the client's own format */
+.ego-scene{position:relative;margin:30px 0 0;max-width:600px;padding:20px 24px 22px 26px;border-radius:6px 20px 20px 20px;
+  background:linear-gradient(150deg,rgba(255,255,255,.05),rgba(255,255,255,.015));border:1px solid var(--w-line);
+  opacity:0;animation:egoRise .8s .95s cubic-bezier(.2,.7,.2,1) forwards}
+.ego-scene::before{content:'';position:absolute;left:-1px;top:18px;bottom:18px;width:2px;border-radius:2px;background:linear-gradient(var(--accent,#bea4ff),transparent)}
+.ego-scene figcaption{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+.ego-scene figcaption b{display:block;font-size:13px}
+.ego-scene figcaption small{display:block;font-size:11px;color:var(--w-mute);margin-top:2px}
+.ego-scene-avatar{width:36px;height:36px;border-radius:12px;overflow:hidden;display:grid;place-items:center;flex-shrink:0;
+  background:linear-gradient(145deg,#b38de0,#51456d);font-weight:800;border:1px solid #ffffff26}
+.ego-scene-avatar img{width:100%;height:100%;object-fit:cover}
+.ego-scene-text{min-height:9.5em}
+.ego-scene-text p{margin:0 0 10px;font-family:Georgia,'Times New Roman',serif;line-height:1.75}
+.ego-scene-text p:last-child{margin-bottom:0}
+.ego-scene-action{font-style:italic;color:#b9acc9;font-size:15px}
+.ego-scene-speech{color:#fbf6ff;font-size:16.5px}
+.ego-caret{display:inline-block;width:2px;height:1.05em;margin-left:2px;vertical-align:-.15em;background:var(--accent,#bea4ff);animation:egoBlink 1s steps(1) infinite}
+.ego-typing .ego-caret{animation:none}
+@keyframes egoBlink{50%{opacity:0}}
+
+.ego-facts{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:640px}
+.ego-facts li{display:flex;gap:11px;align-items:flex-start;font-size:12px;line-height:1.55;color:var(--w-mute);opacity:0;transform:translateY(10px);transition:opacity .6s,transform .6s cubic-bezier(.2,.7,.2,1)}
+.ego-facts li b{display:block;color:var(--w-ink);font-size:13px;margin-bottom:2px}
+.ego-facts svg{width:20px;height:20px;flex-shrink:0;margin-top:1px;stroke:var(--accent,#bea4ff);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ego-scene-done .ego-facts li{opacity:1;transform:none}
+.ego-scene-done .ego-facts li:nth-child(2){transition-delay:.12s}
+.ego-scene-done .ego-facts li:nth-child(3){transition-delay:.24s}
+
+/* action card */
+.ego-card{position:relative;background:var(--w-glass);border:1px solid rgba(255,255,255,.13);border-radius:26px;padding:32px 30px 24px;
+  box-shadow:0 40px 120px rgba(0,0,0,.55),inset 0 1px rgba(255,255,255,.06);backdrop-filter:blur(22px);
+  opacity:0;animation:egoCard .9s .55s cubic-bezier(.2,.75,.15,1) forwards}
+@keyframes egoCard{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+.ego-card.ego-swap .ego-form,.ego-card.ego-swap h2{animation:egoRise .45s cubic-bezier(.2,.7,.2,1) both}
+.ego-card.ego-in{opacity:1;animation:none}
+/* the shake replaces the entrance animation, so the card must stay visible on its own
+   (it vanished on every sign-in error: opacity fell back to 0) */
+.ego-card.ego-shake{opacity:1;animation:egoShake .42s cubic-bezier(.36,.07,.19,.97) both}
+@keyframes egoShake{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+.ego-card h2{font:400 31px/1.15 Georgia,'Times New Roman',serif;letter-spacing:-.02em;margin:0 0 16px}
+.ego-form{display:flex;flex-direction:column;gap:13px}
+.ego-lead{font-size:13px;color:#c3b9d1;line-height:1.7;margin:0}
+.ego-hint{font-size:12px;color:var(--w-mute);line-height:1.6;margin:2px 0 0}
+.ego-tabs{display:flex;gap:4px;background:rgba(255,255,255,.04);border:1px solid var(--w-line);border-radius:13px;padding:4px}
+.ego-tabs button{flex:1;height:36px;border-radius:10px;font-weight:700;font-size:12.5px;color:#a59cb2;transition:background .2s,color .2s}
+.ego-tabs button[aria-selected=true]{background:var(--accent-bg,rgba(180,147,255,.13));color:var(--accent,#bea4ff)}
+.ego-field{display:flex;flex-direction:column;gap:7px;font-size:12px;color:#bbb0c8}
+.ego-field input{height:48px;border:1px solid rgba(255,255,255,.12);border-radius:13px;padding:0 14px;background:rgba(9,9,18,.55);color:#fff;font-size:15px;outline:0;transition:border-color .2s,box-shadow .2s}
+.ego-field input:focus{border-color:var(--accent,#bea4ff);box-shadow:0 0 0 4px rgba(190,164,255,.14)}
+.ego-field input#ego-code{font-size:24px;letter-spacing:.5em;text-align:center;font-variant-numeric:tabular-nums}
+
+/* buttons: sheen on hover, ripple on press, a slow breath on the main action */
+.ego-btn{position:relative;overflow:hidden;height:50px;border-radius:14px;font-weight:800;font-size:14px;isolation:isolate;
+  transition:transform .18s cubic-bezier(.2,.7,.2,1),box-shadow .25s,filter .2s,border-color .2s}
+.ego-btn span{position:relative;z-index:2}
+.ego-btn:active{transform:scale(.975)}
+.ego-btn:focus-visible{outline:2px solid var(--accent,#bea4ff);outline-offset:3px}
+.ego-primary{color:#1c1428;background:linear-gradient(120deg,var(--accent,#bea4ff),var(--accent2,#8b79d6));box-shadow:0 12px 36px rgba(171,141,255,.32);animation:egoBreath 4.5s 2.2s ease-in-out infinite}
+.ego-primary::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.ego-primary:hover{transform:translateY(-2px);box-shadow:0 18px 46px rgba(171,141,255,.45)}
+.ego-primary:hover::before{transform:translateX(120%)}
+@keyframes egoBreath{50%{box-shadow:0 12px 46px rgba(171,141,255,.5)}}
+.ego-secondary{color:var(--w-ink);background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.16)}
+.ego-secondary:hover{transform:translateY(-2px);border-color:var(--accent,#bea4ff);box-shadow:0 0 0 4px rgba(190,164,255,.1),0 14px 34px rgba(0,0,0,.35)}
+.ego-ripple{position:absolute;z-index:1;width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;background:rgba(255,255,255,.55);pointer-events:none;animation:egoRipple .7s ease-out forwards}
+.ego-secondary .ego-ripple{background:rgba(190,164,255,.45)}
+@keyframes egoRipple{to{transform:scale(28);opacity:0}}
+.ego-btn:disabled{cursor:progress;filter:saturate(.7) brightness(.9);animation:none}
+.ego-busy span{opacity:0}
+.ego-busy::after{content:'';position:absolute;z-index:2;inset:0;margin:auto;width:20px;height:20px;border-radius:50%;border:2px solid #21192d;border-right-color:transparent;animation:egoSpin .8s linear infinite}
+@keyframes egoSpin{to{transform:rotate(1turn)}}
+
+.ego-split{display:flex;align-items:center;gap:12px;color:var(--w-mute);font-size:12px;margin:6px 0 -2px}
+.ego-split::before,.ego-split::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent)}
+.ego-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.ego-row:empty{display:none}
+.ego-link{color:var(--accent,#bea4ff);font-size:12px;padding:4px 0;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.2);transition:text-decoration-color .2s}
+.ego-link:hover{text-decoration-color:currentColor}
+.ego-skip{display:block;margin:16px auto 0;color:#8f879b}
+.ego-error:empty{display:none}
+.ego-error{font-size:12px;line-height:1.6;padding:11px 13px;border-radius:12px;background:#a85c7222;border:1px solid #a85c7255;color:#f1c9d5;display:flex;flex-direction:column;gap:3px}
+.ego-error span{color:#d7aebb}
+.ego-error .ego-ok{color:#9fe0c2}
+.ego-note,.ego-warn{font-size:12px;line-height:1.6;padding:11px 13px;border-radius:12px;background:#e2b45a18;border:1px solid #e2b45a40;color:#ecd39f;margin:0}
+.ego-legal{position:relative;z-index:1;text-align:center;font-size:11px;color:#6f6879;margin:0;padding:6px 16px 20px;opacity:0;animation:egoRise .8s 1.4s forwards}
+
+/* small screens */
+@media(max-width:900px){
+  /* the action comes right after the promise; the scene follows below it */
+  .ego-welcome-grid{display:flex;flex-direction:column;align-items:stretch;gap:0;padding-top:28px}
+  .ego-hero{display:contents}
+  .ego-mark{order:1}.ego-wordmark{order:2}.ego-promise{order:3}
+  .ego-card{order:4;margin-top:26px}
+  .ego-scene{order:5}.ego-facts{order:6;margin-bottom:8px}
+  .ego-wordmark{font-size:clamp(72px,24vw,120px)}
+  .ego-scene-text{min-height:0}
+  .ego-facts{grid-template-columns:1fr;gap:12px}
+}
+@media(max-width:480px){
+  .ego-welcome-grid{padding-left:16px;padding-right:16px}
+  .ego-card{padding:26px 18px 20px;border-radius:22px}
+  .ego-scene{padding:16px 16px 18px 18px}
+  .ego-promise{font-size:14px}
+}
+
+/* reduced motion: final state at once, no ambient movement */
+.ego-still,.ego-still *,.ego-still *::before,.ego-still *::after{animation:none!important;transition:none!important}
+.ego-still .ego-mark,.ego-still .ego-wordmark span,.ego-still .ego-promise,.ego-still .ego-scene,.ego-still .ego-card,.ego-still .ego-legal,.ego-still .ego-facts li{opacity:1;transform:none;filter:none}
+
+/* settings: account section */
+.ego-account-host{margin-top:30px}
+.ego-account-box{border:1px solid var(--line2);border-radius:16px;padding:20px 22px;background:#ffffff05}
+.ego-account-box>b{font-size:13px}
+.ego-account-box>p{font-size:11px;color:#9a91a7;line-height:1.7;margin:8px 0 12px}
+.ego-account-cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ego-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:11px;color:#d2cbe0}
+.ego-list small{display:block;color:#7f778b;font-size:10px;margin-top:2px}
+.ego-list em{color:var(--accent);font-style:normal}
+.ego-account-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
+.ego-net{font-size:11px;color:#b9b0c6;line-height:1.7;margin:0 0 12px;word-break:break-all}
+.ego-net small{color:#857d92;font-size:10px}
+.ego-account-box .ego-warn{margin:0 0 12px}
+@media(max-width:640px){.ego-account-cols{grid-template-columns:1fr}}

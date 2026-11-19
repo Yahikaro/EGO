@@ -1,0 +1,63 @@
+# ---- tts.js: voice library, test panel, speech bar (2026-11-08)
+В ответе нет текста для озвучки	The reply has no text to speak	La réponse ne contient aucun texte à lire	La respuesta no tiene texto para leer	Die Antwort enthält keinen Text zum Vorlesen
+Все голоса	All voices	Toutes les voix	Todas las voces	Alle Stimmen
+Всегда ровно	Always even	Toujours neutre	Siempre neutra	Immer gleichmäßig
+Голос добавлен	Voice added	Voix ajoutée	Voz añadida	Stimme hinzugefügt
+Голос назначен	Voice assigned	Voix attribuée	Voz asignada	Stimme zugewiesen
+Голос удалён	Voice deleted	Voix supprimée	Voz eliminada	Stimme gelöscht
+Голос:	Voice:	Voix :	Voz:	Stimme:
+Голоса	Voices	Voix	Voces	Stimmen
+Грусть	Sadness	Tristesse	Tristeza	Traurigkeit
+Движок	Engine	Moteur	Motor	Engine
+Добавить голос	Add voice	Ajouter la voix	Añadir voz	Stimme hinzufügen
+Другой	Other	Autre	Otra	Andere
+Злость	Anger	Colère	Ira	Wut
+Категория	Category	Catégorie	Categoría	Kategorie
+Любой язык	Any language	Toute langue	Cualquier idioma	Jede Sprache
+Модель озвучки не установлена на ПК (см. docs/TTS.md).	The speech model is not installed on the PC (see docs/TTS.md).	Le modèle vocal n'est pas installé sur le PC (voir docs/TTS.md).	El modelo de voz no está instalado en el PC (ver docs/TTS.md).	Das Sprachmodell ist auf dem PC nicht installiert (siehe docs/TTS.md).
+Назначен	Assigned	Attribuée	Asignada	Zugewiesen
+Назначить	Assign	Attribuer	Asignar	Zuweisen
+Например: Мой голос	For example: My voice	Par exemple : Ma voix	Por ejemplo: Mi voz	Zum Beispiel: Meine Stimme
+Не удалось прочитать аудиофайл	Could not read the audio file	Impossible de lire le fichier audio	No se pudo leer el archivo de audio	Die Audiodatei konnte nicht gelesen werden
+Необязательно; нужно для движка F5-TTS	Optional; needed for the F5-TTS engine	Facultatif ; requis pour le moteur F5-TTS	Opcional; necesario para el motor F5-TTS	Optional; nötig für die F5-TTS-Engine
+Нет голосов под этот фильтр.	No voices match this filter.	Aucune voix ne correspond à ce filtre.	Ninguna voz coincide con este filtro.	Keine Stimmen für diesen Filter.
+Неуверенность	Uncertainty	Incertitude	Inseguridad	Unsicherheit
+Нужен образец длиной 6–30 секунд	The sample must be 6–30 seconds long	L'échantillon doit durer 6 à 30 secondes	La muestra debe durar 6–30 segundos	Die Probe muss 6–30 Sekunden lang sein
+Образец остаётся на этом ПК (в зашифрованной базе Core) и никуда не отправляется. Нужно 6–30 секунд чистой речи одного человека, без музыки и шума.	The sample stays on this PC (in Core's encrypted database) and is sent nowhere. You need 6–30 seconds of clean speech by one person, without music or noise.	L'échantillon reste sur ce PC (dans la base chiffrée de Core) et n'est envoyé nulle part. Il faut 6 à 30 secondes de parole claire d'une seule personne, sans musique ni bruit.	La muestra se queda en este PC (en la base cifrada de Core) y no se envía a ningún sitio. Se necesitan 6–30 segundos de voz limpia de una persona, sin música ni ruido.	Die Probe bleibt auf diesem PC (in der verschlüsselten Core-Datenbank) und wird nirgendwohin gesendet. Nötig sind 6–30 Sekunden klare Sprache einer Person, ohne Musik und Rauschen.
+Озвучивать ответы автоматически	Speak replies automatically	Lire les réponses automatiquement	Leer las respuestas automáticamente	Antworten automatisch vorlesen
+Озвучка недоступна	Speech is unavailable	La voix est indisponible	La voz no está disponible	Sprachausgabe nicht verfügbar
+Озвучка работает, когда подключено EGO Core.	Speech works when EGO Core is connected.	La voix fonctionne quand EGO Core est connecté.	La voz funciona cuando EGO Core está conectado.	Die Sprachausgabe funktioniert, wenn EGO Core verbunden ist.
+Остановить	Stop	Arrêter	Detener	Stoppen
+Пауза / продолжить	Pause / resume	Pause / reprendre	Pausa / continuar	Pause / fortsetzen
+По тексту ответа	From the reply text	D'après le texte	Según el texto	Nach dem Antworttext
+Подача	Delivery	Ton	Entonación	Vortrag
+Подача меняет темп и живость речи; тембр голоса остаётся прежним. XTTS-v2 не управляет эмоциями напрямую.	Delivery changes the pace and liveliness of speech; the voice timbre stays the same. XTTS-v2 does not control emotions directly.	Le ton change le rythme et la vivacité ; le timbre reste le même. XTTS-v2 ne contrôle pas directement les émotions.	La entonación cambia el ritmo y la viveza; el timbre no cambia. XTTS-v2 no controla las emociones directamente.	Der Vortrag ändert Tempo und Lebendigkeit; die Klangfarbe bleibt gleich. XTTS-v2 steuert Emotionen nicht direkt.
+Подтвердите право на голос	Confirm your right to the voice	Confirmez votre droit sur la voix	Confirma tu derecho sobre la voz	Bestätige dein Recht an der Stimme
+Поиск: низкий, мягкий…	Search: low, soft…	Recherche : grave, doux…	Buscar: grave, suave…	Suche: tief, weich…
+Привет! Это проверка голоса. Как тебе такое звучание?	Hi! This is a voice test. How do you like this sound?	Salut ! Ceci est un test de voix. Ça te plaît ?	¡Hola! Esta es una prueba de voz. ¿Qué te parece?	Hallo! Das ist ein Stimmtest. Wie gefällt dir der Klang?
+Проверка	Test	Essai	Prueba	Test
+Прослушать снова	Play again	Réécouter	Volver a escuchar	Erneut anhören
+Радость	Joy	Joie	Alegría	Freude
+Раздражение	Irritation	Agacement	Irritación	Gereiztheit
+Ровно	Even	Neutre	Neutra	Gleichmäßig
+Русский	Russian	Russe	Ruso	Russisch
+Свой голос	Own voice	Ma voix	Voz propia	Eigene Stimme
+Смущение	Embarrassment	Gêne	Vergüenza	Verlegenheit
+Спокойно	Calm	Calme	Calma	Ruhig
+Тембр, манера	Timbre, manner	Timbre, manière	Timbre, estilo	Klangfarbe, Art
+Удалить свой голос? Персонажи с этим голосом перейдут на голос по умолчанию; их остальные настройки и чаты не изменятся.	Delete your voice? Characters using it switch to the default voice; their other settings and chats stay unchanged.	Supprimer votre voix ? Les personnages qui l'utilisent passent à la voix par défaut ; leurs autres réglages et discussions ne changent pas.	¿Eliminar tu voz? Los personajes que la usan pasan a la voz predeterminada; sus demás ajustes y chats no cambian.	Eigene Stimme löschen? Figuren mit dieser Stimme wechseln zur Standardstimme; ihre übrigen Einstellungen und Chats bleiben erhalten.
+Удивление	Surprise	Surprise	Sorpresa	Überraschung
+Укажите название и файл	Enter a name and choose a file	Indiquez un nom et un fichier	Indica un nombre y un archivo	Name und Datei angeben
+Усталость	Tiredness	Fatigue	Cansancio	Müdigkeit
+Файл	File	Fichier	Archivo	Datei
+Характеристики	Traits	Caractéristiques	Rasgos	Merkmale
+Что сказано в образце	What is said in the sample	Ce qui est dit dans l'échantillon	Qué se dice en la muestra	Was in der Probe gesagt wird
+Это мой голос, или у меня есть право его использовать	This is my voice, or I have the right to use it	C'est ma voix, ou j'ai le droit de l'utiliser	Es mi voz o tengo derecho a usarla	Das ist meine Stimme, oder ich darf sie verwenden
+Язык	Language	Langue	Idioma	Sprache
+Языки	Languages	Langues	Idiomas	Sprachen
+готовлю голос…	preparing voice…	préparation de la voix…	preparando la voz…	Stimme wird vorbereitet…
+по умолчанию	default	par défaut	predeterminada	Standard
+свой	own	perso	propia	eigene
+удалён — используется голос по умолчанию	deleted — the default voice is used	supprimée — la voix par défaut est utilisée	eliminada — se usa la voz predeterminada	gelöscht — die Standardstimme wird verwendet
+через запятую: низкий, мягкий	comma-separated: low, soft	séparés par des virgules : grave, doux	separados por comas: grave, suave	durch Kommas getrennt: tief, weich
+▶ Прослушать	▶ Listen	▶ Écouter	▶ Escuchar	▶ Anhören

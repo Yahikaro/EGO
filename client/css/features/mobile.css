@@ -1,0 +1,271 @@
+/* Phone layout (2026-11-06), active with html.ego-mobile (max-width 760px, set by js/look/mobile.js).
+   Both looks. Bottom tab bar, overlay story list, «⋯» sheet, compact top bar and composer,
+   full-screen windows, one-column pages. */
+html.ego-mobile{--m-nav:64px;--m-safe:env(safe-area-inset-bottom,0px);--m-gap:8px}
+html.ego-mobile body{overflow:hidden;overscroll-behavior:none}
+html.ego-mobile .app{display:block!important;height:100dvh;padding:0!important;gap:0!important}
+
+/* ---- bottom tab bar (the former left rail) ---- */
+html.ego-mobile .rail{position:fixed!important;left:var(--m-gap);right:var(--m-gap);bottom:calc(var(--m-gap) + var(--m-safe));top:auto!important;
+  width:auto!important;height:var(--m-nav)!important;display:flex!important;flex-direction:row!important;align-items:center;justify-content:space-around;
+  padding:0 6px!important;margin:0!important;border-radius:22px!important;z-index:70}
+html.ego-mobile .rail .logo{display:none!important}
+html.ego-mobile .rail-group,html.ego-mobile .rail-bottom{display:contents!important}
+html.ego-mobile .rail-btn{width:48px!important;height:48px!important;margin:0!important;border-radius:15px!important;flex:none}
+html.ego-mobile .rail .user-avatar{width:36px!important;height:36px!important;margin:0!important;flex:none}
+
+/* ---- the working area above it ---- */
+html.ego-mobile .workspace{position:fixed!important;left:var(--m-gap);right:var(--m-gap);top:calc(var(--m-gap) + env(safe-area-inset-top,0px));
+  bottom:calc(var(--m-nav) + var(--m-gap) * 2 + var(--m-safe));width:auto!important;height:auto!important;margin:0!important;
+  display:flex!important;flex-direction:column;border-radius:22px!important;min-width:0;overflow:hidden}
+html.ego-mobile #sidebar,html.ego-mobile #inspector{display:none}
+
+/* keyboard open (set by js/look/mobile.js): the working area sits above the keyboard, the tab bar is hidden */
+html.ego-mobile.ego-kb .workspace{bottom:calc(var(--m-gap) + var(--kb,0px))!important}
+html.ego-mobile.ego-kb .rail{display:none!important}
+
+/* iOS Safari zooms the page when a field with font-size below 16px gets focus, and the layout stays shifted.
+   Keep every field at 16px on touch screens (any width). */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (pointer:coarse){input,textarea,select{font-size:16px!important}}
+
+/* top bar: list button · character · «⋯» */
+html.ego-mobile .topbar{min-height:56px!important;height:auto!important;padding:8px 8px 8px 6px!important;gap:6px!important;flex:none}
+html.ego-mobile .top-left{min-width:0;flex:1;gap:8px!important;overflow:hidden}
+html.ego-mobile .top-left > *{min-width:0}
+html.ego-mobile .topbar h1,html.ego-mobile #top-name{font-size:17px!important;line-height:1.2!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html.ego-mobile #top-sub,html.ego-mobile .top-sub,html.ego-mobile .topbar small{font-size:11.5px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+html.ego-mobile .topbar .top-avatar,html.ego-mobile .topbar .chat-avatar,html.ego-mobile .top-left .avatar{width:34px!important;height:34px!important;flex:none}
+html.ego-mobile .top-right{gap:4px!important;flex:none}
+html.ego-mobile #theme-shortcut,html.ego-mobile #ego-memory-btn,html.ego-mobile #toggle-inspector,html.ego-mobile #chat-menu-button{display:none!important}
+html.ego-mobile #show-side{display:grid!important;width:40px;height:40px;place-items:center;flex:none}
+html.ego-mobile .ego-m-more{width:40px;height:40px;border-radius:13px;font-size:22px;line-height:1;display:grid;place-items:center;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:inherit}
+html.ego-mobile .ego-m-more[hidden]{display:none}
+html:not(.ego-mobile) .ego-m-more{display:none}
+
+/* story */
+html.ego-mobile #content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+html.ego-mobile .story{padding:10px 12px 18px!important;max-width:none!important}
+html.ego-mobile .advanced-toolbar{display:none!important}
+html.ego-mobile .chapter{margin:6px 0 10px!important}
+html.ego-mobile .scene-intro{padding:10px 4px 18px!important;margin:0!important}
+html.ego-mobile .scene-intro h1{font-size:26px!important;line-height:1.15!important;margin:6px 0!important}
+html.ego-mobile .scene-intro p{font-size:12.5px!important;line-height:1.5!important}
+html.ego-mobile .scene-ornament{display:none!important}
+html.ego-mobile .message-row{gap:10px!important;margin-bottom:18px!important}
+html.ego-mobile .msg-avatar{width:30px!important;height:30px!important;min-width:30px;font-size:13px!important}
+html.ego-mobile .msg-card{padding:12px 14px!important;font-size:15px!important;line-height:1.6!important}
+html.ego-mobile .msg-header{font-size:12px!important}
+html.ego-mobile .msg-toolbar{opacity:1!important;gap:2px!important}
+html.ego-mobile .msg-toolbar button{width:34px;height:34px}
+
+/* composer */
+html.ego-mobile .composer-wrap{padding:6px 8px 8px!important;flex:none}
+html.ego-mobile .composer-note,html.ego-mobile #counter{display:none!important}
+html.ego-mobile .composer{padding:8px 8px 8px 12px!important;min-height:0!important;border-radius:18px!important}
+html.ego-mobile .composer textarea,html.ego-mobile #message{min-height:44px!important;max-height:30dvh;font-size:16px!important;padding:6px 2px!important}
+
+/* ---- story list over the screen ---- */
+html.ego-mobile.ego-m-list #sidebar{display:flex!important;flex-direction:column;position:fixed!important;left:var(--m-gap);right:var(--m-gap);
+  top:calc(var(--m-gap) + env(safe-area-inset-top,0px));bottom:calc(var(--m-nav) + var(--m-gap) * 2 + var(--m-safe));width:auto!important;max-width:none!important;
+  z-index:65;border-radius:22px!important;overflow:hidden;animation:egoMIn .22s ease both}
+html.ego-mobile .conversation{min-height:58px}
+
+/* ---- character / scene panel as a bottom sheet ---- */
+html.ego-mobile.ego-m-inspector #inspector{display:block!important;position:fixed!important;left:0;right:0;bottom:0;top:auto!important;width:auto!important;
+  max-width:none!important;max-height:84dvh;overflow-y:auto;z-index:90;border-radius:24px 24px 0 0!important;padding-bottom:calc(16px + var(--m-safe))!important;
+  animation:egoMUp .26s cubic-bezier(.2,.8,.2,1) both}
+
+/* ---- «⋯» sheet ---- */
+.ego-m-scrim{display:none}
+html.ego-mobile.ego-m-list .ego-m-scrim,html.ego-mobile.ego-m-inspector .ego-m-scrim,html.ego-mobile.ego-m-sheet .ego-m-scrim{display:block;position:fixed;inset:0;
+  z-index:60;background:rgba(4,3,10,.55);backdrop-filter:blur(3px)}
+html.ego-mobile.ego-m-inspector .ego-m-scrim,html.ego-mobile.ego-m-sheet .ego-m-scrim{z-index:85}
+.ego-m-sheetbox{display:none}
+html.ego-mobile.ego-m-sheet .ego-m-sheetbox{display:flex;flex-direction:column;gap:4px;position:fixed;left:0;right:0;bottom:0;z-index:95;
+  padding:8px 12px calc(14px + var(--m-safe));border-radius:24px 24px 0 0;background:linear-gradient(160deg,#211c33,#120f1d);
+  border-top:1px solid rgba(255,255,255,.12);box-shadow:0 -20px 60px rgba(0,0,0,.5);animation:egoMUp .24s cubic-bezier(.2,.8,.2,1) both;color:#f4f0fb}
+.ego-m-grab{width:40px;height:4px;border-radius:4px;background:rgba(255,255,255,.25);margin:4px auto 8px}
+.ego-m-sheetbox button{min-height:50px;text-align:left;padding:0 16px;border-radius:14px;border:0;background:transparent;color:inherit;font-size:15.5px}
+.ego-m-sheetbox button:active{background:rgba(255,255,255,.07)}
+.ego-m-sheetbox .ego-m-cancel{text-align:center;margin-top:6px;background:rgba(255,255,255,.06);font-weight:700}
+@keyframes egoMUp{from{transform:translateY(100%)}to{transform:none}}
+@keyframes egoMIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+
+/* ---- pages: characters, worlds, library, settings ---- */
+html.ego-mobile .generic-page{padding:16px 14px 28px!important;max-width:none!important}
+html.ego-mobile .generic-page > h1{font-size:30px!important;line-height:1.08!important;margin:4px 0 8px!important}
+html.ego-mobile .generic-page > .page-sub{font-size:13px!important;line-height:1.55!important;margin-bottom:14px!important}
+html.ego-mobile .studio-head{flex-direction:column!important;align-items:stretch!important;gap:10px!important;padding:14px!important;margin-bottom:14px!important}
+html.ego-mobile .studio-head button{width:100%}
+html.ego-mobile .tile-grid,html.ego-mobile .character-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+html.ego-mobile .world-grid{grid-template-columns:minmax(0,1fr)!important;gap:12px!important}
+html.ego-mobile .tile{min-height:0!important}
+html.ego-mobile .setting-row{flex-direction:column!important;align-items:stretch!important;gap:10px!important;padding:14px!important}
+html.ego-mobile .setting-row > div:last-child:not(:first-child),html.ego-mobile .setting-row > button,html.ego-mobile .ego-dev-controls{justify-content:flex-start!important}
+html.ego-mobile .ego-m-settings [hidden]{display:none!important}
+html.ego-mobile .ego-icon-choice{flex-wrap:wrap}
+
+/* ---- windows: full screen, one column ---- */
+html.ego-mobile .modal-backdrop{padding:0!important;align-items:stretch!important;justify-content:stretch!important}
+html.ego-mobile .modal,html.ego-mobile .cs-dialog,html.ego-mobile .world-dialog{width:100vw!important;max-width:none!important;height:100dvh!important;
+  max-height:none!important;margin:0!important;border-radius:0!important;overflow-y:auto!important;padding-bottom:calc(16px + var(--m-safe))!important}
+html.ego-mobile .modal.pf,html.ego-mobile .we,html.ego-mobile .cs-layout{display:flex!important;flex-direction:column!important;grid-template-columns:none!important}
+html.ego-mobile .pf-stage,html.ego-mobile .we-stage{min-height:0!important;padding:18px 14px!important}
+html.ego-mobile .we-stage .we-planet{transform:scale(.72);margin:-30px 0!important}
+html.ego-mobile .cs-aside{border-right:0!important;padding:12px!important}
+html.ego-mobile .cs-cover{max-height:220px!important;aspect-ratio:auto!important}
+html.ego-mobile .cs-top,html.ego-mobile .we-head,html.ego-mobile .pf-head,html.ego-mobile .modal-top{position:sticky;top:0;z-index:3;
+  background:inherit;backdrop-filter:blur(18px)}
+html.ego-mobile .cs-bottom,html.ego-mobile .we-bottom,html.ego-mobile .pf-bottom{position:sticky;bottom:0;z-index:3;backdrop-filter:blur(18px)}
+html.ego-mobile .cs-tabs button,html.ego-mobile .we-tabs button,html.ego-mobile .world-tabs button{font-size:12px!important;padding:0 6px!important}
+
+/* toasts above the tab bar */
+html.ego-mobile #toast-root{bottom:calc(var(--m-nav) + 20px + var(--m-safe))!important}
+@media(prefers-reduced-motion:reduce){html.ego-mobile #sidebar,html.ego-mobile #inspector,.ego-m-sheetbox{animation:none!important}}
+
+/* fixes after the first phone check (2026-11-06) */
+/* the app is its own stacking context (z-index 1): while the list or the character sheet is
+   open, let them rise above the dimming layer */
+html.ego-mobile.ego-m-list .app,html.ego-mobile.ego-m-inspector .app{z-index:auto!important}
+html.ego-mobile .toast{bottom:calc(var(--m-nav) + 22px + var(--m-safe))!important;max-width:calc(100vw - 32px)}
+/* PC tools: JSON import/export of characters and worlds stay on the PC */
+html.ego-mobile #studio-import,html.ego-mobile #studio-export,html.ego-mobile #world-import,html.ego-mobile #world-export{display:none!important}
+html.ego-mobile .studio-head > div:last-child{display:flex;gap:8px}
+/* character editor: a compact cover row instead of a tall portrait column */
+html.ego-mobile .cs-aside{display:grid!important;grid-template-columns:96px minmax(0,1fr);gap:10px 12px;align-items:start}
+html.ego-mobile .cs-cover{width:96px!important;height:128px!important;min-height:0!important;max-height:none!important;grid-row:span 3}
+html.ego-mobile .cs-cover-label,html.ego-mobile .cs-cover-bottom small{display:none!important}
+html.ego-mobile .cs-cover-bottom b{font-size:12px!important;line-height:1.2;overflow-wrap:normal;word-break:normal;hyphens:auto}
+html.ego-mobile .cs-aside-note,html.ego-mobile .cs-photo-help{font-size:11px!important}
+html.ego-mobile .cs-aside-note{display:none!important}
+
+/* fixes after the user's phone screenshot (2026-11-06) */
+/* the profile avatar sat cut off behind the tab bar; the profile is in Settings on a phone */
+html.ego-mobile .rail .user-avatar{display:none!important}
+/* settings rows were drawn as one long card whose pieces got hidden or moved: every row is its own card */
+html.ego-mobile .generic-page .setting-row{border:1px solid var(--line2,rgba(255,255,255,.12))!important;border-radius:18px!important;margin:0 0 10px!important}
+html.ego-mobile .generic-page .look-settings>.setting-row:first-child,html.ego-mobile .generic-page .page-sub+.setting-row{margin-top:0!important}
+html.ego-mobile .ego-m-settings > .page-sub{margin-bottom:16px!important}
+html.ego-mobile .ego-account-host{margin:0 0 10px!important}
+html.ego-mobile .ego-m-settings .ego-device-settings,html.ego-mobile .ego-m-settings .look-settings{margin:0!important}
+
+/* quick phone fixes (2026-11-07) */
+/* «Мой профиль»: in the scrolling column the stage was squeezed, so the palette and «Цвет профиля»
+   spilled onto the title and the first fields. Blocks keep their height; the palette gets room. */
+html.ego-mobile .modal.pf>.pf-stage,html.ego-mobile .modal.pf>.pf-form{flex:none!important}
+html.ego-mobile .pf-stage{overflow:visible!important}
+html.ego-mobile .pf-colours{margin-top:14px!important;padding-top:0!important}
+html.ego-mobile .pf-hint{display:block;margin:4px 0 2px;position:static}
+html.ego-mobile .pf-form{padding-bottom:12px!important}
+html.ego-mobile .pf-bottom{background:var(--panel,#120f1c);margin:6px -18px 0;padding:10px 18px calc(10px + var(--m-safe, env(safe-area-inset-bottom, 0px)))!important;
+  border-top:1px solid var(--line,rgba(255,255,255,.1))}
+html.ego-mobile .pf-switch{margin-bottom:4px}
+/* character studio cards: a long description climbed up over the world tag («Эфир»),
+   and «✎ Редактировать» was cut off at the right edge */
+html.ego-mobile .character-tile-content p{display:-webkit-box!important;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden!important;max-height:calc(4 * 1.65em + 13px)}
+html.ego-mobile .character-tile-content .tile-footer{display:flex!important;flex-wrap:wrap!important;gap:8px!important;padding-left:16px!important;padding-right:16px!important}
+html.ego-mobile .character-tile-content .tile-footer button{flex:1 1 auto;min-width:0;white-space:normal!important;font-size:12px!important;padding:7px 10px!important}
+/* world window: the planet covered the title and the close button; it now sits in the flow above
+   the title, smaller. «✎ Редактировать мир» gets the full width under the note. */
+html.ego-mobile .world-detail-top{padding-top:56px!important}
+html.ego-mobile .world-detail-top .world-close{z-index:4;position:absolute;top:12px;right:12px}
+html.ego-mobile .world-detail-orbit,html.ego-mobile.look-next .world-detail-orbit.has-planet{position:relative!important;top:auto!important;right:auto!important;
+  display:flex;justify-content:center;margin:0 auto 6px;zoom:.55;font-size:120px;line-height:1;pointer-events:none}
+html.ego-mobile .world-dialog-foot{flex-direction:column!important;align-items:stretch!important;gap:10px!important;padding:12px 16px calc(12px + var(--m-safe))!important}
+html.ego-mobile .world-dialog-foot .studio-main{width:100%;white-space:normal!important;text-align:center}
+
+/* media lab (2026-11-08, layout only) — PC and phone */
+.modal.ml{width:min(560px,96vw);display:flex;flex-direction:column;gap:14px;padding:22px 24px}
+.ml-head{display:flex;justify-content:space-between;align-items:center}.ml-head h2{margin:0;font:400 26px Georgia,serif}
+.ml-tabs{display:flex;gap:6px}.ml-tabs button{flex:1;padding:9px;border-radius:999px;border:1px solid var(--line2);color:var(--dim);background:none}
+.ml-tabs button.on{border-color:var(--accent);color:var(--text);background:color-mix(in srgb,var(--accent) 16%,transparent)}
+.ml-body{display:flex;flex-direction:column;gap:12px}.ml-about,.ml-soon{margin:0;font-size:12.5px;color:var(--dim)}
+.ml-field{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--dim)}
+.ml-field textarea,.ml-field select{border:1px solid var(--line2);border-radius:12px;padding:10px;background:rgba(9,9,18,.5);color:var(--text);opacity:.6}
+.ml-preview{height:140px;border-radius:16px;border:1px dashed var(--line2);background:rgba(255,255,255,.03)}
+.ml .studio-main[disabled]{opacity:.5;cursor:not-allowed}
+html.ego-mobile .modal.ml{padding:18px 16px calc(18px + var(--m-safe))!important}
+
+/* quick chat tools (2026-11-08) */
+#ego-to-bottom{display:none}
+html.ego-mobile #ego-to-bottom{position:fixed;right:16px;bottom:calc(var(--m-nav) + 96px + var(--m-safe));z-index:30;width:42px;height:42px;border-radius:50%;
+  display:grid;place-items:center;border:1px solid var(--line2);background:var(--glass,rgba(22,20,32,.85));color:var(--text);backdrop-filter:blur(14px);
+  box-shadow:0 8px 24px rgba(0,0,0,.4)}
+html.ego-mobile #ego-to-bottom[hidden]{display:none}
+#ego-to-bottom svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* six tabs (with «Медиа») must fit the bar: they share the width instead of a fixed 48px */
+html.ego-mobile .rail-btn{width:auto!important;flex:1 1 0!important;min-width:0;max-width:56px}
+.ml-field select,.ml-field textarea{width:100%;box-sizing:border-box}.ml-field{align-items:stretch!important;flex-direction:column!important}
+/* the character's picture (or the placeholder) in the top bar too (2026-11-08) */
+#top-symbol{overflow:hidden}
+#top-symbol .ego-top-avatar{width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit}
+/* media lab v2: prompt + appearance presets (2026-11-08) */
+.modal.ml{width:min(680px,96vw);max-height:92vh;overflow:auto}
+.ml-field textarea{min-height:0;resize:vertical;font:inherit}
+.ml-presets{border:1px solid var(--line2);border-radius:16px;overflow:hidden}
+.ml-presets-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:none;border:0;color:var(--text);font-weight:600;cursor:pointer}
+.ml-presets-body{display:none;padding:4px 14px 14px;flex-direction:column;gap:12px}
+.ml-presets.open .ml-presets-body{display:flex}
+.ml-group>span{display:block;font-size:11.5px;color:var(--dim);margin-bottom:6px}
+.ml-chips{display:flex;flex-wrap:wrap;gap:6px}
+.ml-chip{padding:6px 11px;border-radius:999px;border:1px solid var(--line2);background:none;color:var(--dim);font-size:12px;cursor:pointer}
+.ml-chip.on{border-color:var(--accent);color:var(--text);background:color-mix(in srgb,var(--accent) 18%,transparent)}
+.ml-reset{align-self:flex-start;background:none;border:0;color:var(--dim);text-decoration:underline;font-size:12px;cursor:pointer}
+.ml-summary{margin:0;font-size:12.5px;color:var(--dim)}.ml-summary b{color:var(--text)}
+html.ego-mobile .modal.ml{max-height:none}
+/* media tab gallery + presets (2026-11-08) */
+.ml-gallery{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:20px;padding:40px 20px 28px;box-sizing:border-box}
+.ml-gallery-empty{flex:1;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:1px dashed var(--line2);border-radius:24px;color:var(--dim);text-align:center;padding:24px}
+.ml-gallery-mark{font-size:34px;color:var(--accent);opacity:.7}
+.ml-compose{padding:14px 28px;border-radius:999px;border:1px solid color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 22%,transparent);color:var(--text);font-weight:600;cursor:pointer;
+  box-shadow:0 0 22px color-mix(in srgb,var(--accent) 45%,transparent);animation:mlGlow 3s ease-in-out infinite}
+@keyframes mlGlow{50%{box-shadow:0 0 34px color-mix(in srgb,var(--accent) 65%,transparent)}}
+@media(prefers-reduced-motion:reduce){.ml-compose{animation:none}}
+html.ego-mobile .ml-gallery{padding:16px 12px calc(var(--m-nav) + 28px + var(--m-safe))}
+.ml-models{display:flex;flex-direction:column;gap:6px}
+
+/* quick setup wizard (2026-11-08) */
+@keyframes mlInRight{from{opacity:0;transform:translateX(48px)}to{opacity:1;transform:none}}
+@keyframes mlInLeft{from{opacity:0;transform:translateX(-48px)}to{opacity:1;transform:none}}
+.ml-in-right{animation:mlInRight .28s cubic-bezier(.2,.7,.2,1) both}.ml-in-left{animation:mlInLeft .28s cubic-bezier(.2,.7,.2,1) both}
+@media(prefers-reduced-motion:reduce){.ml-in-right,.ml-in-left{animation:none}}
+.ml-wizard{display:flex;flex-direction:column;gap:16px;min-height:340px}
+.ml-wiz-top{display:flex;justify-content:space-between;align-items:baseline}.ml-wiz-title{font-weight:600}.ml-wiz-count{font-size:12px;color:var(--dim)}
+.ml-dots{display:flex;flex-wrap:wrap;gap:6px}
+.ml-dot{width:8px;height:8px;border-radius:50%;background:var(--line2);transition:background .25s,box-shadow .25s,transform .25s}
+.ml-dot.seen{background:color-mix(in srgb,var(--accent) 70%,transparent)}
+.ml-dot.now{background:var(--accent);box-shadow:0 0 10px var(--accent);transform:scale(1.3)}
+.ml-wiz-step{flex:1}.ml-wiz-step h3{margin:6px 0 14px;font:400 24px Georgia,serif}
+.ml-chips-big .ml-chip{padding:10px 16px;font-size:14px}
+.ml-18{color:#ff8fa3;margin-right:6px}
+.ml-wiz-nav{display:flex;justify-content:space-between;gap:10px}
+.ml-wiz-back{background:none;border:1px solid var(--line2);border-radius:999px;padding:10px 18px;color:var(--dim);cursor:pointer}
+.ml-presets-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.ml-quick{flex:1;display:flex;justify-content:space-between;padding:13px 16px;border-radius:16px;border:1px solid var(--line2);background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--text);font-weight:600;cursor:pointer}
+/* example-picture tiles in the quick setup (2026-11-08) */
+.ml-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px}
+.ml-tile{display:flex;flex-direction:column;gap:6px;padding:6px!important;border-radius:16px!important;text-align:center;align-items:stretch}
+.ml-tile-pic{position:relative;display:block;aspect-ratio:4/5;border-radius:11px;overflow:hidden;
+  background:url('../../assets/avatar-placeholder.svg') center/cover,linear-gradient(145deg,#2a2440,#121019)}
+.ml-tile-pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ml-tile-name{font-size:12.5px;line-height:1.25;white-space:normal}
+.ml-tile.on .ml-tile-pic{box-shadow:0 0 0 2px var(--accent)}
+/* 2026-11-08: real image generation — parameters grid, result preview, gallery grid */
+.ml-params{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:8px}
+.ml-params input,.ml-params select{width:100%}
+.ml-preview:has(img){height:auto;border-style:solid;padding:6px;text-align:center}
+.ml-preview img{max-width:100%;max-height:70vh;border-radius:12px;display:inline-block}
+.ml-gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;padding:12px;width:100%;box-sizing:border-box}
+.ml-gallery-grid:empty{display:none}
+.ml-gallery-item{display:block;aspect-ratio:2/3;border-radius:12px;overflow:hidden;background:rgba(255,255,255,.04)}
+.ml-gallery-item img{width:100%;height:100%;object-fit:cover;display:block}
+/* Media Lab: save / use-as-base actions and the picture viewer (2026-11-08) */
+.ml-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:8px}
+.ml-actions button{flex:1 1 140px;min-height:44px;border-radius:12px;border:1px solid var(--line2);background:rgba(255,255,255,.05);color:inherit;font:inherit;cursor:pointer}
+.ml-actions button:hover{border-color:var(--accent)}
+.ml-actions .ml-danger{color:#ff8a8a}
+button.ml-gallery-item{padding:0;border:0;cursor:pointer;width:100%}
+.ml-viewer{max-width:min(96vw,720px)}
+.ml-viewer>img{display:block;max-width:100%;max-height:72vh;margin:0 auto;border-radius:12px}

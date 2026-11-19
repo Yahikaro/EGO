@@ -1,0 +1,81 @@
+/* World editor (2026-11-05): planet stage on the left, the world's text on the right. */
+.world-dialog.we-dialog{width:min(1080px,96vw);max-height:92vh;padding:0;overflow:hidden;border-radius:26px;
+  background:linear-gradient(155deg,color-mix(in srgb,var(--panel2,#171520) 92%,transparent),var(--bg,#0a0910));border:1px solid var(--line2);box-shadow:0 40px 120px rgba(0,0,0,.6)}
+.we{display:grid;grid-template-columns:minmax(300px,380px) minmax(0,1fr);height:min(720px,92vh)}
+
+/* ---- stage ---- */
+.we-stage{--we-glow:#c9b2ff;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:14px;padding:26px 24px 20px;
+  background-color:#0a0912;background-size:cover;background-position:center;border-right:1px solid var(--line)}
+.we-stage::before{content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle at 50% 34%,color-mix(in srgb,var(--we-glow) 26%,transparent),transparent 58%),radial-gradient(circle at 15% 95%,color-mix(in srgb,var(--we-glow) 12%,transparent),transparent 45%);transition:background .6s}
+.we-stage-sky{position:absolute;inset:0;pointer-events:none;opacity:.8;animation:weTwinkle 5s ease-in-out infinite alternate;
+  background-image:radial-gradient(1px 1px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 78% 12%,#fff,transparent),radial-gradient(1.4px 1.4px at 88% 44%,#fff,transparent),
+  radial-gradient(1px 1px at 30% 62%,#fff,transparent),radial-gradient(1.2px 1.2px at 62% 80%,#fff,transparent),radial-gradient(1px 1px at 8% 76%,#fff,transparent),
+  radial-gradient(1px 1px at 50% 8%,#fff,transparent),radial-gradient(1.3px 1.3px at 40% 30%,#ffd6e6,transparent),radial-gradient(1px 1px at 92% 88%,#fff,transparent)}
+@keyframes weTwinkle{to{opacity:.35}}
+.we-stage>*{position:relative}
+.we-planet{width:230px;height:230px;margin-top:6px;display:grid;place-items:center;filter:drop-shadow(0 0 34px color-mix(in srgb,var(--we-glow) 45%,transparent))}
+.we-planet .look-planet{width:230px!important;height:230px!important}
+.we-planet.we-out{animation:weOut .26s ease-in forwards}
+.we-planet.we-in{animation:weIn .6s cubic-bezier(.2,.75,.2,1) both}
+@keyframes weOut{to{opacity:0;transform:scale(.55) rotate(-25deg);filter:blur(6px)}}
+@keyframes weIn{from{opacity:0;transform:scale(1.35) rotate(18deg);filter:blur(8px)}to{opacity:1;transform:none}}
+.we-caption{text-align:center;min-height:52px}
+.we-caption b{display:block;font:400 26px/1.15 Georgia,'Times New Roman',serif;letter-spacing:-.01em;
+  background:linear-gradient(165deg,#fbf7ff 25%,var(--we-glow) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.we-caption small{display:block;margin-top:6px;font-size:12.5px;color:color-mix(in srgb,var(--text,#f4f0fb) 58%,transparent)}
+.we-controls{width:100%;display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:auto}
+.we-roll{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;height:50px;border-radius:15px;font-weight:800;font-size:14.5px;
+  color:#1b1426;background:linear-gradient(120deg,color-mix(in srgb,var(--we-glow) 70%,#fff),var(--we-glow));box-shadow:0 14px 36px color-mix(in srgb,var(--we-glow) 35%,transparent);
+  transition:transform .18s cubic-bezier(.2,.7,.2,1),box-shadow .25s,background .5s}
+.we-roll::before{content:'';position:absolute;inset:0;background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.6) 50%,transparent 70%);transform:translateX(-120%);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.we-roll:hover{transform:translateY(-2px);box-shadow:0 20px 46px color-mix(in srgb,var(--we-glow) 50%,transparent)}
+.we-roll:hover::before{transform:translateX(120%)}
+.we-roll:active{transform:scale(.97)}
+.we-roll svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7}
+.we-roll .we-dot{fill:currentColor;stroke:none}
+.we-roll.rolling svg{animation:weDice .6s cubic-bezier(.3,.7,.3,1)}
+@keyframes weDice{40%{transform:rotate(200deg) scale(1.2)}to{transform:rotate(360deg)}}
+.we-auto{font-size:12px;color:color-mix(in srgb,var(--text,#f4f0fb) 60%,transparent);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.2)}
+.we-auto:hover{color:var(--text,#f4f0fb)}
+.we-glow{width:100%;display:flex;flex-direction:column;gap:9px;align-items:center}
+.we-glow>span{font-size:11.5px;color:color-mix(in srgb,var(--text,#f4f0fb) 55%,transparent)}
+.we-swatches{display:flex;flex-wrap:wrap;justify-content:center;gap:7px}
+.we-swatch{position:relative;width:26px;height:26px;border-radius:50%;cursor:pointer;
+  background:radial-gradient(circle at 35% 30%,#fff 0%,var(--sw) 45%,color-mix(in srgb,var(--sw) 45%,#000) 100%);
+  box-shadow:0 0 0 1px rgba(255,255,255,.14),0 0 14px color-mix(in srgb,var(--sw,#fff) 40%,transparent);transition:transform .2s,box-shadow .25s}
+.we-swatch:hover{transform:translateY(-2px) scale(1.08)}
+.we-swatch.on{box-shadow:0 0 0 2px #0a0912,0 0 0 4px var(--sw,#fff),0 0 20px var(--sw,#fff);transform:scale(1.08)}
+.we-custom{background:conic-gradient(#ff7a86,#ffd36b,#8ff0b4,#8cc8ff,#c9b2ff,#ff7a86);--sw:#fff}
+.we-custom input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;border:0;padding:0}
+.we-cover{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;gap:4px 10px;font-size:12px}
+.we-cover small{width:100%;text-align:center;font-size:11px;color:color-mix(in srgb,var(--text,#f4f0fb) 40%,transparent)}
+.we-link{cursor:pointer;color:var(--accent,#bea4ff);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.2)}
+
+/* ---- form ---- */
+.we-form{display:flex;flex-direction:column;min-width:0;min-height:0}
+.we-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:26px 28px 14px}
+.we-head h2{font:400 30px/1.1 Georgia,'Times New Roman',serif;letter-spacing:-.015em;margin:0}
+.we-head p{margin:8px 0 0;font-size:13px;color:color-mix(in srgb,var(--text,#f4f0fb) 55%,transparent);max-width:46ch}
+.we-tabs{display:flex;gap:4px;margin:0 28px;padding:4px;border-radius:14px;background:rgba(255,255,255,.035);border:1px solid var(--line)}
+.we-tabs button{flex:1;height:38px;border-radius:10px;font-size:13px;font-weight:700;color:color-mix(in srgb,var(--text,#f4f0fb) 60%,transparent);transition:background .2s,color .2s}
+.we-tabs button.active{background:var(--accent-bg);color:var(--accent)}
+.we-tabs button span{display:inline-grid;place-items:center;min-width:20px;height:20px;margin-left:6px;padding:0 6px;border-radius:999px;font-size:11px;background:rgba(255,255,255,.08)}
+.we-scroll{flex:1;min-height:0;overflow:auto;padding:18px 28px}
+.we-scroll .cs-fields{gap:14px}
+.we-scroll .world-place-title span{text-transform:none;letter-spacing:0;font-size:12px}
+.we-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 28px 20px;border-top:1px solid var(--line)}
+.we-bottom>div{display:flex;gap:9px;align-items:center}
+
+@media(max-width:820px){
+  .we{grid-template-columns:1fr;height:auto;max-height:92vh;overflow:auto}
+  .we-stage{border-right:0;border-bottom:1px solid var(--line)}
+  .we-planet,.we-planet .look-planet{width:180px!important;height:180px!important}
+  .we-head,.we-scroll,.we-bottom{padding-left:18px;padding-right:18px}
+  .we-tabs{margin:0 18px}
+  .we-stage{padding:20px 14px 16px}
+  .we-swatches{gap:5px}
+  .we-swatch{width:24px;height:24px}
+}
+@media(prefers-reduced-motion:reduce){.we-stage-sky,.we-planet.we-in,.we-planet.we-out,.we-roll.rolling svg{animation:none}}
+.we-kind{display:block;min-height:15px;margin-top:6px;text-align:center;font-size:11px;letter-spacing:.02em;color:var(--muted,#b8b4c8)}

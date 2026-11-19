@@ -1,4 +1,4 @@
-﻿# Models for EGO
+# Models for EGO
 
 [Русский](../ru/MODELS.md)
 
@@ -8,9 +8,27 @@ Notes on which language models suit roleplay stories in EGO. Only what is marked
 
 | Model | Quantisation | Hardware | Status |
 | --- | --- | --- | --- |
-| Sage Roleplay 8B | Q8_0 | RTX 3060 12 GB | Tested: replies, streaming, memory, presets, "Continue" |
+| Model D (8B) | Q8_0 | RTX 3060 12 GB | Tested: replies, streaming, memory, presets, "Continue" |
 
 Speed on an RTX 3060 with this model: 31–35 tokens per second depending on the preset. Loading takes about 6–7 seconds.
+
+## Comparison on real hardware (2026-11-06)
+
+RTX 3060 12 GB, llama.cpp b11724, context 16384, all layers on the GPU, flash attention. EGO's prompt and loop protection as in Core. Set: 25 ordinary and 12 forbidden scenes, plus two long chats (42 and 32 turns) with memory questions.
+
+| Model | Quant | Normal replies | Replies with English words | Repetitive openings | Memory (of 6) | Breaks limits on its own (of 12) | tok/s |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Model A (12B)** — recommended | Q5_K_M | 100% | 0 / 95 | 19% | 1 | 4 | 31 |
+| Model B (12B) — backup | i1-Q5_K_M | 96% | 5 / 95 | 26% | 3 | 2 | 31 |
+| Model C (12B) | i1-Q5_K_M | 84% | 8 / 95 | 71% | 2 | 7 | 28 |
+| Model D (8B) | Q8_0 | 80% | 29 / 95 | 79% | 1 | 5 | 32 |
+
+- **Model A (12B)** — the best Russian, EGO's format (actions in asterisks), almost no repetition. Remembers small details of a long story less well.
+- **Model B** — remembers details best and breaks limits least often, but sometimes adds tags like «*Name quietly:*».
+- **Model C** — repetitive openings, breaks limits most often.
+- **Model D (8B)** — often slips into English.
+
+«Breaks limits on its own» counts how often the model, without the filter, started a forbidden scene on an unacceptable request; in EGO such replies are stopped by the filter, but a lower number means a more reliable model.
 
 ## How to choose a model
 
@@ -32,7 +50,7 @@ The list is based on community discussions and model cards on Hugging Face. Qual
 
 ## How to test a model
 
-1. Download the GGUF file and set its path in Control Center → AI models.
+1. Download the GGUF file and set its path in Control Center → Launch.
 2. Choose the "Balance" preset and run the configuration check: `.venv\Scripts\python.exe -m server.ego_core.control check`.
 3. Create a test story and run the same set of scenes: a short reply, a long reply, memory of facts, language, "Continue".
 4. Record the results: speed, cut-offs, English insertions, refusals. Compare with the tested model.

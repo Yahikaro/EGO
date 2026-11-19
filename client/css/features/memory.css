@@ -1,0 +1,27 @@
+/* Chat memory window (stage 4h). */
+.ego-memory{width:min(620px,100%);max-height:min(86vh,820px);display:flex;flex-direction:column;overflow:hidden}
+.ego-memory>p{margin:0 0 6px}
+.ego-mem-settings{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:12px 0 6px;font-size:11px;color:#c9bfd6}
+.ego-mem-switch,.ego-mem-interval,.ego-mem-add-row label{display:flex;align-items:center;gap:7px}
+.ego-memory .ego-mem-interval input{width:62px;height:30px;padding:0 8px;border-radius:8px;text-align:center}
+.ego-memory input[type=checkbox]{width:auto;accent-color:var(--accent)}
+.ego-mem-settings .primary-small{margin-left:auto}
+.ego-mem-settings .primary-small:disabled{opacity:.5;cursor:default}
+.ego-mem-status{font-size:10px!important;color:#857d92!important;line-height:1.6!important}
+.ego-mem-list{list-style:none;margin:8px 0 0;padding:0 4px 0 0;overflow-y:auto;flex:1;min-height:80px;display:flex;flex-direction:column;gap:7px}
+.ego-mem-item{border:1px solid var(--line2);border-radius:12px;padding:10px 12px;background:#ffffff05}
+.ego-mem-summary{border-color:#b89bea40;background:var(--accent-bg)}
+.ego-mem-meta{display:flex;align-items:center;gap:4px}
+.ego-mem-kind{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#857d92;font-weight:800;margin-right:auto}
+.ego-mem-meta button{width:26px;height:26px;border-radius:7px;color:#8f879b;display:grid;place-items:center;font-size:13px}
+.ego-mem-meta button:hover{background:#ffffff0d;color:var(--accent)}
+.ego-mem-pin.on{color:var(--accent)}
+.ego-mem-text{margin:4px 0 0!important;font-size:12px!important;color:#ddd5e8!important;line-height:1.6!important;white-space:pre-wrap}
+.ego-mem-empty{font-size:11px;color:#857d92;text-align:center;padding:20px 10px;border:1px dashed var(--line2);border-radius:12px}
+.ego-mem-add,.ego-mem-edit{margin-top:10px;display:flex;flex-direction:column;gap:8px}
+.ego-memory textarea{resize:vertical;min-height:52px;font-size:12px;line-height:1.5}
+.ego-mem-add-row{display:flex;justify-content:flex-end;align-items:center;gap:12px;font-size:11px;color:#c9bfd6}
+.ego-mem-add-row label{margin-right:auto}
+.ego-link-btn{color:#a59cb2;font-size:11px;text-decoration:underline;text-underline-offset:3px}
+#ego-memory-btn[hidden]{display:none}
+@media(max-width:640px){.ego-memory{padding:20px 16px;max-height:92vh}.ego-mem-settings .primary-small{margin-left:0}}

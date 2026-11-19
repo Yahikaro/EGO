@@ -1,0 +1,84 @@
+# ---- media-lab.js v2: prompt + appearance presets (2026-11-08)
+20–29 лет	20–29 years	20–29 ans	20–29 años	20–29 Jahre
+30–39 лет	30–39 years	30–39 ans	30–39 años	30–39 Jahre
+40–49 лет	40–49 years	40–49 ans	40–49 años	40–49 Jahre
+50+ лет	50+ years	50 ans et plus	50+ años	50+ Jahre
+3 с	3 s	3 s	3 s	3 s
+5 с	5 s	5 s	5 s	5 s
+8 с	8 s	8 s	8 s	8 s
+Аниме	Anime	Anime	Anime	Anime
+Африканская	African	Africaine	Africana	Afrikanisch
+Без волос	Bald	Sans cheveux	Sin pelo	Glatze
+Ближневосточная	Middle Eastern	Moyen-orientale	Oriente Medio	Nahöstlich
+Блонд	Blonde	Blonds	Rubio	Blond
+В движении	In motion	En mouvement	En movimiento	In Bewegung
+В полный рост	Full body	En pied	Cuerpo entero	Ganzkörper
+Вечернее платье	Evening dress	Robe de soirée	Vestido de noche	Abendkleid
+Возраст внешности	Apparent age	Âge apparent	Edad aparente	Scheinbares Alter
+Восточноазиатская	East Asian	Est-asiatique	Asiática oriental	Ostasiatisch
+Выбрано:	Selected:	Sélection :	Seleccionado:	Ausgewählt:
+Высокий	Tall	Grand	Alto	Groß
+Деловая	Business	Tenue de ville	Formal	Business
+Демон	Demon	Démon	Demonio	Dämon
+Длина волос	Hair length	Longueur des cheveux	Largo del pelo	Haarlänge
+Длинные	Long	Longs	Largo	Lang
+Доспехи	Armour	Armure	Armadura	Rüstung
+Европейская	European	Européenne	Europea	Europäisch
+Изображение по запросу: персонаж, сцена или мир.	An image on request: a character, a scene or a world.	Une image à la demande : un personnage, une scène ou un monde.	Una imagen a petición: un personaje, una escena o un mundo.	Ein Bild auf Wunsch: ein Charakter, eine Szene oder eine Welt.
+Кадр	Framing	Cadrage	Encuadre	Bildausschnitt
+Камера	Camera	Caméra	Cámara	Kamera
+Каштановые	Brown	Châtains	Castaño	Braun
+Кинокадр	Film still	Plan de cinéma	Fotograma	Filmstill
+Короткие	Short	Courts	Corto	Kurz
+Короткое видео по запросу.	A short video on request.	Une courte vidéo à la demande.	Un vídeo corto a petición.	Ein kurzes Video auf Wunsch.
+Крупный план	Close-up	Gros plan	Primer plano	Nahaufnahme
+Латиноамериканская	Latin American	Latino-américaine	Latinoamericana	Lateinamerikanisch
+Лёжа	Lying	Allongé	Tumbado	Liegend
+Масляная живопись	Oil painting	Peinture à l'huile	Óleo	Ölgemälde
+Медленный наезд	Slow push-in	Lent travelling avant	Acercamiento lento	Langsame Fahrt heran
+Мускулистое	Muscular	Musclé	Musculoso	Muskulös
+Например: высокая женщина с длинными чёрными волосами в тёмном пальто стоит под дождём у неоновой вывески, ночь, мягкий свет, крупный план	For example: a tall woman with long black hair in a dark coat stands in the rain by a neon sign, night, soft light, close-up	Par exemple : une grande femme aux longs cheveux noirs en manteau sombre sous la pluie près d'une enseigne néon, nuit, lumière douce, gros plan	Por ejemplo: una mujer alta de pelo negro largo con abrigo oscuro bajo la lluvia junto a un letrero de neón, noche, luz suave, primer plano	Zum Beispiel: eine große Frau mit langen schwarzen Haaren im dunklen Mantel steht im Regen an einem Neonschild, Nacht, weiches Licht, Nahaufnahme
+Например: размытость, лишние пальцы, текст на изображении	For example: blur, extra fingers, text in the image	Par exemple : flou, doigts en trop, texte dans l'image	Por ejemplo: desenfoque, dedos de más, texto en la imagen	Zum Beispiel: Unschärfe, zusätzliche Finger, Text im Bild
+Невысокий	Short	Petit	Bajo	Klein
+Неподвижная	Static	Fixe	Fija	Statisch
+Облёт	Orbit	Travelling circulaire	Órbita	Umkreisung
+Одежда	Clothes	Tenue	Ropa	Kleidung
+Опишите подробно: кто в кадре, как выглядит, во что одет, что делает, где находится, свет и настроение.	Describe in detail: who is in the frame, how they look, what they wear, what they do, where they are, the light and the mood.	Décrivez en détail : qui est dans le cadre, son apparence, sa tenue, ce qu'il fait, où il se trouve, la lumière et l'ambiance.	Describe con detalle: quién aparece, cómo es, qué lleva, qué hace, dónde está, la luz y el ambiente.	Beschreibe genau: wer im Bild ist, wie er aussieht, was er trägt, was er tut, wo er ist, Licht und Stimmung.
+По пояс	Waist up	À mi-corps	Plano medio	Halbtotale
+Повседневная	Casual	Décontractée	Informal	Lässig
+Поза	Pose	Pose	Pose	Pose
+Портрет	Portrait	Portrait	Retrato	Porträt
+Пресеты внешности	Appearance presets	Préréglages d'apparence	Preajustes de apariencia	Aussehen-Vorgaben
+Пресеты не выбраны.	No presets selected.	Aucun préréglage choisi.	Ningún preajuste elegido.	Keine Vorgaben gewählt.
+Промпт	Prompt	Prompt	Prompt	Prompt
+Пышное	Curvy	Pulpeuse	Curvilínea	Kurvig
+Рост	Height	Taille	Estatura	Größe
+Русые	Light brown	Châtain clair	Castaño claro	Hellbraun
+Рыжие	Red	Roux	Pelirrojo	Rot
+С руки	Handheld	Caméra à l'épaule	Cámara en mano	Handkamera
+Сбросить пресеты	Reset presets	Réinitialiser les préréglages	Restablecer preajustes	Vorgaben zurücksetzen
+Седые	Grey	Gris	Canoso	Grau
+Сидя	Sitting	Assis	Sentado	Sitzend
+Скоро — после подключения модели. Пресеты сохраняются на этом устройстве.	Coming soon — once a model is connected. Presets are saved on this device.	Bientôt — une fois un modèle connecté. Les préréglages sont enregistrés sur cet appareil.	Próximamente, cuando se conecte un modelo. Los preajustes se guardan en este dispositivo.	Bald — sobald ein Modell angebunden ist. Vorgaben werden auf diesem Gerät gespeichert.
+Смешанная	Mixed	Métisse	Mixta	Gemischt
+Спортивная	Sportswear	Sportive	Deportiva	Sportlich
+Спортивное	Athletic	Athlétique	Atlético	Athletisch
+Среднее	Average	Moyenne	Medio	Durchschnittlich
+Средние	Medium	Mi-longs	Media melena	Mittellang
+Средний	Average	Moyenne	Media	Mittel
+Стиль	Style	Style	Estilo	Stil
+Стоя	Standing	Debout	De pie	Stehend
+Стройное	Slim	Mince	Delgado	Schlank
+Студийный портрет	Studio portrait	Portrait studio	Retrato de estudio	Studioporträt
+Телосложение	Build	Silhouette	Complexión	Statur
+Униформа	Uniform	Uniforme	Uniforme	Uniform
+Фотореализм	Photorealism	Photoréalisme	Fotorrealismo	Fotorealismus
+Фэнтези-наряд	Fantasy outfit	Tenue fantasy	Atuendo de fantasía	Fantasy-Outfit
+Цвет волос	Hair colour	Couleur des cheveux	Color del pelo	Haarfarbe
+Цифровой арт	Digital art	Art numérique	Arte digital	Digitale Kunst
+Чего избегать	What to avoid	À éviter	Qué evitar	Was vermeiden
+Через плечо	Over the shoulder	Par-dessus l'épaule	Sobre el hombro	Über die Schulter
+Чёрные	Black	Noirs	Negro	Schwarz
+Эльф	Elf	Elfe	Elfo	Elf
+Южноазиатская	South Asian	Sud-asiatique	Asiática del sur	Südasiatisch
+Яркие	Vivid	Vifs	Llamativo	Knallig

@@ -1,0 +1,5 @@
+# Windows CPython 3.12 x64: install in a fresh .venv, with --only-binary=:all:.
+# Do not combine with requirements-linux.lock or sqlcipher3-binary.
+-r requirements.txt
+-r requirements-gui.txt
+sqlcipher3==0.6.4

@@ -1,0 +1,13 @@
+[project]
+name = "ego"
+version = "1.0.0"
+license = {text = "PolyForm-Noncommercial-1.0.0"}
+authors = [{name = "Yahikaro"}]
+requires-python = ">=3.12,<3.13"
+description = "EGO M1.7 local roleplay Server Core and Control Center"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/server", "tests/acceptance", "tests/ui", "tests/gui"]
+pythonpath = ["."]
+addopts = "-ra"
+filterwarnings = ["error"]

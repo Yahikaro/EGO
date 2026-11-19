@@ -1,0 +1,198 @@
+# ---- app.js
+*Я подхожу ближе к столу, рассматривая книгу.*	*I step closer to the table and look at the book.*	*Je m'approche de la table et regarde le livre.*	*Me acerco a la mesa y miro el libro.*	*Ich trete näher an den Tisch und betrachte das Buch.*
+EGO · Визуальное пространство	EGO · Visual space	EGO · Espace visuel	EGO · Espacio visual	EGO · Visueller Raum
+JSON экспортирован	JSON exported	JSON exporté	JSON exportado	JSON exportiert
+JSON-копия историй этого клиента	JSON copy of this client's stories	Copie JSON des histoires de ce client	Copia JSON de las historias de este cliente	JSON-Kopie der Geschichten dieses Clients
+PNG, JPEG или WebP. Изображение автоматически уменьшится для локального хранения.	PNG, JPEG or WebP. The image is resized automatically for local storage.	PNG, JPEG ou WebP. L'image est réduite automatiquement pour le stockage local.	PNG, JPEG o WebP. La imagen se reduce automáticamente para el almacenamiento local.	PNG, JPEG oder WebP. Das Bild wird für die lokale Speicherung automatisch verkleinert.
+Акцент:	Accent:	Accent :	Acento:	Akzent:
+Атлас миров	World atlas	Atlas des mondes	Atlas de mundos	Weltatlas
+Атмосфера	Atmosphere	Atmosphère	Atmósfera	Atmosphäre
+Без мира	No world	Sans monde	Sin mundo	Ohne Welt
+Без персонажа	No character	Sans personnage	Sin personaje	Ohne Charakter
+Библиотека персонажей	Character library	Bibliothèque de personnages	Biblioteca de personajes	Charakterbibliothek
+Ветер несёт по дороге холодную золу. Вдалеке, под красным небом, виднеются остовы заброшенных башен.	The wind drives cold ash along the road. Far off, under a red sky, stand the shells of abandoned towers.	Le vent pousse une cendre froide sur la route. Au loin, sous un ciel rouge, se dressent les carcasses de tours abandonnées.	El viento arrastra ceniza fría por el camino. A lo lejos, bajo un cielo rojo, se ven los restos de torres abandonadas.	Der Wind treibt kalte Asche über die Straße. In der Ferne, unter rotem Himmel, ragen die Gerippe verlassener Türme auf.
+Волны ударяются о подножие старого маяка. На карте перед вами появляются новые острова.	Waves strike the foot of the old lighthouse. New islands appear on the map before you.	Les vagues frappent le pied du vieux phare. De nouvelles îles apparaissent sur la carte devant vous.	Las olas golpean la base del viejo faro. En el mapa ante ti aparecen nuevas islas.	Wellen schlagen gegen den Fuß des alten Leuchtturms. Auf der Karte vor euch erscheinen neue Inseln.
+Все истории будут удалены — в этом браузере и в EGO Core, на всех устройствах. Отменить это нельзя.	All stories will be deleted — in this browser and in EGO Core, on all devices. This cannot be undone.	Toutes les histoires seront supprimées — dans ce navigateur et dans EGO Core, sur tous les appareils. C'est irréversible.	Se borrarán todas las historias, en este navegador y en EGO Core, en todos los dispositivos. No se puede deshacer.	Alle Geschichten werden gelöscht — in diesem Browser und in EGO Core, auf allen Geräten. Das lässt sich nicht rückgängig machen.
+Выбери изображение PNG, JPG или WebP до 12 МБ	Choose a PNG, JPG or WebP image up to 12 MB	Choisissez une image PNG, JPG ou WebP de 12 Mo maximum	Elige una imagen PNG, JPG o WebP de hasta 12 MB	Wähle ein PNG-, JPG- oder WebP-Bild bis 12 MB
+Выбрать файл	Choose file	Choisir un fichier	Elegir archivo	Datei wählen
+Город	City	Ville	Ciudad	Stadt
+Дождливые улицы	Rainy streets	Rues pluvieuses	Calles lluviosas	Regnerische Straßen
+Дождь над Неон-Сити	Rain over Neon City	Pluie sur Neon City	Lluvia sobre Neon City	Regen über Neon City
+Драма	Drama	Drame	Drama	Drama
+Загрузить ранее экспортированный JSON	Load a previously exported JSON	Charger un JSON exporté précédemment	Cargar un JSON exportado antes	Früher exportiertes JSON laden
+Закладка	Bookmark	Signet	Marcador	Lesezeichen
+Закладки из историй доступны здесь. Их можно добавлять через иконку закладки под любым сообщением.	Bookmarks from your stories are here. Add them with the bookmark icon under any message.	Les signets de vos histoires sont ici. Ajoutez-les avec l'icône de signet sous n'importe quel message.	Los marcadores de tus historias están aquí. Añádelos con el icono de marcador bajo cualquier mensaje.	Lesezeichen aus deinen Geschichten findest du hier. Füge sie über das Lesezeichen-Symbol unter jeder Nachricht hinzu.
+Знает каждую сеть и переулок мегаполиса, но собственное прошлое остаётся для неё загадкой.	She knows every network and alley of the megacity, yet her own past remains a mystery to her.	Elle connaît chaque réseau et chaque ruelle de la mégapole, mais son propre passé reste un mystère.	Conoce cada red y callejón de la megaciudad, pero su propio pasado sigue siendo un misterio para ella.	Sie kennt jedes Netz und jede Gasse der Megastadt, doch ihre eigene Vergangenheit bleibt ihr ein Rätsel.
+Изменение сохраняется только в локальной истории.	The change is saved in the local story only.	La modification n'est enregistrée que dans l'histoire locale.	El cambio solo se guarda en la historia local.	Die Änderung wird nur in der lokalen Geschichte gespeichert.
+Импорт JSON	Import JSON	Importer un JSON	Importar JSON	JSON importieren
+Импорт завершён	Import complete	Importation terminée	Importación completada	Import abgeschlossen
+Импорт историй	Import stories	Importer des histoires	Importar historias	Geschichten importieren
+Импортировано карточек:	Cards imported:	Fiches importées :	Fichas importadas:	Importierte Karten:
+Мара	Mara	Mara	Mara	Mara
+Исследование	Exploration	Exploration	Exploración	Erkundung
+Историй пока нет.	No stories yet.	Pas encore d'histoires.	Aún no hay historias.	Noch keine Geschichten.
+История начинается.	The story begins.	L'histoire commence.	La historia empieza.	Die Geschichte beginnt.
+История переименована	Story renamed	Histoire renommée	Historia renombrada	Geschichte umbenannt
+История удалена	Story deleted	Histoire supprimée	Historia eliminada	Geschichte gelöscht
+Картограф неизвестного	Cartographer of the unknown	Cartographe de l'inconnu	Cartógrafo de lo desconocido	Kartograf des Unbekannten
+Карточка персонажа сохранена	Character card saved	Fiche du personnage enregistrée	Ficha del personaje guardada	Charakterkarte gespeichert
+Карточки экспортированы	Cards exported	Fiches exportées	Fichas exportadas	Karten exportiert
+Торн	Thorn	Thorn	Thorn	Thorn
+Киберпанк	Cyberpunk	Cyberpunk	Cyberpunk	Cyberpunk
+Клиент подключён к локальному EGO Core.	The client is connected to the local EGO Core.	Le client est connecté à EGO Core en local.	El cliente está conectado al EGO Core local.	Der Client ist mit dem lokalen EGO Core verbunden.
+Компактный режим	Compact mode	Mode compact	Modo compacto	Kompaktmodus
+Личность	Personality	Personnalité	Personalidad	Persönlichkeit
+Локальные истории очищены	Local stories cleared	Histoires locales effacées	Historias locales borradas	Lokale Geschichten gelöscht
+Локальные карточки · все изображения можно заменить	Local cards · every image can be replaced	Fiches locales · toutes les images sont remplaçables	Fichas locales · todas las imágenes se pueden cambiar	Lokale Karten · jedes Bild lässt sich ersetzen
+Локация	Location	Lieu	Lugar	Ort
+Люди, которых ещё нет.	People who don't exist yet.	Des gens qui n'existent pas encore.	Personas que aún no existen.	Menschen, die es noch nicht gibt.
+Максимум 4000 символов	4000 characters at most	4000 caractères au maximum	4000 caracteres como máximo	Höchstens 4000 Zeichen
+Маяк	Lighthouse	Phare	Faro	Leuchtturm
+Меньше отступов между сообщениями	Less space between messages	Moins d'espace entre les messages	Menos espacio entre mensajes	Weniger Abstand zwischen Nachrichten
+Мир	World	Monde	Mundo	Welt
+Мистика	Mystery	Mystère	Misterio	Mystik
+На мгновение в библиотеке становится совсем тихо. Лира проводит пальцами по потёртой обложке, и серебристые буквы вспыхивают под её прикосновением.	For a moment the library falls completely silent. Lira runs her fingers over the worn cover, and silver letters flare under her touch.	Un instant, la bibliothèque devient parfaitement silencieuse. Lira passe les doigts sur la couverture usée, et des lettres argentées s'illuminent sous son toucher.	Por un momento la biblioteca queda en completo silencio. Lira pasa los dedos por la cubierta gastada y unas letras plateadas brillan bajo su tacto.	Für einen Moment wird es in der Bibliothek ganz still. Lira fährt mit den Fingern über den abgenutzten Einband, und silberne Buchstaben leuchten unter ihrer Berührung auf.
+Нажмите «Новая история», чтобы начать.	Click «New story» to begin.	Cliquez sur « Nouvelle histoire » pour commencer.	Pulsa «Nueva historia» para empezar.	Klicke auf „Neue Geschichte“, um zu beginnen.
+Название истории	Story title	Titre de l'histoire	Título de la historia	Titel der Geschichte
+Наносит на карту земли, которые появляются только во снах.	Maps lands that appear only in dreams.	Cartographie des terres qui n'apparaissent qu'en rêve.	Traza en el mapa tierras que solo aparecen en sueños.	Kartiert Länder, die nur in Träumen erscheinen.
+Настрой атмосферу, плотность диалога и анимации. Оформление сохраняется в этом браузере, истории — в EGO на компьютере.	Set the atmosphere, chat density and animations. The look is saved in this browser, stories in EGO on the computer.	Réglez l'ambiance, la densité des discussions et les animations. L'apparence est enregistrée dans ce navigateur, les histoires dans EGO sur l'ordinateur.	Ajusta la atmósfera, la densidad del chat y las animaciones. El aspecto se guarda en este navegador; las historias, en EGO en el ordenador.	Stelle Atmosphäre, Chatdichte und Animationen ein. Das Aussehen wird in diesem Browser gespeichert, Geschichten in EGO auf dem Computer.
+Не удалось загрузить изображение	Could not load the image	Impossible de charger l'image	No se pudo cargar la imagen	Bild konnte nicht geladen werden
+Не удалось импортировать JSON EGO:	Could not import the EGO JSON:	Impossible d'importer le JSON EGO :	No se pudo importar el JSON de EGO:	EGO-JSON konnte nicht importiert werden:
+Не удалось обработать изображение	Could not process the image	Impossible de traiter l'image	No se pudo procesar la imagen	Bild konnte nicht verarbeitet werden
+Неверная структура	Invalid structure	Structure invalide	Estructura no válida	Ungültige Struktur
+Недостаточно места в локальном хранилище	Not enough space in local storage	Espace de stockage local insuffisant	No hay espacio suficiente en el almacenamiento local	Nicht genug Platz im lokalen Speicher
+Немногословный путешественник, за которым тянется пепел исчезнувшей империи.	A man of few words, trailed by the ash of a vanished empire.	Un voyageur taciturne, suivi par les cendres d'un empire disparu.	Un viajero de pocas palabras al que sigue la ceniza de un imperio desaparecido.	Ein wortkarger Reisender, dem die Asche eines verschwundenen Reiches folgt.
+Неон-Сити	Neon City	Neon City	Neon City	Neon City
+Ничего не найдено по «{0}»	Nothing found for «{0}»	Aucun résultat pour « {0} »	No se encontró nada para «{0}»	Nichts gefunden für „{0}“
+Вега	Vega	Vega	Vega	Vega
+Новая история ·	New story ·	Nouvelle histoire ·	Nueva historia ·	Neue Geschichte ·
+Новая история создана	New story created	Nouvelle histoire créée	Nueva historia creada	Neue Geschichte erstellt
+Новый персонаж	New character	Nouveau personnage	Nuevo personaje	Neuer Charakter
+Она поворачивает книгу к тебе. На первой странице — твоё имя.	She turns the book toward you. Your name is on the first page.	Elle tourne le livre vers toi. Ton nom est sur la première page.	Gira el libro hacia ti. En la primera página está tu nombre.	Sie dreht das Buch zu dir. Auf der ersten Seite steht dein Name.
+Она поднимает взгляд и едва заметно улыбается.	She looks up and smiles faintly.	Elle lève les yeux et sourit à peine.	Levanta la mirada y sonríe levemente.	Sie blickt auf und lächelt kaum merklich.
+Она помнит истории, которых ещё не произошло, и умеет находить смысл среди забытых страниц.	She remembers stories that haven't happened yet and finds meaning among forgotten pages.	Elle se souvient d'histoires qui ne se sont pas encore produites et trouve du sens parmi les pages oubliées.	Recuerda historias que aún no han ocurrido y encuentra sentido entre páginas olvidadas.	Sie erinnert sich an Geschichten, die noch nicht geschehen sind, und findet Sinn zwischen vergessenen Seiten.
+Основное	General	Général	General	Allgemein
+Острова тишины	Islands of Silence	Îles du silence	Islas del silencio	Inseln der Stille
+Отмена	Cancel	Annuler	Cancelar	Abbrechen
+Офлайн-режим: данные хранятся только в этом браузере.	Offline mode: data is stored in this browser only.	Mode hors ligne : les données sont stockées uniquement dans ce navigateur.	Modo sin conexión: los datos solo se guardan en este navegador.	Offline-Modus: Daten werden nur in diesem Browser gespeichert.
+Ошибка импорта карточек EGO	EGO card import error	Erreur d'importation des fiches EGO	Error al importar fichas de EGO	Fehler beim Import der EGO-Karten
+Параметры истории	Story settings	Paramètres de l'histoire	Ajustes de la historia	Einstellungen der Geschichte
+Параметры чата доступны в разделе Диалоги	Chat settings are in Chats	Les paramètres de discussion sont dans Discussions	Los ajustes del chat están en Conversaciones	Chat-Einstellungen findest du unter Chats
+Пепельная дорога	Ash Road	Route des cendres	Camino de ceniza	Aschenstraße
+Пепельные земли	Ash Lands	Terres de cendre	Tierras de ceniza	Aschelande
+Переименуй историю или удали её — на всех устройствах.	Rename or delete the story — on all devices.	Renommez ou supprimez l'histoire — sur tous les appareils.	Renombra o borra la historia, en todos los dispositivos.	Benenne die Geschichte um oder lösche sie — auf allen Geräten.
+Переходы и атмосферные эффекты	Transitions and atmosphere effects	Transitions et effets d'ambiance	Transiciones y efectos de ambiente	Übergänge und Atmosphäre-Effekte
+Персонаж	Character	Personnage	Personaje	Charakter
+Персонаж удалён	Character deleted	Personnage supprimé	Personaje eliminado	Charakter gelöscht
+Персонажей пока нет.	No characters yet.	Pas encore de personnages.	Aún no hay personajes.	Noch keine Charaktere.
+Плавные анимации	Smooth animations	Animations fluides	Animaciones suaves	Sanfte Animationen
+Подробнее о персонаже ↗	More about the character ↗	En savoir plus sur le personnage ↗	Más sobre el personaje ↗	Mehr über den Charakter ↗
+Поздний вечер. За высокими арочными окнами медленно опускается туман. Тёплый свет ламп скользит по тысячам старинных книг.	Late evening. Mist slowly settles beyond the tall arched windows. Warm lamplight glides over thousands of old books.	Tard le soir. Derrière les hautes fenêtres en arc, la brume descend lentement. La lumière chaude des lampes glisse sur des milliers de livres anciens.	Es tarde. Tras los altos ventanales en arco cae lentamente la niebla. La luz cálida de las lámparas recorre miles de libros antiguos.	Später Abend. Hinter den hohen Bogenfenstern senkt sich langsam Nebel. Warmes Lampenlicht gleitet über Tausende alter Bücher.
+Позже EGO Core сможет использовать эти поля при сборке промпта. Сейчас они просто сохраняются в карточке.	Later EGO Core may use these fields when building the prompt. For now they are just saved in the card.	Plus tard, EGO Core pourra utiliser ces champs pour construire l'invite. Pour l'instant, ils sont simplement enregistrés dans la fiche.	Más adelante EGO Core podrá usar estos campos al crear el prompt. Por ahora solo se guardan en la ficha.	Später kann EGO Core diese Felder für den Prompt nutzen. Vorerst werden sie nur in der Karte gespeichert.
+Поиск историй...	Search stories...	Rechercher des histoires...	Buscar historias...	Geschichten suchen...
+Полная смена фона, панелей, элементов управления и свечения	A full change of background, panels, controls and glow	Changement complet du fond, des panneaux, des commandes et de la lueur	Cambio completo de fondo, paneles, controles y brillo	Kompletter Wechsel von Hintergrund, Leisten, Bedienelementen und Leuchten
+Портрет добавлен в предпросмотр	Portrait added to the preview	Portrait ajouté à l'aperçu	Retrato añadido a la vista previa	Porträt zur Vorschau hinzugefügt
+Портрет персонажа	Character portrait	Portrait du personnage	Retrato del personaje	Charakterporträt
+Портрет сброшен	Portrait reset	Portrait réinitialisé	Retrato restablecido	Porträt zurückgesetzt
+Похоже, сегодняшний гость появился здесь не случайно.	It seems today's guest didn't come here by chance.	On dirait que l'invité d'aujourd'hui n'est pas arrivé ici par hasard.	Parece que el invitado de hoy no llegó aquí por casualidad.	Der heutige Gast scheint nicht zufällig hier zu sein.
+При создании чата с новым персонажем эта сцена становится первым сообщением истории.	When a chat with a new character is created, this scene becomes the story's first message.	À la création d'une discussion avec un nouveau personnage, cette scène devient le premier message de l'histoire.	Al crear un chat con un personaje nuevo, esta escena se convierte en el primer mensaje de la historia.	Beim Erstellen eines Chats mit einem neuen Charakter wird diese Szene zur ersten Nachricht der Geschichte.
+Приключения	Adventure	Aventure	Aventura	Abenteuer
+Проводник неонового города	Guide of the neon city	Guide de la ville néon	Guía de la ciudad de neón	Führerin der Neonstadt
+Пространство для создания персонажа. Все изменения остаются на этом устройстве.	A space for creating a character. All changes stay on this device.	Un espace pour créer un personnage. Toutes les modifications restent sur cet appareil.	Un espacio para crear un personaje. Todos los cambios se quedan en este dispositivo.	Ein Raum zum Erschaffen eines Charakters. Alle Änderungen bleiben auf diesem Gerät.
+Путешествие	Journey	Voyage	Viaje	Reise
+Путешествия	Travel	Voyages	Viajes	Reisen
+Реальная генерация	Real generation	Génération réelle	Generación real	Echte Generierung
+Редактировать сообщение	Edit message	Modifier le message	Editar mensaje	Nachricht bearbeiten
+Редактор персонажа	Character editor	Éditeur de personnage	Editor de personaje	Charaktereditor
+Сбросить	Reset	Réinitialiser	Restablecer	Zurücksetzen
+Сбросить истории?	Reset stories?	Réinitialiser les histoires ?	¿Restablecer las historias?	Geschichten zurücksetzen?
+Свободная история	Free story	Histoire libre	Historia libre	Freie Geschichte
+Сквозь неоновую вывеску просачиваются капли дождя. Город под вами гудит сотнями сигналов.	Raindrops seep through the neon sign. The city below hums with hundreds of signals.	Des gouttes de pluie filtrent à travers l'enseigne néon. La ville en contrebas bourdonne de centaines de signaux.	Las gotas de lluvia se filtran por el letrero de neón. La ciudad bajo vosotros zumba con cientos de señales.	Regentropfen sickern durch das Neonschild. Die Stadt unter euch summt von Hunderten Signalen.
+Скопировать	Copy	Copier	Copiar	Kopieren
+Создавай собственных персонажей, меняй портреты и развивай их истории. Карточки хранятся в EGO на компьютере, а модель играет этих персонажей в историях.	Create your own characters, change portraits and grow their stories. Cards are stored in EGO on the computer, and the model plays these characters in stories.	Créez vos propres personnages, changez leurs portraits et développez leurs histoires. Les fiches sont stockées dans EGO sur l'ordinateur, et le modèle joue ces personnages dans les histoires.	Crea tus propios personajes, cambia sus retratos y desarrolla sus historias. Las fichas se guardan en EGO en el ordenador y el modelo interpreta a estos personajes en las historias.	Erschaffe eigene Charaktere, ändere Porträts und entwickle ihre Geschichten. Karten werden in EGO auf dem Computer gespeichert, und das Modell spielt diese Charaktere in Geschichten.
+Создайте первого в разделе «Персонажи».	Create the first one in «Characters».	Créez le premier dans « Personnages ».	Crea el primero en «Personajes».	Erstelle den ersten unter „Charaktere“.
+Сообщение изменено	Message edited	Message modifié	Mensaje editado	Nachricht geändert
+Сообщение сохранено локально · AI не подключён	Message saved locally · AI not connected	Message enregistré localement · IA non connectée	Mensaje guardado localmente · IA no conectada	Nachricht lokal gespeichert · KI nicht verbunden
+Сообщений	Messages	Messages	Mensajes	Nachrichten
+Состояние AI	AI status	État de l'IA	Estado de la IA	KI-Status
+Сохранить	Save	Enregistrer	Guardar	Speichern
+Сохранить карточку ↗	Save card ↗	Enregistrer la fiche ↗	Guardar ficha ↗	Karte speichern ↗
+Стандартные персонажи нельзя удалить. Можно редактировать.	Built-in characters can't be deleted, only edited.	Les personnages intégrés ne peuvent pas être supprimés, seulement modifiés.	Los personajes predeterminados no se pueden borrar, solo editar.	Standardcharaktere können nicht gelöscht, nur bearbeitet werden.
+Странник пепельных земель	Wanderer of the Ash Lands	Vagabond des Terres de cendre	Errante de las Tierras de ceniza	Wanderer der Aschelande
+Студия персонажей	Character studio	Studio de personnages	Estudio de personajes	Charakterstudio
+Сценарий	Scenario	Scénario	Escenario	Szenario
+Тайны	Secrets	Secrets	Secretos	Geheimnisse
+Твои истории ·	Your stories ·	Vos histoires ·	Tus historias ·	Deine Geschichten ·
+Твоя новая история начинается здесь	Your new story begins here	Votre nouvelle histoire commence ici	Tu nueva historia empieza aquí	Deine neue Geschichte beginnt hier
+Твоё пространство. Твои правила.	Your space. Your rules.	Votre espace. Vos règles.	Tu espacio. Tus reglas.	Dein Raum. Deine Regeln.
+Текст скопирован	Text copied	Texte copié	Texto copiado	Text kopiert
+Текст сообщения	Message text	Texte du message	Texto del mensaje	Nachrichtentext
+Текущая сцена	Current scene	Scène actuelle	Escena actual	Aktuelle Szene
+Тихая библиотека	Quiet Library	Bibliothèque silencieuse	Biblioteca silenciosa	Stille Bibliothek
+У старой границы	At the old border	À l'ancienne frontière	En la vieja frontera	An der alten Grenze
+Удалить все истории	Delete all stories	Supprimer toutes les histoires	Borrar todas las historias	Alle Geschichten löschen
+Удалить персонажа «{0}»? Связанные чаты будут сохранены.	Delete the character «{0}»? Related chats will be kept.	Supprimer le personnage « {0} » ? Les discussions liées seront conservées.	¿Borrar el personaje «{0}»? Los chats relacionados se conservarán.	Charakter „{0}“ löschen? Zugehörige Chats bleiben erhalten.
+Удалить эту историю	Delete this story	Supprimer cette histoire	Borrar esta historia	Diese Geschichte löschen
+Удаляет все истории — в этом браузере и в EGO Core, на всех устройствах. Персонажи и миры остаются.	Deletes all stories — in this browser and in EGO Core, on all devices. Characters and worlds stay.	Supprime toutes les histoires — dans ce navigateur et dans EGO Core, sur tous les appareils. Les personnages et les mondes restent.	Borra todas las historias, en este navegador y en EGO Core, en todos los dispositivos. Los personajes y mundos se conservan.	Löscht alle Geschichten — in diesem Browser und in EGO Core, auf allen Geräten. Charaktere und Welten bleiben.
+Укажи имя персонажа	Enter the character's name	Indiquez le nom du personnage	Indica el nombre del personaje	Gib den Namen des Charakters an
+Файл изображения повреждён	The image file is damaged	Le fichier image est endommagé	El archivo de imagen está dañado	Die Bilddatei ist beschädigt
+Файл слишком большой	The file is too large	Le fichier est trop volumineux	El archivo es demasiado grande	Die Datei ist zu groß
+Фантазия	Fantasy	Fantaisie	Fantasía	Fantasie
+Фрагменты памяти.	Fragments of memory.	Fragments de mémoire.	Fragmentos de memoria.	Erinnerungsfragmente.
+Фэнтези	Fantasy	Fantasy	Fantasía	Fantasy
+Хранилище заполнено. Попробуй изображение меньшего размера.	Storage is full. Try a smaller image.	Stockage plein. Essayez une image plus petite.	El almacenamiento está lleno. Prueba con una imagen más pequeña.	Speicher voll. Versuche ein kleineres Bild.
+Хранительница забытых историй	Keeper of forgotten stories	Gardienne des histoires oubliées	Guardiana de historias olvidadas	Hüterin vergessener Geschichten
+Цветовой акцент	Accent colour	Couleur d'accent	Color de acento	Akzentfarbe
+Экспорт JSON	Export JSON	Exporter en JSON	Exportar JSON	JSON exportieren
+Экспорт историй	Export stories	Exporter les histoires	Exportar historias	Geschichten exportieren
+Экспорт ↗	Export ↗	Exporter ↗	Exportar ↗	Exportieren ↗
+Эфир	Aether	Éther	Éter	Äther
+свободная сцена	free scene	scène libre	escena libre	freie Szene
+— А что, если я как раз ищу такую историю?	— What if that's exactly the kind of story I'm looking for?	— Et si c'était justement ce genre d'histoire que je cherche ?	— ¿Y si justo busco una historia así?	— Und wenn ich genau so eine Geschichte suche?
+— Видишь? Вчера здесь было только море.	— See? Yesterday there was only sea here.	— Tu vois ? Hier, il n'y avait que la mer ici.	— ¿Ves? Ayer aquí solo había mar.	— Siehst du? Gestern war hier nur Meer.
+— Добро пожаловать в район, которого официально не существует. Не отставай.	— Welcome to a district that officially doesn't exist. Keep up.	— Bienvenue dans un quartier qui n'existe pas officiellement. Ne traîne pas.	— Bienvenido a un barrio que oficialmente no existe. No te quedes atrás.	— Willkommen in einem Viertel, das offiziell nicht existiert. Bleib dicht hinter mir.
+— Если собираешься идти дальше, держись рядом. После заката здесь опасно.	— If you mean to go further, stay close. It's dangerous here after sunset.	— Si tu comptes aller plus loin, reste près de moi. C'est dangereux ici après le coucher du soleil.	— Si piensas seguir, quédate cerca. Aquí es peligroso tras el atardecer.	— Wenn du weitergehen willst, bleib in der Nähe. Nach Sonnenuntergang ist es hier gefährlich.
+— Знаешь, — произносит Лира, закрывая том в тёмно-синем переплёте, — некоторые истории не любят, когда их находят.	— You know, — says Lira, closing a dark blue volume, — some stories don't like being found.	— Tu sais, — dit Lira en refermant un volume relié de bleu sombre, — certaines histoires n'aiment pas qu'on les trouve.	— ¿Sabes? —dice Lira, cerrando un tomo de tapas azul oscuro—, a algunas historias no les gusta que las encuentren.	— Weißt du, — sagt Lira und schließt einen dunkelblauen Band, — manche Geschichten mögen es nicht, gefunden zu werden.
+— Привет. Давай начнём.	— Hi. Let's begin.	— Salut. Commençons.	— Hola. Empecemos.	— Hallo. Lass uns anfangen.
+— Тогда, боюсь, назад дороги уже не будет.	— Then, I'm afraid, there's no way back.	— Alors, j'en ai peur, il n'y aura plus de retour.	— Entonces me temo que ya no habrá vuelta atrás.	— Dann gibt es, fürchte ich, keinen Weg zurück.
+↑ Заменить аватар	↑ Replace avatar	↑ Remplacer l'avatar	↑ Cambiar avatar	↑ Avatar ersetzen
+✧ Изображение — только визуальный пример и не влияет на работу AI.	✧ The image is only a visual example and does not affect the AI.	✧ L'image n'est qu'un exemple visuel et n'influence pas l'IA.	✧ La imagen es solo un ejemplo visual y no afecta a la IA.	✧ Das Bild ist nur ein visuelles Beispiel und beeinflusst die KI nicht.
+＋ Создать персонажа	＋ Create character	＋ Créer un personnage	＋ Crear personaje	＋ Charakter erstellen
+· демонстрация	· demo	· démo	· demo	· Demo
+Вернуться к сцене ↗	Back to the scene ↗	Retour à la scène ↗	Volver a la escena ↗	Zurück zur Szene ↗
+Включены	On	Activées	Activadas	An
+Включён	On	Activé	Activado	An
+Внешность	Appearance	Apparence	Apariencia	Aussehen
+Восстановить исходный портрет	Restore the original portrait	Restaurer le portrait d'origine	Restaurar el retrato original	Ursprüngliches Porträt wiederherstellen
+Выключен	Off	Désactivé	Desactivado	Aus
+Где и при каких обстоятельствах начинается история?	Where and under what circumstances does the story begin?	Où et dans quelles circonstances commence l'histoire ?	¿Dónde y en qué circunstancias empieza la historia?	Wo und unter welchen Umständen beginnt die Geschichte?
+Добавь первую закладку в диалоге.	Add the first bookmark in a chat.	Ajoutez le premier signet dans une discussion.	Añade el primer marcador en una conversación.	Füge das erste Lesezeichen in einem Chat hinzu.
+Имя персонажа	Character name	Nom du personnage	Nombre del personaje	Name des Charakters
+Краткое описание	Short description	Description courte	Descripción breve	Kurzbeschreibung
+Личность и характер	Personality and character	Personnalité et caractère	Personalidad y carácter	Persönlichkeit und Charakter
+Манера речи, реакции, границы поведения	Way of speaking, reactions, limits of behaviour	Façon de parler, réactions, limites de comportement	Forma de hablar, reacciones, límites de conducta	Sprechweise, Reaktionen, Verhaltensgrenzen
+Например, Лира	For example, Lira	Par exemple, Lira	Por ejemplo, Lira	Zum Beispiel Lira
+Не подключена	Not connected	Non connectée	No conectada	Nicht verbunden
+Новая демо-реплика	New demo line	Nouvelle réplique de démo	Nueva réplica de demo	Neue Demo-Zeile
+Новая карточка	New card	Nouvelle fiche	Nueva ficha	Neue Karte
+Описание внешности персонажа	Description of the character's appearance	Description de l'apparence du personnage	Descripción de la apariencia del personaje	Beschreibung des Aussehens
+Отключены	Off	Désactivées	Desactivadas	Aus
+Открыть историю ↗	Open story ↗	Ouvrir l'histoire ↗	Abrir historia ↗	Geschichte öffnen ↗
+Первое сообщение персонажа	The character's first message	Premier message du personnage	Primer mensaje del personaje	Erste Nachricht des Charakters
+Поведение и стиль общения	Behaviour and way of talking	Comportement et style de conversation	Comportamiento y estilo de conversación	Verhalten und Gesprächsstil
+Пока здесь тихо	It's quiet here for now	C'est calme ici pour l'instant	Por ahora todo está tranquilo	Hier ist es noch still
+Появляется на карточке персонажа	Shown on the character card	Affiché sur la fiche du personnage	Aparece en la ficha del personaje	Wird auf der Charakterkarte angezeigt
+Редактировать	Edit	Modifier	Editar	Bearbeiten
+Редактировать персонажа	Edit character	Modifier le personnage	Editar personaje	Charakter bearbeiten
+Роль / архетип	Role / archetype	Rôle / archétype	Rol / arquetipo	Rolle / Archetyp
+Сегодня	Today	Aujourd'hui	Hoy	Heute
+Стартовая сцена	Opening scene	Scène d'ouverture	Escena inicial	Anfangsszene
+Теги (через запятую)	Tags (comma-separated)	Tags (séparés par des virgules)	Etiquetas (separadas por comas)	Tags (durch Komma getrennt)
+Ты	You	Toi	Tú	Du
+Удалить персонажа	Delete character	Supprimer le personnage	Borrar personaje	Charakter löschen
+Участник	Participant	Participant	Participante	Teilnehmer
+Фэнтези, приключения, мистика	Fantasy, adventure, mystery	Fantasy, aventure, mystère	Fantasía, aventura, misterio	Fantasy, Abenteuer, Mystik
+Хранительница историй	Keeper of stories	Gardienne des histoires	Guardiana de historias	Hüterin der Geschichten
+Черты характера, привычки, мотивация	Traits, habits, motivation	Traits de caractère, habitudes, motivation	Rasgos, hábitos, motivación	Charakterzüge, Gewohnheiten, Motivation
+— Добро пожаловать...	— Welcome...	— Bienvenue...	— Bienvenido...	— Willkommen...
+✎ Редактировать	✎ Edit	✎ Modifier	✎ Editar	✎ Bearbeiten

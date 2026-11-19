@@ -1,0 +1,5 @@
+{
+ "version": 1,
+ "note": "Built-in voices are not shipped. Users add their own voices in the app (voice library: WAV sample, 6-30 s).",
+ "voices": []
+}

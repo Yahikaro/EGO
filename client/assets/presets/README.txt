@@ -1,0 +1,3 @@
+Example pictures for the quick setup (Media tab). One folder per group, files 1.webp, 2.webp, ...
+in the order of the options in js/app/media-lab.js (e.g. hairstyle/1.webp = «Короткая стрижка»).
+Until a picture exists the tile shows a neutral placeholder. Suggested size: 320x400, WebP.

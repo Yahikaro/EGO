@@ -4,7 +4,7 @@
 
 **Поддерживаемые версии.** Исправления безопасности получает только последний выпуск. Публичных выпусков пока нет.
 
-**Как сообщить об уязвимости.** Не открывайте публичный issue. Сообщите владельцу проекта приватно (контакты — в профиле репозитория). Укажите:
+**Как сообщить об уязвимости.** Не открывайте публичный issue. Сообщите приватно через GitHub: вкладка **Security** → **Report a vulnerability** (Private vulnerability reporting). Укажите:
 - краткое описание проблемы и её последствия;
 - шаги для воспроизведения или proof of concept;
 - версию и редакцию Windows, на которых проверяли.
@@ -20,7 +20,7 @@
 
 **Supported versions.** Only the latest release receives security fixes. There is no public release yet.
 
-**How to report a vulnerability.** Do not open a public issue. Report it privately to the project owner (contacts are in the repository profile). Include:
+**How to report a vulnerability.** Do not open a public issue. Report it privately on GitHub: the **Security** tab → **Report a vulnerability** (private vulnerability reporting). Include:
 - a short description of the problem and its impact;
 - steps to reproduce, or a proof of concept;
 - the version and Windows edition you tested on.

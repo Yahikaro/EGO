@@ -1,0 +1,22 @@
+# ---- media-lab.js: gender, model choice, hairstyle, quick setup
+Женский	Female	Féminin	Femenino	Weiblich
+Здесь будут сгенерированные вами фото и видео	Your generated images and videos will appear here	Vos images et vidéos générées apparaîtront ici	Aquí aparecerán las imágenes y vídeos que generes	Hier erscheinen deine generierten Bilder und Videos
+Модель генерации	Generation model	Modèle de génération	Modelo de generación	Generierungsmodell
+Мужской	Male	Masculin	Masculino	Männlich
+Пол	Gender	Genre	Género	Geschlecht
+Разные модели сильны в разном: одни — в фотореализме, другие — в аниме и арте, третьи — в видео. Модель выбирается здесь для каждой генерации; список настраивается на сервере.	Models have different strengths: some excel at photorealism, others at anime and art, others at video. Pick the model here for each generation; the list is set up on the server.	Chaque modèle a ses points forts : photoréalisme, anime et art, ou vidéo. Choisissez le modèle ici pour chaque génération ; la liste se configure sur le serveur.	Cada modelo destaca en algo: fotorrealismo, anime y arte, o vídeo. Elige aquí el modelo para cada generación; la lista se configura en el servidor.	Modelle haben unterschiedliche Stärken: Fotorealismus, Anime und Kunst oder Video. Wähle das Modell hier für jede Generierung; die Liste wird auf dem Server eingerichtet.
+Составить промпт	Compose a prompt	Composer un prompt	Crear un prompt	Prompt erstellen
+Список моделей появится позже	The model list will come later	La liste des modèles arrivera plus tard	La lista de modelos llegará más adelante	Die Modellliste folgt später
+Фото и видео	Images and video	Images et vidéos	Imágenes y vídeo	Bilder und Videos
+Быстрая настройка	Quick setup	Configuration rapide	Configuración rápida	Schnelleinrichtung
+Далее	Next	Suivant	Siguiente	Weiter
+К промпту	Back to prompt	Retour au prompt	Volver al prompt	Zurück zum Prompt
+Причёска	Hairstyle	Coiffure	Peinado	Frisur
+Короткая стрижка	Short cut	Coupe courte	Corte corto	Kurzhaarschnitt
+Каре	Bob	Carré	Melena bob	Bob
+Длинные распущенные	Long and loose	Longs et détachés	Largo y suelto	Lang und offen
+Хвост	Ponytail	Queue de cheval	Coleta	Pferdeschwanz
+Пучок	Bun	Chignon	Moño	Dutt
+Косы	Braids	Tresses	Trenzas	Zöpfe
+Кудри	Curls	Boucles	Rizos	Locken
+Бритая голова	Shaved head	Tête rasée	Cabeza rapada	Glatze
