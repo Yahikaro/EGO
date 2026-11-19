@@ -53,7 +53,7 @@ def test_symlink_logs_and_oversized_json_fail_closed(tmp_path):
     except OSError:
         # Same policy as the other symlink tests: Windows without Developer
         # Mode/admin cannot create symlinks; native check is in the checklist.
-        import pytest; pytest.skip('symlinks unavailable')
+        pytest.skip('symlinks unavailable')
     (outside/'latest-core-report.json').write_text('{"status":"PASS"}')
     assert m.logs(tmp_path)==[]
     assert m.clean_logs(tmp_path,days=0,confirmed=True)==0

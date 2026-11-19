@@ -30,7 +30,7 @@ def load_handoff(ready: Path | None, error: Path | None) -> tuple[Path, Path, st
     if (ready.name != 'ready.json' or error.name != 'error.json' or error.parent != parent
             or not parent.name.startswith('ego-gui-bootstrap-')
             or parent.parent.resolve() != Path(tempfile.gettempdir()).resolve()
-            or parent.is_symlink() or parent.resolve() != parent.absolute()
+            or parent.is_symlink() or parent.resolve() != parent.parent.resolve() / parent.name
             or ready.exists() or ready.is_symlink() or error.exists() or error.is_symlink()):
         raise ValueError('INVALID_HANDOFF')
     if os.name != 'nt' and (parent.stat().st_uid != os.getuid() or parent.stat().st_mode & 0o077):
